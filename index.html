@@ -3,7 +3,17 @@ layout: default
 title: Andrew Carter
 ---
 
+<h3>Links</h3>
 <li>
-	<ul><a href="http://github.com/ascarter/">GitHub page</a></ul>
+<ul><a href="http://github.com/ascarter/">GitHub page</a></ul>
+<ul><a href="http://ascarter.net/atom.xml">Atom feed</a></ul>
 </li>
+
+<h3>Posts</h3>
+
+{% for post in site.posts limit:5 %}
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	{{ post.content }}
+	<em>Posted on {{ post.date | date_to_long_string }}.</em>
+{% endfor %}
 
