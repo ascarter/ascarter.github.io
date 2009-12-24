@@ -1,19 +1,15 @@
 ---
 layout: default
-title: Andrew Carter
+title: coding in the rain
 ---
-
-<h3>Links</h3>
-<li>
-<ul><a href="http://github.com/ascarter/">GitHub page</a></ul>
-<ul><a href="http://ascarter.net/atom.xml">Atom feed</a></ul>
-</li>
-
-<h3>Posts</h3>
-
 {% for post in site.posts limit:5 %}
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	{{ post.content }}
-	<em>Posted on {{ post.date | date_to_long_string }}.</em>
+{% include postdetail.html %}
 {% endfor %}
 
+<br />
+
+<h1>Recent Posts</h1>
+{% assign posts = site.posts limit:10 %}
+{% include postlist.html %}
+
+<h1><a href="/archive.html">Archive</a></h1>

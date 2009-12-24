@@ -1,1 +1,4 @@
 pygments: true
+permalink: date
+exclude:
+- Rakefile

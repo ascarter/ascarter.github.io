@@ -3,25 +3,20 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>Coding in the Rain</title>
- <link href="http://ascarter.net/atom.xml" rel="self"/>
- <link href="http://ascarter.net/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://ascarter.net/</id>
- <author>
-   <name>Andrew Carter</name>
-   <email>ascarter@gmail.com</email>
- </author>
-
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="http://ascarter.net{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://ascarter.net{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
- 
+	<title>coding in the rain</title>
+	<link href="http://ascarter.net/atom.xml" rel="self"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://ascarter.net/</id>
+	<author>
+		<name>Andrew Carter</name>
+	</author>
+	{% for post in site.posts limit:10 %}
+	<entry>
+		<id>http://ascarter.net{{ post.id }}</id>
+		<link href="http://ascarter.net{{ post.url }}"/>
+		<title>{{ post.title }}</title>
+		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<content type="html">{{ post.content | xml_escape }}</content>
+	</entry>
+	{% endfor %}
 </feed>
