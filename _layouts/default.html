@@ -13,35 +13,49 @@
 </head>
 
 <body>
-	<div class="site">
-		<div class="title">
-			<a href="/">coding in the rain</a>
-			<a class="extra" href="/">home</a>
-		</div>
-		
-		{{ content }}
+<div class="site">
+	<div class="summary">
+	<p>This is <a href="http://ascarter.net">coding in the rain</a>, a weblog by my company about software development, technology, and the web. Established 2009 in Seattle, WA. Please see <a href="/services.html">services</a> to work with us.</p>
+	</div>
+	<div class="title">
+		<a href="/">coding in the rain</a>
+		<a class="extra" href="/">home</a>
+		<a class="extra" href="/about.html">about</a>
+		<a class="extra" href="/code.html">code</a>
+	</div>
+	
+	<div class="sidebar">
+	</div>
+	
+	<div id="content">
+	{{ content }}
+	</div>
 
-		<div class="footer">
-			<div class="contact">
-				<p>
-				Andrew Carter<br />
-				<a href="http://ascarter.net/">ascarter.net</a><br />
-				ascarter@gmail.com
-				</p>
-			</div>
-			<div class="contact">
-				<p>
-				<a href="http://github.com/ascarter/">github.com/ascarter</a><br />
-				<a href="http://twitter.com/ascarter/">twitter.com/ascarter</a><br />
-				<a href="http://flickr.com/photos/ascarter/">flickr.com/photos/ascarter</a>
-				</p>
-			</div>
-			<div class="rss">
-				<a href="/atom.xml">
-				<img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-				</a>
-			</div>
+	<div class="footer">
+		<div class="contact">
+			<p>
+			Andrew Carter<br />
+			<a href="http://ascarter.net/">ascarter.net</a><br />
+			<a href="mailto:ascarter@gmail.com?subject=feedback">email</a>
+			</p>
 		</div>
-	</div>	
+		<div class="contact">
+			<p>
+			<a href="http://github.com/ascarter/">github.com/ascarter</a><br />
+			<a href="http://twitter.com/ascarter/">twitter.com/ascarter</a><br />
+			<a href="http://flickr.com/photos/ascarter/">flickr.com/photos/ascarter</a><br />
+			<a href="http://delicious.com/ascarter/">delicious.com/ascarter</a><br />
+			</p>
+		</div>
+		<div class="rss">
+			<a href="/atom.xml">
+			<img src="/images/feed-icon-14x14.png" alt="Subscribe to RSS Feed" />
+			</a>
+		</div>
+		<div class="copyright">
+			<p>Copyright &copy;2009 <a href="http://ascarter.net">Andrew Carter</a></p>
+		</div>
+	</div>
+</div>	
 </body>
 </html>
