@@ -3,5 +3,5 @@ layout: default
 title: Move to GitHub pages
 ---
 
-Moving blog to GitHub pages.
+UNDER CONSTRUCTION: Moving my blog to GitHub pages.
 
