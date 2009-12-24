@@ -76,6 +76,7 @@ table {
 #header {
 	margin-bottom: 2em;
 	padding: 0;
+	border-bottom: 4px solid #eee;
 }
 
 #header a:link,
@@ -111,7 +112,6 @@ table {
 
 #content {
 	float: left;
-/*	width: 662px;*/
 	width: 70%;
 	padding: 0 0 0 5px; 
 }
@@ -133,8 +133,6 @@ table {
  --------------------------------------------------------------*/
 
 #footer {
-/*	height: 40px; 
-	margin: 10px 0 0; padding: 10px 0 0;*/
 	font-size: 0.9em;
 	color: #666;
 	border-top: 4px solid #eee;
@@ -248,6 +246,6 @@ ul.posts li {
 
 ul.posts span {
 	color: #aaa;
-	font-family: Menlo, Consolas, monospace;
+	font-family: Menlo, Monaco, Consolas, monospace;
 	font-size: 0.8em;
 }
