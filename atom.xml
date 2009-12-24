@@ -9,7 +9,6 @@ layout: nil
 	<id>http://ascarter.net/</id>
 	<author>
 		<name>Andrew Carter</name>
-		<email>ascarter@gmail.com</email>
 	</author>
 	{% for post in site.posts limit:10 %}
 	<entry>
