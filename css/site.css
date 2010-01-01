@@ -23,12 +23,24 @@ body {
  Site defaults
  --------------------------------------------------------------*/
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+	font-size: 1.4em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h3 {
 	font-size: 1.2em;
 }
 
-h1 {
-	margin-bottom: 1em;
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-size: 1.0em;
 }
 
 p {
@@ -248,4 +260,12 @@ ul.posts span {
 	color: #aaa;
 	font-family: Menlo, Monaco, Consolas, monospace;
 	font-size: 0.8em;
+}
+
+/*--------------------------------------------------------------
+ Resume
+ --------------------------------------------------------------*/
+
+#resume .section {
+	padding-bottom: 6px;
 }
