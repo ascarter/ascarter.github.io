@@ -102,6 +102,9 @@ table {
 	font-weight: bold;
 }
 
+#header .site {
+	padding-right: 1.5em;
+}
 #header .summary {
 	font-size: 0.8em;
 	text-align: left;
@@ -194,7 +197,13 @@ table {
 
 .post .title {
 	font-size: 1.2em;
-	margin-bottom: 1em;
+	margin-bottom: 1.4em;
+	font-weight: bold;
+}
+
+.post .date {
+	color: #aaa;
+	font-size: 0.8em;	
 }
 
 .post pre {
