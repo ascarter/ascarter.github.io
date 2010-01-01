@@ -8,13 +8,13 @@ layout: nil
 	<link href="{{ site.url }}/" rel="alternate" />
 	<id>tag:ascarter.net,2009-12-31:/atom.xml</id>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<author>
-		<name>Andrew Carter</name>
-	</author>
 
 	{% for post in site.posts limit:10 %}
 	<entry>
 		<title>{{ post.title }}</title>
+		<author>
+			<name>Andrew Carter</name>
+		</author>
 		<link href="{{ site.url }}{{ post.url }}" rel="alternate" />
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>tag:ascarter.net,{{ post.date | date: "%Y-%m-%d" }}:{{ post.id }}</id>
