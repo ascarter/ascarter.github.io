@@ -7,7 +7,7 @@ POSTS_DIR = File.join(ROOT_DIR, '_posts')
 SERVER_PORT = 4000
 
 PUBLISH_HOST = "berlin.joyent.us"
-PUBLISH_PATH = "/users/home/andrewc/web/public/reboot"
+PUBLISH_PATH = "/users/home/andrewc/web/public"
 
 def categories(tags)
   categories = "categories:\n"
