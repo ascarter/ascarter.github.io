@@ -4,6 +4,7 @@ require 'fileutils'
 ROOT_DIR = File.dirname(__FILE__)
 SITE_DIR = File.join(ROOT_DIR, '_site')
 POSTS_DIR = File.join(ROOT_DIR, '_posts')
+SERVER_PORT = 4000
 
 PUBLISH_HOST = "berlin.joyent.us"
 PUBLISH_PATH = "/users/home/andrewc/web/public/reboot"
@@ -16,7 +17,6 @@ def categories(tags)
   categories
 end
 
-
 desc "Clear generated site."
 task :clean do
   rm_rf Dir.glob(File.join(SITE_DIR, '*'))
@@ -26,6 +26,12 @@ desc "Generate site."
 task :build do
   sh "jekyll"
 end
+
+desc "Run local jekyll server"
+task :server do
+  sh "jekyll --server #{SERVER_PORT} --auto"
+end
+
 
 desc "Publish site."
 task :publish => [ :build ] do |t|
