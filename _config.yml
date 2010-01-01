@@ -1,4 +1,6 @@
 pygments: true
 permalink: date
+google_analytics_code: UA-92810-1
 exclude:
 - Rakefile
+- README.markdown
