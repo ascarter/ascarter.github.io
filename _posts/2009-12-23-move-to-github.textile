@@ -1,7 +1,0 @@
----
-layout: default
-title: Move to GitHub pages
----
-
-UNDER CONSTRUCTION: Moving my blog to GitHub pages.
-
