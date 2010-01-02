@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gem Server launchd Agent
+published: 2010-01-01T14:05:00-08:00
 ---
 
 [Ruby Gems](http://rubyforge.org/projects/rubygems/) provides an [RDoc](http://rdoc.sourceforge.net) server for the installed gems on a system. It is trivial to get it up and running. In your console, use the following command:
@@ -21,7 +22,7 @@ To define a launch agent, create a file for the launchd definition called:
 
 Then, use the following code to define a launchd agent that will startup the gem server instance:
 
-{% highlight xml linenos %}
+{% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">

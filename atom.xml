@@ -10,13 +10,18 @@ layout: nil
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 
 	{% for post in site.posts limit:10 %}
+	{% unless post.published %}
+		{% assign published = post.date %}
+	{% else %}
+		{% assign published = post.published %}
+	{% endunless %}
 	<entry>
 		<title>{{ post.title }}</title>
 		<author>
 			<name>Andrew Carter</name>
 		</author>
 		<link type="text/html" href="{{ site.url }}{{ post.url }}" rel="alternate" />
-		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<updated>{{ published | date_to_xmlschema }}</updated>
 		<id>tag:ascarter.net,{{ post.date | date: "%Y-%m-%d" }}:{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
