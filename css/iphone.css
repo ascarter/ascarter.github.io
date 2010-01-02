@@ -4,6 +4,10 @@
 	margin-right: 20px;
 }
 
+#content {
+	width: 95%;
+}
+
 .post code {
 	font-size: 0.7em;
 	font-family: monospace;
