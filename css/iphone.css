@@ -17,3 +17,20 @@
 	font-size: 0.7em;
 	font-family: monospace;
 }
+
+#header {
+	font-size: 1.4em;
+}
+
+#footer {
+	font-size: 1.4em;
+}
+
+#footer img {
+	width: 110%;
+	height: 110%;
+}
+
+#footer .copyright {
+	font-size: 1.0em;
+}
