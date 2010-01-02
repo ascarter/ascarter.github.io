@@ -39,35 +39,73 @@ task :publish => [ :build ] do |t|
   sh "rsync -avz --delete #{SITE_DIR}/ #{PUBLISH_HOST}:#{PUBLISH_PATH}"
 end
 
-desc "Create new post. Arguments: [Title, Tags]. Separate tags with space or /"
-task :post, [:title, :tags] do |t, args|
+desc "Create a new draft post"
+task :draft, [:title] do |t, args|
   unless args.title
-    puts "Usage: rake post[\"Title\", \"Tags\"]"
-    exit(-1)
+    # Prompt for a post tile
   end
-
-  # TODO: Prompt for title and tags
-  # Too messy on command line
   
-  date_prefix = Time.now.strftime("%Y-%m-%d")
+  # Create a new file with a basic template
   postname = args.title.strip.downcase.gsub(/ /, '-')
-  post = File.join(DRAFTS_DIR, "#{date_prefix}-#{postname}.markdown")
- 
+  post = File.join(DRAFTS_DIR, "#{postname}.markdown")
+
   header = <<-END
 ---
 layout: post
-title: "#{args.title}"
-END
-
-  header << categories(args.tags)
-  header << <<-END
+title: #{args.title}
 ---
 
-new post
+New draft post
 
 END
- 
+
+  # Write draft post file
   File.open(post, 'w') {|f| f << header }
   system("mate", "-a", post)
-  puts "Created post #{post}"
+  puts "Created draft post #{post}."
+  puts "To publish, use:"
+  puts "  rake post [#{postname}]"
+end
+
+desc "Publish draft post. Arguments: [title]"
+task :post, [:title] do |t, args|
+  require 'time'
+  
+  unless args.title
+    puts "Usage: rake post[\"Title\"]"
+    exit(-1)
+  end
+
+  published_timestamp = Time.now
+  date_prefix = published_timestamp.strftime("%Y-%m-%d")
+  draft_path = File.join(DRAFTS_DIR, "#{args.title}.markdown")
+  draft = IO.readlines(draft_path)
+  
+  # Verify YAML front matter header
+  unless draft[0] = "---"
+    puts "ERROR: Invalid post file."
+    exit(-1)
+  end
+  
+  # Parse draft
+  end_of_header = draft[1,draft.length].index("---\n") + 1
+  header = YAML.load(draft[1,end_of_header].to_s)
+  body = draft[end_of_header + 1, draft.length]
+  
+  # Create the post file
+  postname = header["title"].strip.downcase.gsub(/ /, '-')
+  post_path = File.join(POSTS_DIR, "#{date_prefix}-#{postname}.markdown")
+  post = File.open(post_path, 'w')
+  post << YAML::dump(header)
+  unless header.include?("published")
+    post << "published: #{Time.now.xmlschema}\n"
+  end
+  post << "---\n"
+  post << body
+  post.close
+  
+  # Clear draft
+  File.delete(draft_path)
+ 
+  puts "Published post:\n  #{post_path}"
 end
