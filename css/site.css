@@ -14,7 +14,7 @@ body {
 	text-align: center;
 	margin: 0;
 	padding: 0.6em 1em 1em 1em; 
-	background-color: white;
+	background-color: #ffffff;
 	font: normal 12px helvetica, arial, clean, sans-serif;
 	*font-size: small;
 }
@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-	color: black;
+	color: #000000;
 	font: bold;
 }
 
@@ -193,6 +193,7 @@ table {
 
 .post {
 	padding: 1.5em 0em;
+	border-bottom: 1px dotted #ddd;
 }
 
 .post .title {
@@ -220,7 +221,8 @@ table {
 .post code {
 	border: 1px solid #ddd;
 	background-color: #eef;
-	font-size: 95%;
+	font-size: 0.9em;
+	font-family: Menlo, Monaco, Consolas, monospace;
 	padding: 0 .2em;
 }
 
@@ -277,4 +279,5 @@ ul.posts span {
 
 #resume .section {
 	padding-bottom: 6px;
+	border-bottom: 1px dotted #ddd;
 }
