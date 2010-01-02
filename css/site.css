@@ -76,7 +76,8 @@ table {
 #container {
 	font-size: 1.1em;
 	text-align: justify;
-	width: 60em;
+/*	width: 60em;*/
+	width: 800px;
 	margin: 3em auto 2em auto;
 	line-height: 1.5em;
 }
@@ -108,7 +109,7 @@ table {
 #header .summary {
 	font-size: 0.8em;
 	text-align: left;
-	width: 32em;
+	width: 60%;
 	margin: 1em auto 2em 0em;
 	line-height: 1.5em;
 	color: darkgrey;
@@ -127,7 +128,7 @@ table {
 
 #content {
 	float: left;
-	width: 70%;
+	width: 80%;
 	padding: 0 0 0 5px; 
 }
 
@@ -135,13 +136,13 @@ table {
  Sidebar
  --------------------------------------------------------------*/
 
-#sidebar {
+/*#sidebar {
 	float: right;
 	text-align: left;
 	width: 180px;
 	padding-left: 15px; 
-/*	border-left: 1px dotted #ddd; */
-}
+	border-left: 1px dotted #ddd;
+} */
 
 /*--------------------------------------------------------------
  Footer
