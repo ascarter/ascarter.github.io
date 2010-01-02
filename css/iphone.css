@@ -9,26 +9,26 @@
 }
 
 .post code {
-	font-size: 0.7em;
+	font-size: 0.8em;
 	font-family: monospace;
 }
 
 .highlight pre {
-	font-size: 0.7em;
+	font-size: 0.8em;
 	font-family: monospace;
 }
 
 #header {
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 
 #footer {
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 
 #footer img {
-	width: 110%;
-	height: 110%;
+	width: 1.2em;
+	height: 1.2em;
 }
 
 #footer .copyright {
