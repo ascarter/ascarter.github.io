@@ -157,9 +157,13 @@ table {
 	clear:both; 
 }
 
-#footer .contact {
+#footer .contactlist {
 	float: left;
 	margin-right: 3em;
+}
+
+#footer .contact {
+	padding-bottom: 0.2em;
 }
 
 #footer .contact a {
@@ -174,6 +178,7 @@ table {
 
 #footer .rss img {
 	border: 0;
+	padding-bottom: 0.2em;
 }
 
 #footer .copyright {

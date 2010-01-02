@@ -24,11 +24,16 @@
 
 #footer {
 	font-size: 2.0em;
+	padding: 1em;
 }
 
+#footer .contact {
+	padding-bottom: 0.6em;
+}
 #footer img {
 	width: 1.6em;
 	height: 1.6em;
+	padding-bottom: 4em;
 }
 
 #footer .copyright {
