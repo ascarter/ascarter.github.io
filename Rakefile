@@ -3,6 +3,7 @@ require 'fileutils'
 
 ROOT_DIR = File.dirname(__FILE__)
 SITE_DIR = File.join(ROOT_DIR, '_site')
+DRAFTS_DIR = File.join(ROOT_DIR, '_drafts')
 POSTS_DIR = File.join(ROOT_DIR, '_posts')
 SERVER_PORT = 4000
 
@@ -45,9 +46,12 @@ task :post, [:title, :tags] do |t, args|
     exit(-1)
   end
 
+  # TODO: Prompt for title and tags
+  # Too messy on command line
+  
   date_prefix = Time.now.strftime("%Y-%m-%d")
   postname = args.title.strip.downcase.gsub(/ /, '-')
-  post = File.join(POSTS_DIR, "#{date_prefix}-#{postname}.textile")
+  post = File.join(DRAFTS_DIR, "#{date_prefix}-#{postname}.markdown")
  
   header = <<-END
 ---
@@ -59,7 +63,7 @@ END
   header << <<-END
 ---
 
-h1. {{ page.title }}
+new post
 
 END
  
