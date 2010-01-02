@@ -76,8 +76,8 @@ table {
 #container {
 	font-size: 1.1em;
 	text-align: justify;
-/*	width: 60em;*/
-	width: 800px;
+	width: 60em;
+/*	width: 800px;*/
 	margin: 3em auto 2em auto;
 	line-height: 1.5em;
 }
@@ -212,7 +212,6 @@ table {
 	border: 1px solid #ddd;
 	background-color: #eef;
 	padding: 0 0.4em;
-	width: 80%;
 }
 
 .post ul,
