@@ -12,8 +12,12 @@
 	word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
+.highlight pre {
+	font-size: 0.9em;
+	font-family: Menlo, Monaco, Consolas, monospace;
+}
+
 .highlight  { background: #ffffff; }
-.highlight .lineno { color: #262626; font-size: 0.8em; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

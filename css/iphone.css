@@ -3,3 +3,13 @@
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
+.post code {
+	font-size: 0.7em;
+	font-family: monospace;
+}
+
+.highlight pre {
+	font-size: 0.7em;
+	font-family: monospace;
+}
