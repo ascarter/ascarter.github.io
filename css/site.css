@@ -136,13 +136,13 @@ table {
  Sidebar
  --------------------------------------------------------------*/
 
-/*#sidebar {
+#sidebar {
 	float: right;
 	text-align: left;
 	width: 180px;
 	padding-left: 15px; 
 	border-left: 1px dotted #ddd;
-} */
+} 
 
 /*--------------------------------------------------------------
  Footer
