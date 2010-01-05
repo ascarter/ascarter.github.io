@@ -198,12 +198,12 @@ table {
  --------------------------------------------------------------*/
 
 .post {
-	padding: 1.5em 0em;
+	padding: 1.5em 0em 3.0em 0em;
 	border-bottom: 1px dotted #ddd;
 }
 
 .post .title {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	margin-bottom: 1.4em;
 	font-weight: bold;
 }
@@ -252,6 +252,26 @@ table {
 	font-size: 0.8em;
 	margin-bottom: 2em;
 	padding: 0.1em 0em 2em 0em;
+}
+
+.post h1 {
+	padding-top: 1.0em;
+}
+
+.post h2 {
+	padding-top: 0.5em;
+}
+
+.post h3 {
+	padding-top: 0.5em;
+}
+
+.post h4 {
+	padding-top: 0.5em;
+}
+
+.post h5 {
+	padding-top: 0.5em;
 }
 
 .related {
