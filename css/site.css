@@ -75,7 +75,7 @@ table {
 
 #container {
 	font-size: 1.1em;
-	text-align: justify;
+	text-align: left;
 	width: 60em;
 /*	width: 800px;*/
 	margin: 3em auto 2em auto;
