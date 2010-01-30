@@ -59,9 +59,12 @@ New draft post
 
 END
 
+  # Determine an editor
+  editor = ENV['VISUAL'] || ENV['EDITOR']
+
   # Write draft post file
   File.open(post, 'w') {|f| f << header }
-  system("mate", "-a", post)
+  system "#{editor} #{post}"
   puts "Created draft post #{post}."
   puts "To publish, use:"
   puts "  rake post [#{postname}]"
