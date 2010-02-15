@@ -13,7 +13,6 @@
 body {
 	text-align: center;
 	margin: 0;
-	padding: 0.6em 1em 1em 1em; 
 	background-color: #ffffff;
 	font: normal 12px helvetica, arial, clean, sans-serif;
 	*font-size: small;
@@ -68,6 +67,21 @@ table {
 	font: 100%;
 }
 
+ul {
+	list-style-type: none;
+	margin-bottom: 2em;
+}
+
+ul li {
+	line-height: 1.75em;
+}
+
+ul span {
+	color: #aaa;
+	font-family: Menlo, Monaco, Consolas, monospace;
+	font-size: 0.8em;
+}
+
 
 /*--------------------------------------------------------------
  Container
@@ -76,8 +90,8 @@ table {
 #container {
 	font-size: 1.1em;
 	text-align: left;
-	width: 60em;
-/*	width: 800px;*/
+/*	width: 60em;*/
+	width: 800px;
 	margin: 3em auto 2em auto;
 	line-height: 1.5em;
 }
@@ -87,9 +101,9 @@ table {
  --------------------------------------------------------------*/
 
 #header {
-	margin-bottom: 2em;
-	padding: 0;
-	border-bottom: 4px solid #eee;
+/*	margin: 1em 4em 1em 4em;*/
+	padding: 1em 0em 2em 0em;
+	border-bottom: 2px solid #eee;
 }
 
 #header a:link,
@@ -104,7 +118,13 @@ table {
 }
 
 #header .site {
-	padding-right: 1.5em;
+	float: left;
+/*	padding-right: 1.5em;*/
+	
+}
+
+#header #menu {
+	float: right;
 }
 #header .summary {
 	font-size: 0.8em;
@@ -129,7 +149,7 @@ table {
 #content {
 	float: left;
 	width: 80%;
-	padding: 0 0 0 5px; 
+	padding: 2em 0.5em; 
 }
 
 /*--------------------------------------------------------------
@@ -151,46 +171,55 @@ table {
 #footer {
 	font-size: 0.9em;
 	color: #666;
-	border-top: 4px solid #eee;
-	margin-top: 2em;
+	border-top: 2px solid #eee;
 	overflow: hidden;
-	clear:both; 
+	clear: both;
+	text-align: left;
+	padding: 0.5em 0.5em;
+	margin: 0em;
 }
 
-#footer .contactlist {
-	float: left;
-	margin-right: 3em;
-}
-
-#footer .contact {
-	padding-bottom: 0.2em;
-}
-
-#footer .contact a {
+#footer a {
 	color: #8085C1;
 }
 
-#footer .rss {
-	margin-top: 1.0em;
-	margin-right: 1.0em;
+#footer #leftcol {
+	position: relative;
+	float: left;
+	text-align: left;
+}
+
+#footer #centercol {
+	position: relative;
+	margin-left: 14em;
+	margin-right: 14em;
+	text-align: left;
+}
+
+#footer #rightcol {
+	position: relative;
 	float: right;
 }
 
-#footer .rss img {
+#footer img {
 	border: 0;
-	padding-bottom: 0.2em;
 }
 
-#footer .copyright {
+#footer #copyright {
 	clear: left;
 	font-size: 0.9em;
-	float: left;
-	margin-right: 3em;
+	color: #666;
+	text-align: left;
+	border-top: 1px dotted #ddd;
+	margin-top: 2.5em;
+}
+
+#footer #copyright a {
 	color: #666;
 }
 
-#footer .copyright a {
-	color: #666;
+.contact {
+	padding-bottom: 0.2em;
 }
 
 /*--------------------------------------------------------------
@@ -198,7 +227,8 @@ table {
  --------------------------------------------------------------*/
 
 .post {
-	padding: 1.5em 0em 3.0em 0em;
+	padding: 1.5em 0em 2.0em 0em;
+	margin-bottom: 2.0em;
 	border-bottom: 1px dotted #ddd;
 }
 
@@ -280,25 +310,6 @@ table {
 
 .related h2 {
 	margin-bottom: 1em;
-}
-
-/*--------------------------------------------------------------
- Post list
- --------------------------------------------------------------*/
-
-ul.posts {
-	list-style-type: none;
-	margin-bottom: 2em;
-}
-
-ul.posts li {
-	line-height: 1.75em;
-}
-
-ul.posts span {
-	color: #aaa;
-	font-family: Menlo, Monaco, Consolas, monospace;
-	font-size: 0.8em;
 }
 
 /*--------------------------------------------------------------

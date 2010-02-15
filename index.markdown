@@ -2,14 +2,15 @@
 layout: default
 title: home
 ---
+
 {% for post in site.posts limit:5 %}
 {% include postdetail.html %}
 {% endfor %}
+  
+  
+# Recent Posts
 
-<br />
-
-<h1>Recent Posts</h1>
 {% assign posts = site.posts limit:10 %}
 {% include postlist.html %}
 
-<h1><a href="/archive.html">Archive</a></h1>
+##### [Archive](archive.html)

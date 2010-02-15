@@ -2,6 +2,9 @@
 layout: default
 title: archive
 ---
-<h1>Posts</h1>
+# Posts
+
 {% assign posts = site.posts %}
 {% include postlist.html %}
+  
+  

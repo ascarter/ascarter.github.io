@@ -25,10 +25,12 @@
 <body>
 <div id="container">
 	<div id="header">
-		<a class="site" href="/">coding in the rain</a>
-		<a href="index.html">home</a>
-		<a href="about.html">about</a>
-		<a href="code.html">code</a>
+		<a class="site" href="index.html">coding in the rain</a>
+		<div id="menu">
+			<a class="menuitem" href="index.html">home</a>
+			<a class="menuitem" href="about.html">about</a>
+			<a class="menuitem" href="code.html">code</a>
+		</div>
 	</div>
 	<div id="page">
 		<div id="content">
@@ -39,28 +41,22 @@
 		</div>
 	</div>
 	<div id="footer">
-		<div id="direct" class="contactlist">
-			<p>
+		<div id="leftcol">
 			<span class="contact">Andrew Carter</span><br />
-			<span class="contact"><a href="{{ site.url }}/">ascarter.net</a></span>
-			</p>
+			<span class="contact"><a href="{{ site.url }}">ascarter.net</a></span><br />
 		</div>
-		<div id="external" class="contactlist">
-			<p>
+		<div id="rightcol">
+			<span class="contact"><a href="atom.xml"><img src="images/feed-icon-14x14.png" alt="Subscribe to RSS Feed" /></a></span><br />
+			<span class="contact"><a href="http://www.twitter.com/ascarter"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png" alt="Follow ascarter on Twitter"/></a></span><br />
+		</div>
+		<div id="centercol">
 			<span class="contact"><a href="http://github.com/ascarter/">github.com/ascarter</a></span><br />
 			<span class="contact"><a href="http://twitter.com/ascarter/">twitter.com/ascarter</a></span><br />
 			<span class="contact"><a href="http://www.linkedin.com/in/andrewca">www.linkedin.com/in/andrewca</a></span><br />
-			<span class="contact"><a href="http://flickr.com/photos/ascarter/">flickr.com/photos/ascarter</a></span>
-			</p>
+			<span class="contact"><a href="http://flickr.com/photos/ascarter/">flickr.com/photos/ascarter</a></span><br />
 		</div>
-		<div id="feed" class="rss">
-			<a href="atom.xml">
-			<img src="images/feed-icon-14x14.png" alt="Subscribe to RSS Feed" />
-			</a><br />
-			<a href="http://www.twitter.com/ascarter"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png" alt="Follow ascarter on Twitter"/></a>
-		</div>
-		<div id="copyright" class="copyright">
-			<p>Copyright &copy;2005-2010 <a href="{{ site.url }}">Andrew Carter</a></p>
+		<div id="copyright">
+			<p>Copyright &copy; 2005-2010 <a href="{{ site.url }}">Andrew Carter</a></p>
 		</div>
 	</div>
 </div>
