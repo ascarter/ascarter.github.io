@@ -102,7 +102,6 @@ ul span {
  --------------------------------------------------------------*/
 
 #header {
-/*	margin: 1em 4em 1em 4em;*/
 	padding: 1em 0em 2em 0em;
 	border-bottom: 2px solid #eee;
 }
@@ -167,7 +166,7 @@ ul span {
 	text-align: left;
 	width: 180px;
 	padding-left: 15px; 
-	border-left: 1px dotted #ddd;
+	border-left: 1px solid #ddd;
 } 
 
 /*--------------------------------------------------------------
@@ -190,20 +189,10 @@ ul span {
 }
 
 #footer #leftcol {
-	position: relative;
 	float: left;
-	text-align: left;
-}
-
-#footer #centercol {
-	position: relative;
-	margin-left: 14em;
-	margin-right: 14em;
-	text-align: left;
 }
 
 #footer #rightcol {
-	position: relative;
 	float: right;
 }
 
@@ -213,11 +202,11 @@ ul span {
 
 #footer #copyright {
 	clear: left;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	color: #666;
 	text-align: left;
-	border-top: 1px dotted #ddd;
 	margin-top: 2.5em;
+	padding-top: 1.0em;
 }
 
 #footer #copyright a {
@@ -231,7 +220,7 @@ ul span {
 .post {
 	padding: 1.5em 0em 2.0em 0em;
 	margin-bottom: 2.0em;
-	border-bottom: 1px dotted #ddd;
+	border-bottom: 1px solid #ddd;
 }
 
 .post .title {
@@ -320,5 +309,5 @@ ul span {
 
 #resume .section {
 	padding-bottom: 6px;
-	border-bottom: 1px dotted #ddd;
+	border-bottom: 1px solid #ddd;
 }
