@@ -32,7 +32,7 @@ It seems that many pundits lamenting the closed nature of iPad/iPhone developmen
 
 As for actually writing code for this device, from what I've seen, you will be able to leverage your experience with the iPhone very well. Same Xcode pipeline and supporting tools.
 
-The real challenge as developers it to first understand using touch inputs at this scale and creating new ways of interfacing with software. Like the Wii in the gaming world, the iPad interface is unlike anything before it. There will be an enormous gulf between those that get how to write software like this and those that don't.
+The real challenge for developers is to first understand using touch input and creating new ways of interfacing with software. Like the Wii in the gaming world, the iPad interface is unlike anything before it. There will be an enormous gulf between those that get how to write software like this and those that don't.
 
 # Future
 
