@@ -1,5 +1,6 @@
 require 'rake'
 require 'fileutils'
+require 'yaml'
 
 ROOT_DIR = File.dirname(__FILE__)
 SITE_DIR = File.join(ROOT_DIR, '_site')

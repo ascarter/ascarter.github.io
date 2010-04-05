@@ -1,0 +1,47 @@
+--- 
+layout: post
+title: iPad
+published: 2010-04-04T21:22:14-07:00
+---
+
+Like many other people, I got an [iPad](http://apple.com/ipad) this weekend. From the reports, it sounds like it has been a huge success. I thought I would post my thoughts from both a user and developer perspective. No matter what, this device has shaken up the entire computing world. If anything, it has put a spotlight on how computers and mobile devices are used in the 21st century.
+
+# User Perspective
+
+It's hard not to use the cliches Apple touts in their ads. The iPad is truly remarkable. The entire package is typical of Apple - elegant, easy to use, sparse. Performance is very good. The transition to large screen apps is well executed. As expected, it shares a lot of DNA with both Mac OS X and the iPhone operating systems. But it quickly establishes its own identity.
+
+Let's get this out of the way - the iPad does nothing that you can't do with other devices today. But it does it in such a sophisticated manner that it makes using other devices seem pointless. The iPad is by far the best reading/browsing device ever conceived. It is simply superior for reading pages and interacting with sites. As a video device, it may be the most direct interface ever created for watching movies. The book reading applications iBooks and Amazon's Kindle are comfortable to use. I've been moving more and more books to epub format and this is the device that makes that shift pay off. Consuming media is at its best with the iPad.
+
+For creating content, it remains to be seen if it can be adequate. It is fine for short amounts of text and graphics. But I don't think the interface has evolved enough yet to satisfy the richness supported by the mouse/keyboard. Using an external keyboard makes text entry painless. However, it is a little clumsy using both a keyboard and the touch interface at the same time.
+
+It's not a perfect device. There are lots of areas that can get better. For example, application management (both on the device and in iTunes) are the worst they have ever been. I have about 100 applications in my iTunes library. I'd say 85-90 of them are free apps. I don't load all of them onto my iPhone or the iPad but they have accumulated over time. There is very little assistance in helping you manage which apps are on the device. Just a huge scrolling list that you can check on and off. The Apps source view does separate iPhone, iPad, and universal iPhone/iPad apps into separate groups. None of that carries over to the device section where you configure which apps go on the iPad or iPhone.
+
+The app management on the iPad is as bad as the iPhone. No groups or any other helpful ways of organizing apps. Just page after page of icons. And to make matters worse, they move when you go from portrait to landscape.
+
+But these gripes aside, this is a device that has a firm place in the landscape. I see this as my primary device at home. It fills most of what I would do there. I'll use my laptop for programming and long text entry. And the iPhone is what I will take for my commute and when I'm out. But iPad very capably covers email, general web browsing, media, and books in a much more comfortable way than my laptop ever has.
+
+# Developer Perspective
+
+As anyone who knows me can tell you, I'm a huge proponent of open source and free software (free as in freedom). But I also think I'm pragmatic. I don't hold a grudge to companies that want to sell software. I think they often are misguided but it's their choice. As a software developer myself, I favor selling services over software. My interest specifically in programming iPhone/iPad are for extensions of web services. I think that's the model of the future.
+
+I do wish that the iPad and iPhone were open. The reality is that I can pay $99 a year and put any code I want on my device. I just can't sell it. I think that is a bit unfair and unnecessary. I think Apple could solve much of this by simply allowing users to load unauthorized apps at their own risk.
+
+I also don't have a problem with Apple taking a cut for providing the AppStore (although they are completely wrong in how they deal with refunds). I don't like the approval process. It would make more sense if the approval process was to get into the AppStore but not as a requisite of getting code on people's devices.
+
+It seems that many pundits lamenting the closed nature of iPad/iPhone development likely wouldn't know what to do with the freedom if they had it. So I don't pay much attention. It's not a great system but it's not that bad.
+
+As for actually writing code for this device, from what I've seen, you will be able to leverage your experience with the iPhone very well. Same Xcode pipeline and supporting tools.
+
+The real challenge as developers it to first understand using touch inputs at this scale and creating new ways of interfacing with software. Like the Wii in the gaming world, the iPad interface is unlike anything before it. There will be an enormous gulf between those that get how to write software like this and those that don't.
+
+# Future
+
+I have a 5-year old daughter. It has been intriguing to see her interact with computers and devices. Children instantly gravitate to touch interfaces. It is entirely natural and makes perfect sense to them. She finds it much more awkward to use a mouse and keyboard than to use the Wii, Nintendo DS, or an iPad. All of these eliminate layers of abstraction to get right to it.
+
+My wife on the other hand has a much harder time in general with computers and technology. She uses computers as a tool. She constantly battles with how counter-intuitive it is. I bought a second iPad for my wife and my daughter to use. I'm curious to see how they respond. I already know my daughter will get it. My wife though is the perfect test case. If people that use computers as a tool find the iPad better than what they use today, I think the era of tablets and touch interfaces is on. If not, it's hard to see this as nothing more than a fad.
+
+Likewise, those of us that are at the heart of technology need to understand what devices like the iPad are. It is completely wrong to try to compare this with a laptop or focus on what it is missing from the tech specs. There should be no expectation that it replaces a traditional PC or laptop. We shouldn't be writing code on an iPad. There are lots of devices that are "black boxes" - video game consoles, phones, Tivo, media players, and DVD players to name a few. All of these are computers running code. None of them need to allow me to write the code on the device itself.
+
+As an aside, look at how up in arms people are now about Playstation 3 removing the install Linux option. As a hacker, I loved that I could install Linux on it. But did I ever do it? No - and even if I had, I have no idea what I would have bothered doing with it. My time would be much better spent hacking on Linux on a PC than on a PS3.
+
+It is hard not to think that Apple has again created the next phase of personal computing. It is remarkable how much influence one company has had. Apple II launched the personal computer. Macintosh ushered in the graphic user interface. The iPhone redefined personal communication devices. And now it feels like the iPad has begun the era of touch interfaces. I think there is no going back. A new way of using computers is upon us. Whether Apple continues to lead that remains to be seen. They were at the front of the graphic user interface revolution but would eventually relinquish ownership to Microsoft. Only time will tell how this era will play out.
