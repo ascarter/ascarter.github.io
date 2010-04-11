@@ -52,7 +52,7 @@ end
 
 desc "Run local jekyll server"
 task :server, [:port] do |t, args|
-  sh "jekyll --servezr #{args.port || 4000} --auto"
+  sh "jekyll --server #{args.port || 4000} --auto"
 end
 
 desc "Publish site."
