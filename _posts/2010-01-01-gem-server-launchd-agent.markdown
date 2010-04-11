@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gem Server launchd Agent
-published: 2010-01-01T14:05:00-08:00
+date: 2010-01-01 14:05:00
 ---
 
 [Ruby Gems](http://rubyforge.org/projects/rubygems/) provides an [RDoc](http://rdoc.sourceforge.net) server for the installed gems on a system. It is trivial to get it up and running. In your console, use the following command:

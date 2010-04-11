@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Finding Installed Packages On Ubuntu
-published: 2010-01-15T21:44:29-08:00
+date: 2010-01-15 21:44:29
 ---
 
 [Ubuntu](http://ubuntu.com) uses the Debian [package](http://www.debian.org/doc/FAQ/ch-pkg_basics.en.html) system. There are multiple applications for managing the packages on your system including [Apt](http://wiki.debian.org/Apt), [aptitude](http://wiki.debian.org/Aptitude), [dpkg](http://wiki.debian.org/DebianPackageDocumentation), and [Synaptic](http://www.nongnu.org/synaptic/). Each of these tools interacts with the `deb` format package files.

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Capistrano Boss
-published: 2010-01-27T22:51:00-08:00
+date: 2010-01-27 22:51:00
 ---
 
 [Capistrano](http://capify.org) is a very useful deployment management tool widely used for Ruby on Rails production managment. I've used it for over 2 years to manage multiple environments including production, staging, and testing. It is easy to get started with and also easy to extend.

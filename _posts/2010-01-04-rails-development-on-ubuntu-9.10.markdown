@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Rails Development on Ubuntu 9.10
-published: 2010-01-04T23:03:49-08:00
+date: 2010-01-04 23:03:49
 ---
 
 I use both Mac OS X and Ubuntu Linux for [Ruby on Rails](http://rubyonrails.org) devleopment. In both cases, setting up an environment is relatively easy but not without some pitfalls. I've been using Rails on Mac OS X since Tiger 10.5 and on Ubuntu since 7.10. I've kept [Backpack pages](http://www.backpackit.com) with my recipes for how to set it up. This post will explain how to setup Ruby on Rails for [Ubuntu 9.10](http://ww.ubuntu.com). It's certainly not the only way and it's obviously biased by my preferences. But I've used this recipe successfully over several ubuntu releases.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reboot
-published: 2009-12-31T22:05:00-08:00
+date: 2009-12-31 22:05:00
 ---
 
 It's been a long time coming but I've finally done a reboot of my web site. The old blog is gone. Some of the content might find its way back in here but probably not.

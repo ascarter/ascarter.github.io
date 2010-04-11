@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Apple Tablet Wishlist
-published: 2010-01-10T21:35:37-08:00
+date: 2010-01-10 21:35:37
 ---
 
 All around the tech world, heavy speculation is underway as anticipation grows for the next thing from [Apple](http://apple.com) at the end of January 2010. CES has come and gone. It seems to me Apple managed to overshadow the whole thing by simply saying they are launching something. Talk about influence.

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: ClickToFlash for Safari
-published: 2010-01-04T21:54:42-08:00
+date: 2010-01-04 21:54:42
 ---
 
 Not sure where I first saw this, but the WebKit plugin [ClickToFlash](http://rentzsch.github.com/clicktoflash/) is a required for any Safari user. Flash has numerous bad properties. It's a resource hog and many sites use it for annoying things like ads that start playing once you navigate to a site. ClickToFlash intercepts all that and gives you a simple button in place of the Flash content. If you do want to view it, click the button.

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Homebrew for OS X
-published: 2010-02-22T22:10:58-08:00
+date: 2010-02-22 22:10:58
 ---
 
 Most Unix-based platforms have at least one package management system. Some are like [Debian](http://debian.org) where the package system is one with the operating system. Others are bolted onto the system.
