@@ -8,4 +8,6 @@ I publish as much as I can on my [GitHub](http://github.com/ascarter/) account. 
 # Projects
 
 * [CapistranoBoss](http://github.com/ascarter/capistrano-boss/) &raquo; Capistrano extensions for production management
-* [ascarter.net](http://github.com/ascarter/ascarter.net) &raquo; Source for this website
+* [ascarter.net](http://github.com/ascarter/ascarter.github.com) &raquo; Source for this website
+* [Seattle Xcoders](http://github.com/xcoders/xcoders.github.com) &raquo; Source for the Seattle XCoders site built using Jekyll
+

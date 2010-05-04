@@ -28,18 +28,6 @@ h1 {
 }
 
 h2 {
-	font-size: 1.3em;
-}
-
-h3 {
-	font-size: 1.2em;
-}
-
-h4 {
-	font-size: 1.1em;
-}
-
-h5 {
 	font-size: 1.0em;
 }
 
@@ -303,11 +291,3 @@ ul span {
 	margin-bottom: 1em;
 }
 
-/*--------------------------------------------------------------
- Resume
- --------------------------------------------------------------*/
-
-#resume .section {
-	padding-bottom: 6px;
-	border-bottom: 1px solid #ddd;
-}
