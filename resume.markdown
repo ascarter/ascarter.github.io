@@ -121,6 +121,6 @@ Over ten years of service on several different products as software engineer.
 # Organizations
 
 ## Seattle Xcoders (2004-present)
-*  Designed web site seattlexcoders.org
+*  Designed web site <http://seattlexcoders.org>
 *  Help manage meetings in Redmond
 
