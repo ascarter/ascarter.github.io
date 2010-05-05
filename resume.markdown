@@ -49,7 +49,7 @@ Server and web technology director
 *  Database tuning and scaling modifications
 *  *Linux, Java, Ruby on Rails, Oracle, and MySQL*
 
-## Web Services Development Manager, Pure Networks, Seattle, WA 2005-2006
+## Web Services Development Manager, Pure Networks, Seattle, WA (2005-2006)
 
 Development manager for Pure Networks online services
 
