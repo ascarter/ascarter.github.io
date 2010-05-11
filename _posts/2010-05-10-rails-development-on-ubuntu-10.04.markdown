@@ -4,7 +4,7 @@ title: Rails Development on Ubuntu 10.04
 date: 2010-05-10 22:31:33
 ---
 
-As usaul, April means a new release of [Ubuntu][ubuntu]. This time is version 10.04 which is also a long term release. It should be a particularly good version to adopt given the long support cycle.
+April means a new release of [Ubuntu][ubuntu]. This time is version 10.04 which is also a long term release. It should be a particularly good version to adopt given the long support cycle.
 
 I previously posted my recipe for setting up [Rails on Ubuntu 9.10][rails-9.10]. Most of the recipe is still valid. For convenience, I'm reposting the entire recipe with updates for Ubuntu 10.04
 
