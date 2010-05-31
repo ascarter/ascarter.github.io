@@ -58,15 +58,13 @@ end
 desc "Publish site."
 task :publish => [ :build ] do |t|
   sh "rsync -avz --delete #{SITE_DIR}/ #{PUBLISH_HOST}:#{PUBLISH_PATH}"
+  puts "Commit your posts and changes.\nThen run:\n  git push origin master"
 end
 
 desc "Create a new draft post"
 task :draft, [:title] do |t, args|
-  unless args.title
-    puts "Usage: rake draft[\"Title\"]"
-    exit(-1)
-  end
-  
+  title = args.title || "Untitled"
+
   # Create a new file with a basic template
   postname = args.title.strip.downcase.gsub(/ /, '-')
   FileUtils.mkdir_p DRAFTS_DIR
@@ -75,16 +73,15 @@ task :draft, [:title] do |t, args|
   header = <<-END
 ---
 layout: post
-title: #{args.title}
+title: #{title}
 ---
 
 New draft post
 
 END
 
-  # Write draft post file
-  File.open(post, 'w') {|f| f << header }
-  
+  mkdir_p(DRAFTS_DIR)
+  File.open(post, 'w') {|f| f << header }  
   edit_post(post)
 
   puts "Created draft post #{post}."
