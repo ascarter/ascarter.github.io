@@ -69,6 +69,7 @@ task :draft, [:title] do |t, args|
   
   # Create a new file with a basic template
   postname = args.title.strip.downcase.gsub(/ /, '-')
+  FileUtils.mkdir_p DRAFTS_DIR
   post = File.join(DRAFTS_DIR, "#{postname}.markdown")
 
   header = <<-END
