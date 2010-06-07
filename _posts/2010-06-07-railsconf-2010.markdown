@@ -1,0 +1,14 @@
+--- 
+layout: post
+title: RailsConf 2010
+date: 2010-06-07 05:57:56
+---
+
+I'm off to [RailsConf][railsconf] in Baltimore. This should be a great conference. Rails 3 will be a centerpiece. I'm particularly looking forward to learing about all the great scalability solutions including Redis and the various No-SQL storage solutions.
+
+I'm going to go to more UI and Javascript talks this year. I'm very experienced on the back end solutions so I want to look at things I don't know as well. Also plan to explore the test driven talks. I've been at odds with both RSpec and Cucumber and would like to overcome that.
+
+I'm going to try out [Tumblr][tumblr] for quick posts I come across during the conference. I also plan to do a daily write up.
+
+[railsconf]:http://en.oreilly.com/rails2010
+[tumblr]:http://ascarter.tumblr.com
