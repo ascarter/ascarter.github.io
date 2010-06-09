@@ -1,0 +1,93 @@
+--- 
+layout: post
+title: RailsConf 2010 Day 1
+date: 2010-06-08 23:08:25
+---
+
+
+# Keynote
+
+David Heinemeier Hansson and Michael Feathers each spoke at the [opening keynote][keynote]. [David's talk][dhh_slides] captures what Rails 3 is about. Incremental, steady change. It's all about improvements and making stuff easier without breaking what has worked well. This was the first time I've seen the new ActiveRelation syntax in any detail. It looks like a major improvement.
+
+Here's a flavor of the new query syntax:
+
+	# Chaining works
+	# SELECT * FROM users WHERE name = "david" LIMIT 20
+	users = Users.where(:name => "David").limit(20)
+	users.where("age > 29")
+
+	# Lazy execution. Can build up the query until
+	# a call is made that needs the data!
+	# SELECT * FROM USERS
+	# WHERE name = "david" AND age > 29
+	# ORDER BY name
+	# LIMIT 20
+	users.order(:name).each { |user| puts user.name }
+
+There are also nice improvements for the `:scope` syntax supporting the ActiveRelation syntax. I'm not clear about what happens if you add conflicting conditions.
+
+Another nice improvement is in the routes functionality. RESTful routes are accepted as the norm and the syntax reflects this. It requires more code now to declare a resource route but it makes much more sense:
+
+	resources :people do
+	  resource :avatar
+
+	  member do
+	    get  :republish_deep_links
+	    post :resend
+	    put  :accessible_projects, :upload_preferences
+	  end
+	end
+
+I find it much easier to understand despite the fact that it is more lines of code.
+
+Finally, David touched on a couple ideas for Rails 3.1. He called out how CSS and Javascript are in the "junk drawer" known as public. These files really deserve to be in the `app/` hierarchy. I totally agree. I always find it annoying to search for Javascript and CSS in public. Additionally, he thinks that all javascript and CSS should be compiled into a single file like `application.js` and `application.css`. I agree with this as well. Like David said, we are all compiling and minifying Javascript anyway.
+
+Michael Feathers gave the other keynote talk. It was focused on dealing with legacy code. While it is necessary, I didn't find much in his talk compelling. I did like his advice to "cut your losses". I agree that often rewriting code can be a better solution than fixing something that is fundamentally flawed.
+
+# Builing API's with Rails
+
+This talk was on building an API for your Rails application. It was a panel format with Joe Ferris (thoughtbot), Jeremy Kemper (37signals), Marcel Molina (Twitter), Rick Olson (GitHub), and Derek Willis (NY Times). Most people seemed disappointed by this session and I would agree. Some of the stuff was pretty obvious to anyone who has built an API. It wasn't very deep technically. All the panelists emphasized using OAuth. The other takeaway was that versioning is pointless and you should support multiple versions only long enough to get your clients off the old API and onto a new one.
+
+# Don't Repeat Yourself, Repeat Others
+
+John Nunemaker presented a lessons learned talk from his experience building [MongoMapper][mongomapper]. If anything, it was an enjoyable talk (although John should slow down a bit - he really goes fast). He made some great points about the value of just creating. Reinventing the wheel can be ok if it provides insight you would not otherwise have. The rest of it was pretty standard stuff - apply patterns, understand how dynamic Ruby is, steal from others.
+
+# The Present Future of OAuth
+
+Michael Bleigh's talk was a nice survey of the state of OAuth. OAuth has been on my list of things to review for a long time. It seems like now is the right time to get on board. The most useful metaphor was Michael's desription of OAuth tokens being like hotel keys. That's a great analogy. It gets to the heart of what OAuth does - provide limited access for limited time.
+
+I would have like him to touch on OpenID as well. I know they aren't directly related (OAuth is service to service, OpenID is user identity) but it is interesting to think about a user on your site logging in with his Twitter OpenID and then accessing Twitter via your site via OAuth.
+
+Consuming OAuth seems very easy given there is a gem for it. Acting as a provider is a bit more complicated in that you have to write it yourself. My largest concern is with the flows. These allow for different ways of accessing the site (web server, mobile, device, password, etc). Something about all the flows seem poised to be a problem (6 different flows in the spec).
+
+# Bundler
+
+This was the most useful talk of the day for me. I admit I have ignored [Bundler][bundler] for the most part. I have had bundling fatigue after using config.gem and the merb bundler. However, the Bundler gem surprised me. Every question I would ask was answered. It clearly is going to solve our deployment issues. It is also now compatible with RVM which means you can pair the two for creating just the right gems and Ruby interpreter.
+
+Here's the short list of why I'm excited about bundler:
+
+* Gemfile as a single manifest (and can be versioned)
+* Dependency resolution before install (so no more conflicting gem versions)
+* Lock version at install time (even if you don't provide a version)
+* Allow gems to be used directly from git repos (local and remote)
+* bundle install vendor eliminates the need for RPM's for native gems
+* Multiplatform support (MacOSX for dev and Linux for deploy)
+* Can be used for Rails 2.x
+
+I see no critical downsides in going with Bundler. I'll be looking to get it in place for our existing 2.3.5 apps soon.
+
+# Ruby Tips
+
+Evan Phoenix and Charles Nutter were the presenters in the last session I attended. The talk was fun but honestly not that useful. It dove into some metaprogramming concepts that I haven't seen the need to use. The threading advice was solid but anyone who's written threaded programs (Ruby or otherwise) probably knew these tips. I am confused though on how good Ruby 1.9.x (MRI) is at running threads.
+
+# Closing Thoughts
+
+As usual, RailsConf was an exciting torrent of information. I'm very experienced now in Ruby and Rails so I don't get overwhelmed like when I first started with it. Now my brain goes into overdrive as I think about all the ways to leverage the new ideas.
+
+There is certainly a different vibe to this conference. Maybe it is being in Baltimore instead of the west. But it does feel a little more like the rebel is giving way to the pragmatic. I sense more people are more interested in getting things done with Rails and less about changing the world. It's a natural progression. In many ways Rails 3 reflects this new maturity. It's still the toolset to beat. I think the second decade of Rails will see many more good things.
+
+[keynote]:http://railsconf.blip.tv/
+[dhh_slides]:http://s3.amazonaws.com/dhhmix/rails3-railsconf2010.pdf
+[mongomapper]:http://mongomapper.com
+[bundler]:http://gembundler.com
+
