@@ -1,0 +1,79 @@
+--- 
+layout: post
+title: RailsConf 2010 Day 2
+date: 2010-06-09 22:51:34
+---
+
+The second day of RailsConf was another long one. My session choices were more misses than hits today.
+
+# Keynote
+
+I didn't find either the keynote by Neal Ford or Evan Phoenix particularly compelling. Neal Ford riffed on the idea coding as art. They may be some truth to that but I didn't find it reasonating with the audience. Evan's keynote was more of a skit. The premise was supposed to be Engine Yard's usage of open source. That's certainly not what he talked about.
+
+# Million Dollar Mongo
+
+I made a last minute decision to go to Obie Fernandez's case study of Hashrocket's application of MongoDB. One of my goals for this conference was to understand the implications of No-SQL solutions. I also respect Obie's work, particularly his book Rails Way.
+
+The presentation was mostly good. They made a strong case for why they chose MongoDB. They also highlighted political pitfalls they encountered. None of the issues they experienced seemed to be technical. It's likely common to meet with the kind of resistance they encountered when changing out such a fundamental systme. It is good to know that the technical merits seem to hold up.
+
+The Hashrocket guys ended with a surprise airing of dirty laundry between them and another firm Intridea. While Hashrocket might have some legitimate issues with Intridea, it seemed a rather brash thing to do to call them out publicly at a developer conference. I don't care much for the soap-opera stuff.
+
+I skipped the RVM talk to go to this one. I think that was still the right thing to do. Wayne has done such an amazing job with his documentation and support, I didn't feel I needed to go the session.
+
+# Redis, Rails, and Resque
+
+Next up was Chris Wanstrath's talk on how GitHub uses Redis, Rails, and Resque. It was a good talk. But Chris really needs to calm down. He goes at breakneck speed and without slides. So I was furiously making notes as he was flying along.
+
+Chris did a great job in setting up the parts and what they are used for. Redis looks like a fantastic piece of software. If the performance is anywhere near memcache, Redis is a much better solution than memcache.
+
+He spent a fair amount of time discussion Unicorn. I was a little surprised by that until he connected it up with how Resque works. They both have similar philosophies in that they leverage Unix. They handle child processes in very similar fashion.
+
+Chris explained how GitHub had used Delayed Job (which we use currently). He highlighted the issues they had with it (which we have also seen to a small degree). The management piece and the dependency on SQL seemed to be the two biggest reasons they moved off Delayed Job.
+
+Their current solution is to use Resque. Resque is very light in that it is a thin wrapper around the Redis API. In particular, I really liked the concept of using named queues over priorities. We absolutely could use that right now. We had issues with how priorities are implemented in Delayed Job. Consequently, we don't use priority despite the fact we really need it.
+
+Resque is a master process that forks child processes to run the jobs. This means each job runs in its own clean process space. That's a very good characteristic.
+
+Resque uses a plugins interface that allows the user to define much of the job capabilities.
+
+I don't like the idea of swapping out our background processing yet again but I think it will only be a matter of time before we move to Redis/Resque.
+
+# Cassandra & CassandraObject
+
+The next talk I went to was Michael Koziarski's presentation on Cassandra. I was interested in finding out what Cassandra is about compared to MongoDB. It has a very nice distribution model that allows you to introduce fault tolerance into the store. Depending on the configuration, any key you add to the store can be in 1 or more nodes. Consistency can be simply recording it on one node to using a quorum to determine the correct value. It seems a little like RAID for your key value store.
+
+While I liked the architecture, I didn't like the way data is structured. This is not a document system like Mongo or Couch. It defines a *columns* concept that is not the same as relational. It's more of a two level JSON object.
+
+Cassandra on the surface doesn't fit the usage we would need. MongoDB seems like a more logical fit.
+
+# Rocket Fueled Cucumbers
+
+Joseph Wilk gave a very good presentation on managing large sets of Cucumber features and what happens when the build time gets large. The primary tips would apply to any test framework, not just cucumber.
+
+* Development favors speed over confidence
+* Test favors confidence over speed
+* 10 minutes is a good target for a test run
+* Use Spork to help with Rails startup time in cucumber
+* Mock services that are slow
+* Cucover as a coverage aid
+* Run the tests more likely to fail frequently, the ones that never fail less
+* Worry about the tests that matter
+
+Two other interesting tools were highlighted by Joseph. One is Capybara as a better webrat. The other is a javascript environment that doesn't use a browser called envjs. Both looked like good cucumber aids.
+
+# Beyond (No) SQL
+
+Sarah Mei from Pivotal Labs gave what turned out to be a very brief talk on No-SQL vs. relational. While I think she had good knowledge, it was not an indepth talk. It was really databases 101. The tradeoffs between relational and No-SQL was interesting. However, it was not the talk I had hoped it would be.
+
+# Lightning Talks
+
+Since the No-SQL talk was so short, I caught part of the lightning talks. It always great to see people talk about projects that they have so much passion about.
+
+# Closing Keynote
+
+Derek Sivers (of CD Baby fame) gave an entertaining talk. His personal story and relating how finding a way to work with others is important is a good lesson. He spent a lot of time developing CD Baby himself on a custom PHP framework. That proved difficult to expand with other developers of course. He has come back to looking at Rails seriously. I don't know that I got much useful information but it as a nice talk nonetheless.
+
+# Closing Thoughts
+
+Tomorrow is the closing of the conference. The talks are usually a little more erratic on the last day but I'm hoping to pick up a few things. I haven't seen much on Javascript. I expected a little more in this area or I managed to miss those talks.
+
