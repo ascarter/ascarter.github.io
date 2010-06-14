@@ -1,0 +1,56 @@
+--- 
+layout: post
+title: RailsConf 2010 Day 3
+date: 2010-06-13 23:59:33
+---
+
+I'm a few days late posting my wrap up of the final day of [RailsConf][railsconf]. Traveling and getting back home delayed it.
+
+# Keynote
+
+"Uncle Bob" Martin gave the morning keynote titled **Twenty-Five Zeros**. The premise of the speech was built on the notion that hardware has advanced by extraordinary amounts while software hasn't kept pace. Mr. Martin states that we are writing code today that is not very different from the first FORTRAN programs 50 years ago. As he stated it, "sequence, selection, iteration" form the basis for programming both then and now. Objects and other innovations still fundamentally use the same pattern.
+
+I'd agree that hardware advances have dwarfed software. And I also agree with the premise that Moore's Law is likely dead. Advances will need to be driven from the software side rather than hardware. But I did find his apparent dissatisfaction with using fundamentals from 1957 questionable. To me, these represent basic truths in programming. Computer hardware is still built on the same digital fundamentals as well. We've gone from transistors to solid state. That doesn't mean that 1's and 0's are fundamentally wrong. Or that logic networks or any of the other basics that form computer hardware.
+
+I think he may have meant his talk to be a rallying cry. To me, it seemed like it was a misguided critique that didn't apply. I also find the whole "Uncle Bob" schtick annoying.
+
+# Migrating Plugins and Gems to Rails 3
+
+The first talk of the day I attended was Clinton Nixon of Vigent Labs on plugins and gems in Rails 3. The talk covered highlights of what gem authors should do to get their gem on Rails 3. In particular, there are some new locations you should be putting things like generators and rake tasks, using `Rails.*` instead of `RAILS_*`, and adapting to using Thor instead of Rubigen. One obvious piece of advice is to convert plugins to gems. I think everyone knows this but it's always a question of whether it is worth the effort to take an old plugin and get it into a gem.
+
+The second part of Clinton's talk was a case study for migrating the Rails footnotes gem. It seemed like most of the problems for this gem were caused by how it was injecting itself into the core of Rails. I think this case was a bit extreme in that most gems don't touch Rails at such a low level. Nevertheless, it was an enlightening exercise to see how to take a complex gem and get it on Rails 3.
+
+I've begun to question relying on gems and plugins at all. This talk just reinforced it. The best case is to have no gem to upgrade. I'm not saying "don't use gems". Rather, I feel like the smarter course of action is to use a gem as a last resort.
+
+# Rails Next Top Model
+
+Adam Keys presented a talk on ActiveModel and ActiveRelation. These are two very important additions to Rails 3. ActiveModel represents much of the ActiveRecord DSL in a form that you could apply to a pure Ruby object easily. This means you can hook in validations (*validates_presence_of*, etc.) and serialization. You also can use your ActiveModel classes easily in ActionView forms.
+
+ActiveRelation (Arel) adds the new predicate syntax. It also provides the dynamic finder DSL seen in ActiveRecord. Like ActiveModel, this is another module you could apply to pure Ruby objects. In both ActiveModel and Arel, you include the modules in your code instead of deriving from a base like ActiveRecord. I have a couple ideas in mind for exposing some of our legacy systems as ActiveModels.
+
+# Agile the Pivotal Way
+
+The last talk I attended was a presentation by Ian McFarland on how Pivotal Labs does agile. I wasn't sure what the talk would be like but we do agile/scrum at my job. It's not always been the smoothest process. I was curious to see how an experienced agile firm like Pivotal does it.
+
+Pivotal is heavily into pairing (maybe even exclusively pairing). They even go so far as to eliminate personal workspace and create nothing but pairing stations. Part of me thinks this is crazy yet I can see the value. I've been at this for 15 years so I'm willing to admit my reluctance could be just as much ingrained habit as real rejection of the notion. Lately, our team has been doing this on their own. About half our team has effectively left their personal workspace in preference to a side-by-side setup for more effective pairing.
+
+I liked that Pivotal seems to make a strong effort to serve their employees. They run an in-house tech library. They have lots of useable displays in conference rooms for meetings. They keep a build monitor up so everyone can always see the state of the continuous integration server. All good stuff.
+
+My key takeaway though was don't go half way on agile and paring. If you are going to do it, really do it.
+
+# Closing Keynote
+
+The closing was given by Gary Vaynerchuck. I had no idea who he was. I do now.
+
+It's hard to describe his keynote accurately. You should just go [watch][garyvee-keynote] it (warning - lots of adult language).
+
+Gary is one intense dude. And I think he really is genuine. He is in the same mold as Jason Fried and 37signals. Work hard for your customers, care about what you do. He says all the things you'd love to hear if you are sick of faceless and gutless corporate entities. He's dynamic and certainly inspiring.
+
+He's on my short list of someone I'd love to have a beer or three with.
+
+# Wrap Up
+
+So there it is. My third RailsConf in the books. Like any conference, there were good and bad sessions. But I love the inspiration I get from being around so many people working on things they care about.
+
+[railsconf]:http://en.oreilly.com/rails2010
+[garyvee-keynote]:http://www.youtube.com/watch?v=-QWHkcCP3tA
