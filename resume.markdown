@@ -6,7 +6,7 @@ title: resume
 
 # Profile
 
-Experienced software engineer with extensive background in relational database systems and web services. Qualified technical leader with experience managing software releases. Interested in service oriented applications, relational databases, Unix-based operating systems, and web services.
+Experienced software engineer with background in web services, mobile devices, and relational database systems. Qualified technical leader with experience managing software releases.
 
 ---
 
@@ -14,17 +14,22 @@ Experienced software engineer with extensive background in relational database s
 
 ## Founder/Owner, Source Blueprints, LLC, Sammamish, WA (2010-Present)
 
-Web design firm specializing in Ruby on Rails and iPhone development.
+Web development firm specializing in Ruby on Rails and mobile development. Projects using *Mac OS X*, *Linux*, *Ruby on Rails*, *Objective-C*, *iOS*, and *Android*.
 
-Client projects have included:
+Client projects:
+                              
+### iPhone
 
-*  iPhone shopping application
-*  Ruby on Rails social site
-*  Ruby on Rails artist site
+*  Yubit coupon application (*Miajo, LLC*)
+*  Moprise Sharepoint application (*Moprise*)
+
+### Ruby on Rails
+
+*  Artwork site prototype
+*  Social networking site
 *  Advisor for sports management iPhone application
-*  *Mac OS X, Linux, Ruby on Rails, Objective-C, iPhone*
 
-## Senior Software Engineer, Getty Images, Seattle, WA	(2007-Present)
+## Senior Software Engineer, Getty Images, Seattle, WA	(2007-2010)
 
 Lead Developer and architect for photo and video web services.
 
@@ -122,5 +127,5 @@ Over ten years of service on several different products as software engineer.
 
 ## Seattle Xcoders (2004-present)
 *  Designed web site <http://seattlexcoders.org>
-*  Help manage meetings in Redmond
+*  Manage Eastside chapter meetings scheduling and administration
 
