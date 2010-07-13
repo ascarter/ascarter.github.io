@@ -1,0 +1,33 @@
+--- 
+layout: post
+title: Next
+date: 2010-07-12 21:30:35
+---
+
+After nearly three years, last Friday was my last day at [Getty Images][getty]. The time had come to move on to the next challenge. It was time to change direction and take some control for myself.
+
+Last February was my five year anniversary from leaving Microsoft. When I left, my dream was to start my own company. The same dream is there but what it looks like has changed dramatically since 2005. I expected to build a desktop applications. People like [Brent Simmons][brent] and [Gus Mueller][gus] were my models. They ran successful indie software business on the Mac and built amazing applications. I experimented with some ideas that never went anywhere. So instead, I pursued another interest in open source software by joining Source Labs. That began a series of jobs at startups with varying degrees of success. It all reached an implosion at [Jobster], a prime example of the decaying dot com mentality. Despite the lack of success at startups, I was gaining a new insight into another passion - the web. The single biggest gift Jobster gave me was Ruby on Rails. I was in the right place at the right time. Rails was just taking off and Jobster had jumped on board early.
+
+Rails began to show me a new path. My thoughts were now entirely on the web. Rails was a tool that made creation of a new class of applications easy. I had done some of the large machinery that sits behind frameworks like Rails. But this was the link I needed to what I had done at Microsoft and what I wanted to do. My goal was no longer to build desktop applications but to build great web services.
+
+I landed at Getty Images in 2007. I was feeling pretty destroyed from my tour of the startup world. I was tired of empty promises and working for 8 months on software that went into the toilet. I wanted to accomplish something instead of vaporware. I was fortunate to work on a skunkworks Rails project my friend [Jeff Johnston][jeff] had started. Together with a small team, we built a portal that opened up a new way for Getty to work with their artists. We shipped it. It succeeded. It was fantastic. We were rewarded with the Flickr integration project where we provided the bridge between Flickr and Getty Images - a new market and a pairing of the old with the new. We again launched and in most ways, we succeeded. But it was costly to me personally. It was a death march unlike any I had done since my earliest days of SQL Server. I felt beaten down by the project and in many ways never felt the pride or satisfaction I should have.
+
+A lot changed after that. The team became very different, our role changed too. When I joined the team, I was the only one with any significant Rails experience. Now we had a team that had launched three major apps on Rails. In many ways, I had outgrown my usefulness for the team. We always like to think we are way more important than we really are. That has hit home these past few days. I decided it was time to do something else.
+
+When I surveyed what was out there, I found I just couldn't get excited about joining up with another startup whose ambitions had no grounding in reality. And I could not stomach going back to a large company and dealing with the complexities of modern corporations. Mobile applications have moved front and center. I got serious about iPhone development and took a side contract to build an application. That sparked the last connection - linking mobile with web services. Blurring the line between local and cloud or whatever you wish to call it. I loved that one person could again build the whole thing. I could fit the app in my head. I wrote UI code. It was exciting and different. I did this for a few months. Soon other project opportunities emerged. I decided this is what I wanted to spend my time on.
+
+So now I'm an independent developer. I formed my own web development firm [Source Blueprints, LLC][sourceblueprints]. I'm doing contract projects using the technology I want. I've got some jobs to get started. I've been amazed at how many people have come forth with interesting ideas.
+
+I have a new set of goals. I want to build a small team of developers with the same focus. My model is the way [37signals] works. I have some ideas I want to build. It's easier than ever to bootstrap yourself. That's what I want to do. Balance contract work with building my own creations. No endless meetings, no commute. I want to look at my day and feel like I did something. I want to write code not talk about it. And I hope to have a better balance between work and life.
+
+This is the dream anyway. The reality can be much more harsh. Right now, it's a good time to be available as an independent. A gold rush is underway in mobile. It is actually driving down the price though. There is a dot com bubble forming. There will be a crash. Too many hacks are muddying the waters right now. But I'm confident in my skills and my experience. I'm avoiding the stuff that is purely derivative. I'm looking for the projects that mix both web and mobile. Those are more likely to succeed. I won't do the cookie cutter apps nor the "anyone can be a developer" tools. That's not the work I want.
+
+I'm going into this with my eyes open. I can't say what tomorrow will be. But I've been through multiple "revolutions" now. In many ways, I've done it all and heard it all. I'm going to focus on what I want now. That applies to the work and it applies to taking back my time. I know I'll now be home much more to see my daughter. And that's more important to me than anything else right now.                               
+
+[sourceblueprints]: http://www.sourceblueprints.com/
+[getty]: http://gettyimages.com
+[brent]: http://inessential.com/
+[gus]: http://shapeof.com/
+[jeff]: http://www.hishma.com/
+[37signals]: http://www.37signals.com/
+[jobster]: http://www.jobster.com/
