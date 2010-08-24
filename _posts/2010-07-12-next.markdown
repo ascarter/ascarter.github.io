@@ -16,7 +16,7 @@ A lot changed after that. The team became very different, our role changed too. 
 
 When I surveyed what was out there, I found I just couldn't get excited about joining up with another startup whose ambitions had no grounding in reality. And I could not stomach going back to a large company and dealing with the complexities of modern corporations. Mobile applications have moved front and center. I got serious about iPhone development and took a side contract to build an application. That sparked the last connection - linking mobile with web services. Blurring the line between local and cloud or whatever you wish to call it. I loved that one person could again build the whole thing. I could fit the app in my head. I wrote UI code. It was exciting and different. I did this for a few months. Soon other project opportunities emerged. I decided this is what I wanted to spend my time on.
 
-So now I'm an independent developer. I formed my own web development firm [Source Blueprints, LLC][sourceblueprints]. I'm doing contract projects using the technology I want. I've got some jobs to get started. I've been amazed at how many people have come forth with interesting ideas.
+So now I'm an independent developer. I formed my own web development firm [Sparse Labs, LLC][sparse]. I'm doing contract projects using the technology I want. I've got some jobs to get started. I've been amazed at how many people have come forth with interesting ideas.
 
 I have a new set of goals. I want to build a small team of developers with the same focus. My model is the way [37signals] works. I have some ideas I want to build. It's easier than ever to bootstrap yourself. That's what I want to do. Balance contract work with building my own creations. No endless meetings, no commute. I want to look at my day and feel like I did something. I want to write code not talk about it. And I hope to have a better balance between work and life.
 
@@ -24,7 +24,7 @@ This is the dream anyway. The reality can be much more harsh. Right now, it's a 
 
 I'm going into this with my eyes open. I can't say what tomorrow will be. But I've been through multiple "revolutions" now. In many ways, I've done it all and heard it all. I'm going to focus on what I want now. That applies to the work and it applies to taking back my time. I know I'll now be home much more to see my daughter. And that's more important to me than anything else right now.                               
 
-[sourceblueprints]: http://www.sourceblueprints.com/
+[sparse]: http://sparselabs.com/
 [getty]: http://gettyimages.com
 [brent]: http://inessential.com/
 [gus]: http://shapeof.com/

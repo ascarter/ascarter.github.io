@@ -7,7 +7,7 @@ title: about
 
 # About
 
-I own a web development firm [Source Blueprints, LLC][sourceblueprints]  where I specialize in Ruby on Rails and mobile projects on the iOS and Android platforms.
+I own a web development firm [Sparse Labs, LLC][sparse]  where I specialize in Ruby on Rails and mobile projects on the iOS and Android platforms.
 
 I studied Electrical Engineering at the University of Washington. While at UW, I did two internships with Microsoft on the Mac Excel team. After graduation, I worked for Microsoft from 1995 to 2005 in SQL Server, bCentral, and Xbox Live. After Microsoft, I worked at several startups including Source Labs, Pure Networks, and Jobster. Most recently, I worked for three years as a senior software engineer at Getty Images.
 
@@ -17,5 +17,5 @@ Outside work, I'm an avid cyclist, play electric guitar badly, and enjoy soccer 
 
 ## [Resume]
 
-[sourceblueprints]: http://sourceblueprints.com
+[sparse]: http://sparselabs.com
 [resume]: /resume.html
