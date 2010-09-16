@@ -3,9 +3,9 @@ layout: default
 title: resume
 ---
 
-
-Profile
-=======
+Andrew Carter
+===============================
+*Seattle, WA USA*
 
 Senior software engineer and architect. Experience developing web services, mobile applications, and relational databases.
 
@@ -163,4 +163,10 @@ Seattle Xcoders (2004-present)
 
 *  Designed and manage web site <http://seattlexcoders.org>
 *  Curator for Eastside chapter meetings, scheduling, and administration
+
+---
+
+[PDF][pdf_resume]
+
+[pdf_resume]: /andrew_carter_resume.pdf
 
