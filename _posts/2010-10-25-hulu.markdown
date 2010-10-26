@@ -1,0 +1,24 @@
+--- 
+layout: post
+title: Hulu
+date: 2010-10-25 15:59:07
+---
+Several years ago, a friend I had worked with at Microsoft gave me a call. We were on the same SQL Server development team for several years. He was deciding if he should leave Microsoft and join a startup in his home town of Los Angeles. I had left two years earlier so he was looking for some outside perspective. I told him he should go for it. It was a great chance for him to grow and to return home.
+
+A few months later, he called me back. He wanted to tell me about what he was working on. The project was a site for viewing shows online. Fox and Universal were the primary investors. They were using Ruby on Rails and he knew I had lots of Rails experience. He thought I might be interested. I had no desire to move to Los Angeles and besides, Hollywood had a poor track record when it came to online services. Maybe if they were in Seattle, it would have been worth considering. I wished him well and didn't think much more of it.
+
+My friend was working at [Hulu].
+
+Needless to say, I was very wrong about their prospects for success. Hulu has become a premier site for online video. They have an excellent customer experience. They are doing a good job of balancing traditional media with the rapidly changing distribution models. There is still a very long way to go but I believe they are on the right path.
+
+About two months ago, I got another message from my friend. We hadn't talked in awhile. I figured he wanted to catch up. He did and he had some news. He told me about what he had just posted to the company blog - [Hulu would be opening a Seattle office][rtomblog].
+
+I'm really excited to say that I'm the first Seattle employee. I'll be working in the new office on Hulu clients for devices. I also hope to have a hand in growing the backend service. Although I was happy working as a freelance mobile developer, Hulu felt like it was too special to pass up. I've been using Hulu for two years. I dropped my satellite subscription over a year ago. So I'm going to be working on something I very much want. Hulu along with [Netflix] is redefining what television will become. I'm thrilled to be a part of that.
+
+So my independent goals will be put on hold for the time being. I don't think I could have found a project that is better than what I'll be doing. I'm excited to be part of creating a new office and carving out an identity for our team here in Seattle.
+
+We're hiring more developers and QA engineers in Seattle. Please contact me or Richard if you are interested!
+
+[hulu]: http://www.hulu.com
+[netflix]: http://www.netflix.com
+[rtomblog]: http://blog.hulu.com/2010/09/16/hello-seattle/
