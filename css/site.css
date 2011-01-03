@@ -75,6 +75,13 @@ ul span {
 	font-size: 0.8em;
 }
 
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
 
 /*--------------------------------------------------------------
  Container
@@ -241,7 +248,7 @@ ul span {
 	background-color: #eef;
 	font-size: 0.9em;
 	font-family: Menlo, Monaco, Consolas, monospace;
-	padding: 0 .2em;
+	padding: 0 0;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 }
