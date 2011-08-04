@@ -301,3 +301,14 @@ pre {
 	margin-bottom: 1em;
 }
 
+.video {
+    text-align: center;
+    
+}
+.video-title {
+    font-weight: bold;
+}
+
+.video-note {
+	font-style: italic;
+}
