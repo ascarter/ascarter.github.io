@@ -110,18 +110,20 @@ task :post, [:name] do |t, args|
     draft_path = File.join(DRAFTS_DIR, draft_name)
   else
     # Get list of drafts and prompt user to pick
-    drafts = []
-    Dir.glob(File.join(DRAFTS_DIR, '*')).map { |d| drafts << File.basename(d) }
+    drafts = Dir.glob(File.join(DRAFTS_DIR, '*'))
     
     if drafts.count > 1
+      menu = []
       puts "Select draft to post:"
       count = 1
       drafts.each do |draft|
-        puts "#{count}. #{File.basename(draft)}"
+        header, body = parse_post(IO.readlines(draft))
+        menu << "#{count}. #{header['title']} [#{File.basename(draft)}]"
         count += 1
       end
       
       begin
+        menu.each { |m| puts m }
         print "Which post? (1-#{drafts.length()} or q) "
         choice = $stdin.gets().chomp()
         if choice == 'q'
@@ -130,11 +132,10 @@ task :post, [:name] do |t, args|
         end
         choice = choice.to_i() - 1
       end while (choice < 1 or choice > drafts.length())
-      draft_name = drafts[choice]
-      draft_path = File.join(DRAFTS_DIR, draft_name)
+      draft_path = drafts[choice]
     elsif drafts.count == 1
       puts "Posting pending draft"
-      draft_path = File.join(DRAFTS_DIR, drafts[0])
+      draft_path = drafts[0]
     else
       puts "No pending drafts"
       exit(-1)
@@ -142,7 +143,7 @@ task :post, [:name] do |t, args|
   end
   
   unless File.exist?(draft_path)
-    puts "Draft file #{File.basename(draft_path)} is missing"
+    puts "Draft file #{draft_path} is missing"
     exit(-1)
   end
   
