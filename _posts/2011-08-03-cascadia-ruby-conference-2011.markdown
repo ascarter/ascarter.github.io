@@ -6,7 +6,7 @@ date: 2011-08-03 09:25:30
 
 Last week I attended the [Cascadia Ruby 2011][cascadia] conference in Seattle. This event seems to be part of a growing trend of regional conferences. It's great to go to a conference like this without the time and expense of traveling.
 
-I enjoyed the conference very much. As always, some sessions were much better than others. Overall, the quality was high and the enthusiasm for the event was great. I'm not doing as much Ruby and Rails at work as I'd like (too much Python lately). Part of my motivation was to keep plugged into the Ruby community since that's where I want to be and what I want to work with.
+I enjoyed the conference very much. As always, some sessions were much better than others. Overall, the quality was high and the enthusiasm for the event was great. I'm not doing as much Ruby or Rails at work as I'd like (too much Python lately). Part of my motivation was to keep plugged into the Ruby community since that's where I want to be and what I want to work with.
 
 I was a little surprised at how many talks were not particularly technical. Frankly, it was a little uncomfortable how personal some of the stories were. If anything, it seems to point to some issues for developers overall that aren't being discussed. There were some lessons to learn but I wasn't in that mode and I think the impact of those presentations was a little lost on me.
 
@@ -41,8 +41,20 @@ I've done things like this in the past with systems I've built (although no wher
 [Avdi Grimm][avdi] did a presentation inspired by his book [Exceptional Ruby][exceptional_ruby]. He included a [sample project][cowsay] that demonstrated many techniques for reducing code cruft like constantly checking for nil, using Decorator patterns, and applying pre-conditions. I'm definitely going to pick up his book. There were many great tips in the talk. I'm a big fan of streamlining error checking so that the code is of positive nature with negative cases filtered out.
 
 <div class='video'>
+    <div class='video-player'>
+    <video id="html5-player" controls="controls" poster="http://confreaks.net/system/videos/images/614/preview/vlcsnap-2011-08-02-20h59m34s58.png?1312346854">
+        <source src="http://confreaks.net/system/assets/datas/1780/original/614-cascadiaruby2011-confident-code-small.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class='video-title'>
+    <a href="http://confreaks.net/videos/614-cascadiaruby2011-confident-code?player=html5">Confident Code</a>
+    </div>
+    <div class='video-presenters'>
+    <a href="http://confreaks.net/presenters/378-avdi-grimm">Avdi Grimm</a>
+    </div>
     <div class='video-note'>
-        Video not yet available
+    Source: <a href="http://confreaks.net">Confreaks</a>
     </div>
 </div>
 
@@ -53,8 +65,20 @@ I've done things like this in the past with systems I've built (although no wher
 Gary also announced he is now fulltime on a new company [Destroy All Software][destroyallsoftware]. His company will feature screencasts and learning tools for Unix in the spirit of [Railscasts][railscasts] or [PeepCode][peepcode]. It should be a very useful resource.
 
 <div class='video'>
+    <div class='video-player'>
+    <video id="html5-player" controls="controls" poster="http://confreaks.net/system/videos/images/615/preview/vlcsnap-2011-08-02-21h00m17s170.png?1312344106">
+        <source src="http://confreaks.net/system/assets/datas/1783/original/615-cascadiaruby2011-the-unix-chainsaw-small.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class='video-title'>
+    <a href="http://confreaks.net/videos/615-cascadiaruby2011-the-unix-chainsaw?player=html5">The Unix Chainsaw</a>
+    </div>
+    <div class='video-presenters'>
+    <a href="http://confreaks.net/presenters/429-gary-bernhardt">Gary Bernhardt</a>
+    </div>
     <div class='video-note'>
-        Video not yet available
+    Source: <a href="http://confreaks.net">Confreaks</a>
     </div>
 </div>
 
@@ -74,7 +98,7 @@ It's always very enlightening to see complex structures visually. I use graphica
 
 [Ryan Davis][ryan] presented a very nice tour of [Minitest][minitest]. Let me be upfront - I dislike [RSpec][rspec] and I **hate** [Cucumber][cucumber]. Both are very "magical". RSpec makes more sense to me but I don't find that the syntax is any more useful than xUnit. Cucumber is conceptually an interesting idea. But in practice, I've found it to be very difficult to build tests let alone understand what is going on.
 
-Ryan highlight some of the same things in his talk. Minitest is very transparent. It's not hard to see what it is doing. As Ryan pointed out, the goal is to get the failures as close to your code as possible. I completely agree with that philosophy.
+Ryan highlighted some of the same things in his talk. Minitest is very transparent. It's not hard to see what it is doing. As Ryan pointed out, the goal is to get the failures as close to your code as possible. I completely agree with that philosophy.
 
 Minitest does support RSpec-style BDD syntax so it seems poised to work equally well for xUnit and BDD testing. I like that it is (or going to be?) part of the Ruby distribution. I was a little confused on if I need to do anything to get it under Ruby 1.9.x/Rails 3.
 
@@ -100,6 +124,8 @@ It's easy to listen to Geoffrey and think "of course he can do that, he's got fr
     </div>
 </div>
 
+
+**Updated**: Added Confident Code and The Unix Chainsaw video links.
 
 [cascadia]: http://cascadiarubyconf.com/
 [confreaks]: http://confreaks.net/
