@@ -20,7 +20,7 @@ I've done things like this in the past with systems I've built (although no wher
 
 <div class='video'>
     <div class='video-player'>
-    <video id="html5-player" controls="controls" poster="http://confreaks.net/system/videos/images/608/preview/vlcsnap-2011-07-30-13h31m49s94.png?1312057979">
+    <video id="html5-player" width="640" height="480" controls="controls" preload="none" poster="http://confreaks.net/system/videos/images/608/preview/vlcsnap-2011-07-30-13h31m49s94.png?1312057979">
         <source src="http://confreaks.net/system/assets/datas/1726/original/608-cascadiaruby2011-shipping-at-the-speed-of-life-small.mp4" type="video/mp4" />
         Your browser does not support the video tag.
     </video>
@@ -42,7 +42,7 @@ I've done things like this in the past with systems I've built (although no wher
 
 <div class='video'>
     <div class='video-player'>
-    <video id="html5-player" controls="controls" poster="http://confreaks.net/system/videos/images/614/preview/vlcsnap-2011-08-02-20h59m34s58.png?1312346854">
+    <video id="html5-player" width="640" height="480" controls="controls" preload="none" poster="http://confreaks.net/system/videos/images/614/preview/vlcsnap-2011-08-02-20h59m34s58.png?1312346854">
         <source src="http://confreaks.net/system/assets/datas/1780/original/614-cascadiaruby2011-confident-code-small.mp4" type="video/mp4" />
         Your browser does not support the video tag.
     </video>
@@ -66,7 +66,7 @@ Gary also announced he is now fulltime on a new company [Destroy All Software][d
 
 <div class='video'>
     <div class='video-player'>
-    <video id="html5-player" controls="controls" poster="http://confreaks.net/system/videos/images/615/preview/vlcsnap-2011-08-02-21h00m17s170.png?1312344106">
+    <video id="html5-player" width="640" height="480" controls="controls" preload="none" poster="http://confreaks.net/system/videos/images/615/preview/vlcsnap-2011-08-02-21h00m17s170.png?1312344106">
         <source src="http://confreaks.net/system/assets/datas/1783/original/615-cascadiaruby2011-the-unix-chainsaw-small.mp4" type="video/mp4" />
         Your browser does not support the video tag.
     </video>
@@ -89,8 +89,20 @@ Gary also announced he is now fulltime on a new company [Destroy All Software][d
 It's always very enlightening to see complex structures visually. I use graphical tools for Git frequently to better understand what is going on. It makes sense to use these for your own workflows as well.
 
 <div class='video'>
+    <div class='video-player'>
+    <video id="html5-player" width="640" height="480" controls="controls" preload="none" poster="http://confreaks.net/system/videos/images/617/preview/vlcsnap-2011-08-05-00h49m20s232.png?1312530716">
+        <source src="http://confreaks.net/system/assets/datas/1801/original/617-cascadiaruby2011-powerful-but-easy-data-visualization-with-the-graph-gem-small.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class='video-title'>
+    <a href="http://confreaks.net/videos/617-cascadiaruby2011-powerful-but-easy-data-visualization-with-the-graph-gem?player=html5">Powerful (but Easy) Data Visualization with the Graph Gem</a>
+    </div>
+    <div class='video-presenters'>
+    Aja Hammerly
+    </div>
     <div class='video-note'>
-        Video not yet available
+    Source: <a href="http://confreaks.net">Confreaks</a>
     </div>
 </div>
 
@@ -105,8 +117,20 @@ Minitest does support RSpec-style BDD syntax so it seems poised to work equally 
 One other item that Ryan touched on was the use of mocks. He asserted that mocks should be a last resort and at the highest level possible. That seems like good advice. I try to use mocks for external services. One thing I would love to follow up on though is how to construct your code to support mocks in the correct sense. Do you design models that use a data source pattern so that you can use a mock service instead? Many times I've written my code as a wrapper to a service and backed myself into a corner when it came to mocking the service.
 
 <div class='video'>
+    <div class='video-player'>
+    <video id="html5-player" width="640" height="480" controls="controls" preload="none" poster="http://confreaks.net/system/videos/images/618/preview/vlcsnap-2011-08-05-00h51m16s98.png?1312531034">
+        <source src="http://confreaks.net/system/assets/datas/1804/original/618-cascadiaruby2011-size-doesn-t-matter-small.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class='video-title'>
+    <a href="http://confreaks.net/videos/618-cascadiaruby2011-size-doesn-t-matter?player=html5">Size Doesn't Matter</a>
+    </div>
+    <div class='video-presenters'>
+    <a href="http://confreaks.net/presenters/20-ryan-davis">Ryan Davis</a>
+    </div>
     <div class='video-note'>
-        Video not yet available
+    Source: <a href="http://confreaks.net">Confreaks</a>
     </div>
 </div>
 
@@ -123,10 +147,13 @@ It's easy to listen to Geoffrey and think "of course he can do that, he's got fr
         Video not yet available
     </div>
 </div>
+  
+  
+----
 
-
-**Updated 08.04.2011 21:15**: Added Confident Code and The Unix Chainsaw video links.
-**Updated 08.04.2011 22:25**: Confident Code is not based on the Exceptional Ruby book.
+> *Updated 08.04.2011 21:15*: Added Confident Code and The Unix Chainsaw video links.  
+> *Updated 08.04.2011 22:25*: Confident Code is not based on the Exceptional Ruby book.  
+> *Updated 08.05.2011 13:49*: Added Easy Data Visualization with Graph and Size Doesn't Matter video links.
 
 [cascadia]: http://cascadiarubyconf.com/
 [confreaks]: http://confreaks.net/
