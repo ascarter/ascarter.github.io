@@ -38,7 +38,7 @@ I've done things like this in the past with systems I've built (although no wher
 
 # Confident Code - Avdi Grimm
 
-[Avdi Grimm][avdi] did a presentation inspired by his book [Exceptional Ruby][exceptional_ruby]. He included a [sample project][cowsay] that demonstrated many techniques for reducing code cruft like constantly checking for nil, using Decorator patterns, and applying pre-conditions. I'm definitely going to pick up his book. There were many great tips in the talk. I'm a big fan of streamlining error checking so that the code is of positive nature with negative cases filtered out.
+[Avdi Grimm][avdi] did a presentation <strike>inspired by his book <a href="http://exceptionalruby.com">Exceptional Ruby</a></strike> on using assertive coding techniques. He included a [sample project][cowsay] that demonstrated many techniques for reducing code cruft like constantly checking for nil, using Decorator patterns, and applying pre-conditions. I'm definitely going to pick up his book. There were many great tips in the talk. I'm a big fan of streamlining error checking so that the code is of positive nature with negative cases filtered out.
 
 <div class='video'>
     <div class='video-player'>
@@ -125,7 +125,8 @@ It's easy to listen to Geoffrey and think "of course he can do that, he's got fr
 </div>
 
 
-**Updated**: Added Confident Code and The Unix Chainsaw video links.
+**Updated 08.04.2011 21:15**: Added Confident Code and The Unix Chainsaw video links.
+**Updated 08.04.2011 22:25**: Confident Code is not based on the Exceptional Ruby book.
 
 [cascadia]: http://cascadiarubyconf.com/
 [confreaks]: http://confreaks.net/
