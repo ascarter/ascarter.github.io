@@ -143,17 +143,29 @@ There is a conflict between the artist and the engineer in our profession. So mu
 It's easy to listen to Geoffrey and think "of course he can do that, he's got freedom I don't have". That may be true. But I think that the advice applies to anyone. Applying creative techniques as much as you can is entirely worthwhile. You might just have to be creative in embracing your creativity.
 
 <div class='video'>
+    <div class='video-player'>
+    <video id="html5-player" width="640" height="480" controls="controls" preload="none" poster="http://confreaks.net/system/videos/images/621/preview/vlcsnap-2011-08-07-16h44m18s12.png?1312760843">
+        <source src="http://confreaks.net/system/assets/datas/1839/original/621-cascadiaruby2011-code-and-creativity-small.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class='video-title'>
+    <a href="http://confreaks.net/videos/621-cascadiaruby2011-code-and-creativity?player=html5">Code and Creativity</a>
+    </div>
+    <div class='video-presenters'>
+    <a href="http://confreaks.net/presenters/431-geoffrey-grossenbach">Geoffrey Grossenbach</a>
+    </div>
     <div class='video-note'>
-        Video not yet available
+    Source: <a href="http://confreaks.net">Confreaks</a>
     </div>
 </div>
   
-  
 ----
 
-> *Updated 08.04.2011 21:15*: Added Confident Code and The Unix Chainsaw video links.  
-> *Updated 08.04.2011 22:25*: Confident Code is not based on the Exceptional Ruby book.  
-> *Updated 08.05.2011 13:49*: Added Easy Data Visualization with Graph and Size Doesn't Matter video links.
+- ***Updated 08.04.2011 21:15*** -- Added Confident Code and The Unix Chainsaw video links.  
+- ***Updated 08.04.2011 22:25*** -- Confident Code is not based on the Exceptional Ruby book.  
+- ***Updated 08.05.2011 13:49*** -- Added Easy Data Visualization with Graph and Size Doesn't Matter video links.  
+- ***Updated 08.08.2011 08:06*** -- Added Code and Creativity video links.
 
 [cascadia]: http://cascadiarubyconf.com/
 [confreaks]: http://confreaks.net/
