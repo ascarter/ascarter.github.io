@@ -7,14 +7,26 @@ Andrew Carter
 ===============================
 *Seattle, WA USA*
 
-Senior software engineer and architect. Experience developing web services, mobile applications, and relational databases.
+Senior software engineer and architect. Experience in developing web services, mobile applications, and relational databases.
 
 ---
 
 Experience
 ==========
 
-Founder/Owner, Sparse Labs, LLC, Sammamish, WA (2010-Present)
+Principal Developer, Hulu, Seattle, WA (2010-Present)
+-------------------------------------------------------------
+
+Lead engineer and architect for Hulu Seattle R&D office.
+
+* Acting director for Seattle development office (10 engineers)
+* Established Seattle development office
+* Recruiting and hiring for software engineers, program managers, designers, and office staff
+* Architect and lead developer for Automation platform
+* Architect and developer for Hulu Plus on television devices
+* Linux, Mac OS X, Ruby on Rails, Python, Javascript, Objective-C, Java
+
+Founder/Owner, Sparse Labs, LLC, Sammamish, WA (2010)
 -------------------------------------------------------------
 
 Web development firm specializing in Ruby on Rails and mobile development. Projects using *Mac OS X*, *Linux*, *Ruby on Rails*, *Objective-C*, *iOS*, and *Android*.
