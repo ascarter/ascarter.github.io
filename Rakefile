@@ -1,3 +1,5 @@
+require 'rubygems'
+require 'bundler/setup'
 require 'rake'
 require 'fileutils'
 require 'yaml'
