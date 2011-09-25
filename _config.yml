@@ -7,4 +7,5 @@ exclude:
 - Rakefile
 - README.markdown
 - bin
+- public
 - vendor
