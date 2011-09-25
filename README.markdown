@@ -5,6 +5,17 @@ It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) in
 
 See [GitHub Pages](http://pages.github.com) to learn how to publish your own site.
 
+Install
+=======
+
+The site uses bundler.
+
+* Clone repository
+* bundle install --path vendor/bundle
+* bundle install --binstubs
+
+Rake should now use the bundle installed jekyll.
+
 License
 =======
 
