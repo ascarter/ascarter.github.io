@@ -61,8 +61,9 @@ table {
 }
 
 ul {
-	list-style-type: none;
+	list-style-type: disc;
 	margin-bottom: 2em;
+	list-style-position: outside;
 }
 
 ul li {
@@ -243,18 +244,32 @@ pre {
 	margin-left: 1.0em;
 }
 
+.post blockquote {
+	font-size: 0.9em;
+    font-style: italic;
+	padding: 0.5em 1.5em;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+
 .post code {
-	border: 1px solid #ddd;
-	background-color: #eef;
 	font-size: 0.9em;
 	font-family: Menlo, Monaco, Consolas, monospace;
+	font-weight: bold;
 	padding: 0 0;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 }
 
+.post pre.code {
+	border: 1px solid #ddd;
+	background-color: #eef;
+}
+
 .post pre code {
 	border: none;
+	font-weight: normal;
 }
 
 .post pre.terminal {
