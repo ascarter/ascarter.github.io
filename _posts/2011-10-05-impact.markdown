@@ -1,0 +1,47 @@
+---
+layout: post
+title: Impact
+date: '2011-10-05 23:31:32'
+---
+
+Like most of you, I did not know Steve Jobs. I never got to meet him. But this is what he meant to me.
+
+When I was 12 years old, I would go to the public library and spend hours entering programs into the TRS-80 computers. I would make the little turtle draw lines. Enter IF THEN GOTO. Maybe even make it sound a note.
+
+I would buy computer magazines like Byte. I'd read them cover-to-cover and study the programs in them. I didn't have a computer of my own to enter them. Many of the programs were for the Commodore 64. I thought I might be able to get my parents to get a C64 so I was sure to inform them on the values of having a computer in the house.
+
+At my school, we had these fantastic machines called Apple II's. I wanted nothing more than to play with these machines. My imagination was completely captivated.
+
+Christmas of 1984 everything changed. My parents bought the family an Apple IIc. It was an amazing machine - much more sophisticated than the Apple II's at my school. It was supposed to be for the family but it was mostly mine. ProDOS, BASIC, Wizardry, Wasteland, Zork.
+
+My Dad is a football coach. I liked football but I wasn't cut out be a football player. I've always been thankful my Dad was cool with that. I helped him out with the stats. I created a spreadsheet in AppleWorks that rivaled what you see today in the Sunday paper. He had no idea how it worked or what I had done. He'd go to meetings with other coaches and they would ask to buy the software. Who would pay for a spreadsheet?
+
+A friend's dad worked at Washington State University. They had a Macintosh. It was the most fantastic thing I'd ever seen. You could play TaxMan on it. You could make documents that looked exactly like they did when you printed them. It could speak to you.
+
+Every now and then, we would go to Spokane where they had dedicated computer stores. I'd sometimes get a new game. But I mostly got to play with the Macintosh. I'd bring home every pamphlet they had and spend hours studying what the Macintosh was and what it would be like to own one.
+
+When I went to college in the fall of 1989, I got an Apple IIc+. It had a turbo switch and a small 3.5" floppy disks. It was portable (it had a handle).
+
+After my freshman year, Apple introduced the Macintosh Classic. A modern version of the Mac Plus. Since I was a university student, I could get a discount. You could now buy a Mac for under $1000. I wrote papers. I recorded sounds. I got a modem and could dial into the university Solaris machines and do my engineering homework.
+
+At school, there were these amazing black cubes called NeXT. I never got to use them but I wanted one really bad. They were the first computer I'd ever seen that seemed superior than a Macintosh.
+
+In 1992, I did a nine month internship for a local software company called Microsoft. I worked in the Macintosh Excel support group. I would help people do incredible things like creating Japanese-English dictionaries. Sometimes they would even do formulas and numbers. Microsoft generously would give interns a computer when they finished. I asked if I could keep the Macintosh IIsi instead of taking a Wyse PC. They said sure. I now had my own color Macintosh.
+
+In 1994, I graduated with a degree in Electrical Engineering and went to work for a huge consulting company. My first engagement was at McCaw Cellular where we wrote software on an operating system called NeXTStep. It was very different than anything else I'd ever used. I mostly wrote C code in terminal sessions to HP-UX machines. One of the team leads on the project had this amazing handheld computer called a Newton. He'd take notes on it during meetings and used a pen as the input. Looked like it belonged on Star Trek.
+
+I went back to Microsoft after that in 1995. Some random boring guys in suits were running Apple and all the games were now on DOS for PC's. So I bought a NEC computer. It was a piece of junk. Sometimes I could get TIE Fighter to work on it.
+
+Around 1998, I started to get into Linux. It was a lot like the old Solaris and HP-UX machines I used in college and my first job. I really liked it. From Linux, I went to FreeBSD. Then around 2002, I started to look at Mac OS X 10.2 Jaguar. It seemed to be an awesome mix of the stuff I liked in Linux and BSD with the Mac interface I used to love. And it had some of that really cool NeXT stuff mixed in. I bought a PowerMac G4 tower.
+
+I took a game development course in 2003. I'd always wanted to make games. Since the course was through the University of Washington, I could get discounts on Apple gear. So I bought my first laptop - a Powerbook running Panther. Not long after that, I got my first iPod. 20GB I think (it was stolen years later out of my car). All the U2 you could ever want on it.
+
+By 2005, I left Microsoft as I realized my interests clearly didn't align with theirs. Microsoft software and machines began to disappear from my life. I bought my wife her own iMac. Got a G5 tower, then an Intel MacBook Pro. All my jobs since, I've had a MacBook or an iMac. My Powerbook went from an oddity to ultra-mainstream.
+
+Today, I'm surrounded by Apple devices. My lifeline is my iPhone, the most important device I've ever owned. I carry around 100's of tech books on my iPad. My daughter at 6 years old has no idea anything other than Apple exists. She has an iPod Touch and an iPad. She's completely at home in them. She sends emails to Mom and Dad. She records herself singing in GarageBand on her iPad. She's really good at Doodle Jump.
+
+For nearly 30 years, some piece of Apple has been in my life. The Steves (Jobs and Wozniak) were always the good guys, heroes to those of us that wanted to do something more.
+
+I know that Steve Jobs didn't create all these things that impacted me and my family himself. But his leadership, his influence did. And it extends way beyond just these things from Apple. An entire generation of software developers has been inspired by Steve Jobs.
+
+Tonight I am sad. There will be a void that will not be filled for a very long time. But as I write about 30 years of my life, I can't help but enjoy these very happy memories, mileposts in my own life. I'll always equate Steve Jobs with the classic Apple tagline "Think Different". I want to do my part to keep that thought alive.
