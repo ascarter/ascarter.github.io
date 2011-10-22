@@ -15,8 +15,11 @@ body {
 	text-align: center;
 	margin: 0;
 	background-color: #ffffff;
-	font: normal 12px helvetica, arial, clean, sans-serif;
-	*font-size: small;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: small;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
 }
 
 /*--------------------------------------------------------------
@@ -25,14 +28,17 @@ body {
 
 h1 {
 	font-size: 1.4em;
+    font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
 }
 
 h2 {
 	font-size: 1.0em;
+    font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
 }
 
 h3 {
 	font-size: 0.8em;
+    font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
 }                    
 
 p {
@@ -72,8 +78,8 @@ ul li {
 
 ul span {
 	color: #aaa;
-	font-family: Menlo, Monaco, Consolas, monospace;
 	font-size: 0.8em;
+	padding-right: 0.8em;
 }
 
 pre {
@@ -102,6 +108,8 @@ pre {
  --------------------------------------------------------------*/
 
 #header {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 1.4em;
 	padding: 1em 0em 2em 0em;
 	border-bottom: 2px solid #eee;
 }
@@ -173,6 +181,7 @@ pre {
  --------------------------------------------------------------*/
 
 #footer {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 0.9em;
 	color: #666;
 	border-top: 2px solid #eee;
@@ -223,6 +232,7 @@ pre {
 }
 
 .post .title {
+    font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
 	font-size: 1.5em;
 	margin-bottom: 1.4em;
 	font-weight: bold;

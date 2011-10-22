@@ -3,16 +3,16 @@ layout: default
 title: code
 ---
 
-I publish as much as I can on my [GitHub](http://github.com/ascarter/) account. Unless otherwise noted, all my publicly available source code is there (or will be soon).
-
 # Projects
 
-* [Dotfiles][dotfiles] &raquo; Unix shell configuration and other dot files (bash/zsh)
-* [BBEdit for PeepOpen][bbeditpeep] &raquo; Plugin for [BBEdit][bbedit] support for [PeepOpen][peepopen]
-* [BBEdit GitHub Theme][bbeditgithub] &raquo; BBEdit color theme inspired by GitHub
-* [CapistranoBoss][capboss] &raquo; Capistrano extensions for production management
-* [ascarter.net][ascarternet] &raquo; Source for this website
-* [Seattle Xcoders][xcoders] &raquo; Source for the Seattle XCoders site built using Jekyll
+I publish as much as I can on my [GitHub](http://github.com/ascarter/) account. Unless otherwise noted, all my publicly available source code is there (or will be soon).  
+
+* [Dotfiles][dotfiles] &mdash; Unix shell configuration and other dot files (bash/zsh)
+* [BBEdit for PeepOpen][bbeditpeep] &mdash; Plugin for [BBEdit][bbedit] support for [PeepOpen][peepopen]
+* [BBEdit GitHub Theme][bbeditgithub] &mdash; BBEdit color theme inspired by GitHub
+* [CapistranoBoss][capboss] &mdash; Capistrano extensions for production management
+* [ascarter.net][ascarternet] &mdash; Source for this website
+* [Seattle Xcoders][xcoders] &mdash; Source for the Seattle XCoders site built using Jekyll
 
 [dotfiles]: https://github.com/ascarter/dotfiles
 [bbeditpeep]: https://github.com/ascarter/PeepOpen-EditorSupport
