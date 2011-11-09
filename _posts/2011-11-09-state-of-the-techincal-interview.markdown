@@ -63,7 +63,7 @@ It's not all bad. There are good things that can be done and work.
 Multiple Opinions
 -----------------
 
-Most companies get this one right. It is good to have more than one person evaluate candidates. Consensus on hiring is a good thing since this it impacts the team. It is easy to miss traits or flaws. Interviewers project all the time and see themselves in the candidate.
+Most companies get this one right. It is good to have more than one person evaluate candidates. Consensus on hiring is a good thing since it impacts the team. It is easy to miss traits or flaws. Interviewers project all the time and see themselves in the candidate.
 
 Candidate Presentations
 -----------------------
