@@ -24,6 +24,7 @@ Lead engineer and architect for Hulu Seattle R&D office.
 * Recruiting and hiring for software engineers, program managers, designers, and office staff
 * Architect and lead developer for Automation platform
 * Architect and developer for Hulu Plus on television devices
+* Developer on mobile platforms including iOS and Android
 * Linux, Mac OS X, Ruby on Rails, Python, Javascript, Objective-C, Java
 
 Founder/Owner, Sparse Labs, LLC, Sammamish, WA (2010)

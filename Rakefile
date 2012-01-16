@@ -44,7 +44,9 @@ end
 
 desc "Clear generated site."
 task :clean do
+  puts "Clearing generated site"
   rm_rf Dir.glob(File.join(SITE_DIR, '*'))
+  rmdir SITE_DIR
 end
 
 desc "Generate site."
@@ -54,6 +56,7 @@ end
 
 desc "Run local jekyll server"
 task :server, [:port] do |t, args|
+  Rake::Task['clean'].invoke
   sh "jekyll --server #{args.port || 4000} --auto --time \"#{Time.now}\""
 end
 
