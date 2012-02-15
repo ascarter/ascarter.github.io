@@ -3,11 +3,10 @@ layout: default
 title: Archive
 ---
 
-# Posts
-
-<ul class="posts">
-	{% for post in site.posts  %}
-	<li><span>{{ post.date | date: "%b %d %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title | xml_escape }}</a></li>
-	{% endfor %}
-</ul>
-
+<div id="archive">
+    <ul>
+        {% for post in site.posts  %}
+        <li><span class="name"><a href="{{ post.url }}">{{ post.title | xml_escape }}</a></span><span class="date">{{ post.date | date: "%b %d %Y" }}</span></li>
+        {% endfor %}
+    </ul>
+</div>

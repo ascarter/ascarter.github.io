@@ -39,7 +39,7 @@ h2 {
 h3 {
 	font-size: 0.8em;
     font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
-}                    
+}
 
 p {
 	margin: 1em 0;
@@ -112,39 +112,42 @@ pre {
 	font-size: 1.4em;
 	padding: 1em 0em 2em 0em;
 	border-bottom: 2px solid #eee;
+	margin-left: 0.2em;
 }
 
 #header a:link,
 #header a:visited {
 	color: #aaa;
-	margin-left: 0.2em;
 }
 
-#header a.site {
+#header .author {
+	font-size: 0.8em;
+	color: darkgrey;
+	float: left;
+}
+
+#banner {
 	color: #a00;
 	font-weight: bold;
+	font-size: 1.6em;
 }
 
-#header .site {
-	float: left;
-/*	padding-right: 1.5em;*/
-	
-}
-
-#header .summary {
-	font-size: 0.8em;
-	text-align: left;
-	width: 60%;
-	margin: 1em auto 2em 0em;
-	line-height: 1.5em;
-	color: darkgrey;
+#banner a:link, #banner a:visited {
+	color: #a00;
+	font-weight: bold;
 }
 
 /*--------------------------------------------------------------
  Navbar
  --------------------------------------------------------------*/
-#navbar {
+#header nav {
 	float: right;
+	padding-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+#header .menu {
+    margin-right: 0.5em;
 }
 
 
@@ -172,9 +175,9 @@ pre {
 	float: right;
 	text-align: left;
 	width: 180px;
-	padding-left: 15px; 
+	padding-left: 15px;
 	border-left: 1px solid #ddd;
-} 
+}
 
 /*--------------------------------------------------------------
  Footer
@@ -196,29 +199,23 @@ pre {
 	color: #8085C1;
 }
 
-#footer #leftcol {
-	float: left;
-}
-
-#footer #rightcol {
-	float: right;
-}
-
 #footer img {
 	border: 0;
 }
 
 #footer #copyright {
-	clear: left;
+	float: left;
 	font-size: 0.8em;
 	color: #666;
 	text-align: left;
-	margin-top: 2.5em;
-	padding-top: 1.0em;
 }
 
 #footer #copyright a {
 	color: #666;
+}
+
+#footer #links {
+    float: right;
 }
 
 /*--------------------------------------------------------------
@@ -240,7 +237,7 @@ pre {
 
 .post .date {
 	color: #aaa;
-	font-size: 0.8em;	
+	font-size: 0.8em;
 }
 
 .post pre {
@@ -328,7 +325,7 @@ pre {
 
 .video {
     text-align: center;
-    
+
 }
 .video-title {
     font-weight: bold;
@@ -336,4 +333,21 @@ pre {
 
 .video-note {
 	font-style: italic;
+}
+
+#archive .name {
+    font-size: 1.0em;
+}
+
+#archive .date {
+    padding-left: 0.2em;
+	color: #aaa;
+    font-size: 0.8em;
+}
+
+#archive ul {
+    list-style-type: none;
+}
+#archive li {
+    padding-bottom: 1.0em;
 }
