@@ -215,6 +215,10 @@ pre {
 	font-weight: bold;
 }
 
+.post .title p {
+    margin: 0;
+}
+
 .post .date {
 	color: #aaa;
 	font-size: 1.2em;
@@ -274,6 +278,10 @@ pre {
 	color: #aaa;
 }
 
+.post .summary p {
+    margin: 0;
+}
+
 .post .permalink {
     color: #aaa;
 }
@@ -318,6 +326,10 @@ pre {
 	font-style: italic;
 }
 
+#archive p {
+    margin: 0;
+}
+
 #archive .title {
 	color: #00a;
     font-size: 1.2em;
@@ -332,6 +344,6 @@ pre {
     list-style-type: none;
 }
 #archive li {
-    padding-bottom: 1.0em;
+    padding-bottom: 0.8em;
 	color: #aaa;
 }
