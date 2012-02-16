@@ -7,7 +7,6 @@
  *     #navbar
  *   #page
  *     #content
- *     #sidebar
  *   #footer
  */
 
@@ -110,8 +109,6 @@ pre {
 #header {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 1.4em;
-	padding: 1em 0em 2em 0em;
-	border-bottom: 2px solid #eee;
 	margin-left: 0.2em;
 }
 
@@ -123,7 +120,6 @@ pre {
 #header .author {
 	font-size: 0.8em;
 	color: darkgrey;
-	float: left;
 }
 
 #banner {
@@ -141,21 +137,28 @@ pre {
  Navbar
  --------------------------------------------------------------*/
 #header nav {
-	float: right;
-	padding-top: 1em;
-	margin-bottom: 0.5em;
+	background-color: darkgrey;
+    color: white;
+    padding: 0.5em;
 }
 
 #header .menu {
+    color: white;
     margin-right: 0.5em;
 }
 
+#header nav a:link,
+#header nav a:visited {
+    color: white;
+}
 
 /*--------------------------------------------------------------
  Page
  --------------------------------------------------------------*/
 
-#page {}
+#page {
+    background-color: white;
+}
 
 
 /*--------------------------------------------------------------
@@ -163,20 +166,7 @@ pre {
  --------------------------------------------------------------*/
 
 #content {
-	float: left;
-	padding: 2em 1em;
-}
-
-/*--------------------------------------------------------------
- Sidebar
- --------------------------------------------------------------*/
-
-#sidebar {
-	float: right;
-	text-align: left;
-	width: 180px;
-	padding-left: 15px;
-	border-left: 1px solid #ddd;
+	padding: 1em 1em;
 }
 
 /*--------------------------------------------------------------
@@ -186,17 +176,17 @@ pre {
 #footer {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 0.9em;
-	color: #666;
-	border-top: 2px solid #eee;
+	color: darkgrey;
 	overflow: hidden;
 	clear: both;
 	text-align: left;
 	padding: 0.5em 0.5em;
 	margin: 0em;
+	border-top: 2px solid #eee;
 }
 
 #footer a {
-	color: #8085C1;
+	color: darkgrey;
 }
 
 #footer img {
@@ -205,13 +195,13 @@ pre {
 
 #footer #copyright {
 	float: left;
-	font-size: 0.8em;
-	color: #666;
+	font-size: 1.0em;
+	color: darkgrey;
 	text-align: left;
 }
 
 #footer #copyright a {
-	color: #666;
+	color: darkgrey;
 }
 
 #footer #links {
