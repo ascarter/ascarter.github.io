@@ -182,19 +182,13 @@ pre {
 	text-align: left;
 	padding: 0.5em 0.5em;
 	margin: 0em;
-	border-top: 2px solid #eee;
 }
 
 #footer a {
 	color: darkgrey;
 }
 
-#footer img {
-	border: 0;
-}
-
 #footer #copyright {
-	float: left;
 	font-size: 1.0em;
 	color: darkgrey;
 	text-align: left;
@@ -202,10 +196,6 @@ pre {
 
 #footer #copyright a {
 	color: darkgrey;
-}
-
-#footer #links {
-    float: right;
 }
 
 /*--------------------------------------------------------------
@@ -219,15 +209,15 @@ pre {
 }
 
 .post .title {
+	color: #00a;
     font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
 	font-size: 1.5em;
-	margin-bottom: 1.4em;
 	font-weight: bold;
 }
 
 .post .date {
 	color: #aaa;
-	font-size: 0.8em;
+	font-size: 1.2em;
 }
 
 .post pre {
@@ -280,9 +270,12 @@ pre {
 }
 
 .post .summary {
-	font-size: 0.8em;
-	margin-bottom: 2em;
-	padding: 0.1em 0em 2em 0em;
+	font-size: 1.0em;
+	color: #aaa;
+}
+
+.post .permalink {
+    color: #aaa;
 }
 
 .post h1 {
@@ -325,14 +318,14 @@ pre {
 	font-style: italic;
 }
 
-#archive .name {
-    font-size: 1.0em;
+#archive .title {
+	color: #00a;
+    font-size: 1.2em;
 }
 
 #archive .date {
-    padding-left: 0.2em;
 	color: #aaa;
-    font-size: 0.8em;
+    font-size: 1.0em;
 }
 
 #archive ul {
@@ -340,4 +333,5 @@ pre {
 }
 #archive li {
     padding-bottom: 1.0em;
+	color: #aaa;
 }
