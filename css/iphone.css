@@ -9,10 +9,11 @@
 	width: 95%;
 	font-size: 1.6em;
 	line-height: 1.5;
+	padding: 0;
 }
 
 article code {
-	font-size: 1.0em;
+	font-size: 0.8em;
 	font-family: monospace;
 }
 
@@ -28,4 +29,11 @@ article .highlight pre {
 footer {
     font-size: 1.2em;
     line-height: 1.5;
+}
+
+#archive article {
+    line-height: 1.2;
+    padding: 0em;
+    margin: 0;
+    font-size: 0.8em;
 }
