@@ -21,6 +21,7 @@ body {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
+	min-width: 760px;
 }
 
 /*--------------------------------------------------------------
@@ -101,7 +102,7 @@ pre {
 	padding: 1em 2.5em;
 	margin: 2em auto 2em auto;
 	line-height: 1.5em;
-	width: 90%;
+	width: 720px;
     background-color: white;
 }
 
