@@ -109,29 +109,27 @@ pre {
  Header
  --------------------------------------------------------------*/
 
-header {
+#masthead {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-size: 1.4em;
+	font-size: 1.0em;
 	margin-left: 0.2em;
-}
-
-header a:link,
-header a:visited {
 	color: #aaa;
 }
 
-header .author {
-	font-size: 0.8em;
+#masthead a:link,
+#masthead a:visited {
 	color: #aaa;
 }
 
-header #banner {
+#masthead h1 {
 	color: #a00;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-weight: bold;
-	font-size: 1.6em;
+	font-size: 1.8em;
 }
 
-header #banner a:link, #banner a:visited {
+#masthead h1 a:link,
+#masthead h1 a:visited {
 	color: #a00;
 	font-weight: bold;
 }
@@ -143,6 +141,7 @@ nav {
     padding: 0.5em;
 	border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;
+	font-size: 1.2em;
 }
 
 nav a:hover {
@@ -160,14 +159,6 @@ nav .menu {
 
 section {
 	padding: 1em 1em;
-}
-
-/*--------------------------------------------------------------
- Article
- --------------------------------------------------------------*/
-
-article {
-    padding: 1em 1em;
 }
 
 /*--------------------------------------------------------------
@@ -203,48 +194,27 @@ footer #copyright a {
 }
 
 /*--------------------------------------------------------------
- Posts
+ Article
  --------------------------------------------------------------*/
 
-.post {
+article {
 	padding: 1.5em 0em 2.0em 0em;
 	margin-bottom: 2.0em;
 	border-bottom: 1px solid #ddd;
 }
 
-.post .title {
-	color: #00a;
-    font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
-	font-size: 1.5em;
-	font-weight: bold;
-}
-
-.post .title p {
-    margin: 0;
-}
-
-.post .date {
-	color: #aaa;
-	font-size: 1.2em;
-}
-
-.post pre {
+article pre {
 	border: 1px solid #ddd;
 	background-color: #eef;
 	padding: 0 0.4em;
 }
 
-.post ul,
-.post ol {
+article ul,
+article ol {
 	margin-left: 1.0em;
 }
 
-.post summary {
-    line-height: 0.8em;
-    padding-bottom: 0.5em;
-}
-
-.post blockquote {
+article blockquote {
 	font-size: 0.9em;
     font-style: italic;
 	padding: 0.5em 1.5em;
@@ -253,7 +223,7 @@ footer #copyright a {
 }
 
 
-.post code {
+article code {
 	font-size: 0.9em;
 	font-family: Menlo, Monaco, Consolas, monospace;
 	font-weight: bold;
@@ -262,97 +232,74 @@ footer #copyright a {
 	word-wrap: break-word;
 }
 
-.post pre.code {
+article pre.code {
 	border: 1px solid #ddd;
 	background-color: #eef;
 }
 
-.post pre code {
+article pre code {
 	border: none;
 	font-weight: normal;
 }
 
-.post pre.terminal {
+article pre.terminal {
 	border: 1px solid black;
 	background-color: #333;
 	color: white;
 }
 
-.post pre.terminal code {
+article pre.terminal code {
 	background-color: #333;
 }
 
-.post .timestamp {
+article .timestamp {
 	font-size: 1.0em;
 	color: #aaa;
 }
 
-.post .summary p {
-    margin: 0;
-}
-
-.post .permalink {
-    color: #aaa;
-}
-
-.post h1 {
+article h1 {
 	padding-top: 1.0em;
 }
 
-.post h2 {
+article h2 {
 	padding-top: 0.5em;
 }
 
-.post h3 {
+article h3 {
 	padding-top: 0.5em;
 }
 
-.post h4 {
+article h4 {
 	padding-top: 0.5em;
 }
 
-.post h5 {
+article h5 {
 	padding-top: 0.5em;
 }
 
-.related {
-	margin-top: 2em;
-}
-
-.related h2 {
-	margin-bottom: 1em;
-}
-
-.video {
+article .video {
     text-align: center;
 
 }
-.video-title {
+article .video-title {
     font-weight: bold;
 }
 
-.video-note {
+article .video-note {
 	font-style: italic;
 }
 
-#archive p {
+/*--------------------------------------------------------------
+ Archive
+ --------------------------------------------------------------*/
+
+#archive article {
+    border-bottom: none;
+    line-height: 0.5em;
+    padding: 0.5em;
     margin: 0;
 }
 
-#archive .title {
-	color: #00a;
-    font-size: 1.2em;
-}
-
-#archive .timestamp {
-	color: #aaa;
-    font-size: 1.0em;
-}
-
-#archive ul {
-    list-style-type: none;
-}
-#archive li {
-    padding-bottom: 1.2em;
-	color: #aaa;
+#archive {
+    border-bottom: 1px solid #ddd;
 }
