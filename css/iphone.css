@@ -2,33 +2,30 @@
 	width: 960px;
 	margin-left: 8px;
 	margin-right: 8px;
-	font-size: 2.8em;
+	font-size: 3.0em;
 }
 
 #content {
 	width: 95%;
-	font-size: 1.0em;
+	font-size: 1.6em;
+	line-height: 1.5;
 }
 
-.post code {
-	font-size: 1.0em;
-	font-family: monospace;
-}
-
-.highlight pre {
+article code {
 	font-size: 1.0em;
 	font-family: monospace;
 }
 
-#header {
+article .highlight pre {
+	font-size: 1.0em;
+	font-family: monospace;
+}
+
+#masthead {
 	font-size: 1.4em;
 }
 
-#footer {
-    font-size: 1.6em;
-}
-
-
-#footer #copyright {
-	font-size: 1.6em;
+footer {
+    font-size: 1.2em;
+    line-height: 1.5;
 }
