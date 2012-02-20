@@ -2,12 +2,14 @@
  Layout
  --------------------------------------------------------------*/
 /*
- * #container
- *   #header
- *     #navbar
- *   #page
- *     #content
- *   #footer
+ * section #container
+ *   header
+ *     nav
+ *   section #content
+ *     article
+ *       summary
+ *       details
+ *   footer
  */
 
 body {
@@ -100,35 +102,36 @@ pre {
 	margin: 2em auto 2em auto;
 	line-height: 1.5em;
 	width: 90%;
+    background-color: white;
 }
 
 /*--------------------------------------------------------------
  Header
  --------------------------------------------------------------*/
 
-#header {
+header {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 1.4em;
 	margin-left: 0.2em;
 }
 
-#header a:link,
-#header a:visited {
+header a:link,
+header a:visited {
 	color: #aaa;
 }
 
-#header .author {
+header .author {
 	font-size: 0.8em;
-	color: darkgrey;
+	color: #aaa;
 }
 
-#banner {
+header #banner {
 	color: #a00;
 	font-weight: bold;
 	font-size: 1.6em;
 }
 
-#banner a:link, #banner a:visited {
+header #banner a:link, #banner a:visited {
 	color: #a00;
 	font-weight: bold;
 }
@@ -136,44 +139,42 @@ pre {
 /*--------------------------------------------------------------
  Navbar
  --------------------------------------------------------------*/
-#header nav {
-	background-color: darkgrey;
-    color: white;
+nav {
     padding: 0.5em;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 }
 
-#header .menu {
-    color: white;
+nav a:hover {
+    background: #ddd;
+}
+
+nav .menu {
     margin-right: 0.5em;
-}
-
-#header nav a:link,
-#header nav a:visited {
-    color: white;
+    padding: 0.2em;
 }
 
 /*--------------------------------------------------------------
- Page
+ Section
  --------------------------------------------------------------*/
 
-#page {
-    background-color: white;
-}
-
-
-/*--------------------------------------------------------------
- Content
- --------------------------------------------------------------*/
-
-#content {
+section {
 	padding: 1em 1em;
+}
+
+/*--------------------------------------------------------------
+ Article
+ --------------------------------------------------------------*/
+
+article {
+    padding: 1em 1em;
 }
 
 /*--------------------------------------------------------------
  Footer
  --------------------------------------------------------------*/
 
-#footer {
+footer {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 0.9em;
 	color: darkgrey;
@@ -182,20 +183,23 @@ pre {
 	text-align: left;
 	padding: 0.5em 0.5em;
 	margin: 0em;
+	line-height: 0.5em;
 }
 
-#footer a {
-	color: darkgrey;
+footer a,
+footer a:link,
+footer a:visited {
+	color: #aaa;
 }
 
-#footer #copyright {
+footer #copyright {
 	font-size: 1.0em;
-	color: darkgrey;
+	color: #aaa;
 	text-align: left;
 }
 
-#footer #copyright a {
-	color: darkgrey;
+footer #copyright a {
+	color: #aaa;
 }
 
 /*--------------------------------------------------------------
@@ -233,6 +237,11 @@ pre {
 .post ul,
 .post ol {
 	margin-left: 1.0em;
+}
+
+.post summary {
+    line-height: 0.8em;
+    padding-bottom: 0.5em;
 }
 
 .post blockquote {
@@ -273,7 +282,7 @@ pre {
 	background-color: #333;
 }
 
-.post .summary {
+.post .timestamp {
 	font-size: 1.0em;
 	color: #aaa;
 }
@@ -335,7 +344,7 @@ pre {
     font-size: 1.2em;
 }
 
-#archive .date {
+#archive .timestamp {
 	color: #aaa;
     font-size: 1.0em;
 }
@@ -344,6 +353,6 @@ pre {
     list-style-type: none;
 }
 #archive li {
-    padding-bottom: 0.8em;
+    padding-bottom: 1.2em;
 	color: #aaa;
 }

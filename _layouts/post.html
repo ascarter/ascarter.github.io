@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<div id="post" class="post">
-	<p><span class="title">{{ page.title }}</span></p>
-    <p><span class="summary">{{ page.date | date_to_long_string }}</span></p>
-	<span class="content">{{ content }}</span>
-</div>
+<article class="post">
+    <summary>
+        <p><span class="title">{{ page.title }}</span></p>
+        <p><span class="timestamp">{{ page.date | date_to_long_string }}</span></p>
+    </summary>
+    {{ content }}
+</article>

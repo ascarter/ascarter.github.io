@@ -21,18 +21,12 @@
 	</script>
 </head>
 <body>
-<div id="container">
-	<div id="header">
-		{% include header.html %}
-	</div>
-	<div id="page">
-		<div id="content">
-		{{ content }}
-		</div>
-	</div>
-	<div id="footer">
-		{% include footer.html %}
-	</div>
+<section id="container">
+    {% include header.html %}
+    <section id="content">
+        {{ content }}
+    </section>
+    {% include footer.html %}
 </div>
 </body>
 </html>
