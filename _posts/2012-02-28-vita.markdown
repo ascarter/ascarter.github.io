@@ -1,0 +1,99 @@
+---
+layout: post
+title: Vita
+date: '2012-02-28 00:08:58'
+---
+
+Over the weekend, I picked up the new [PlayStation Vita][vita] handheld game console. The Vita has certainly met with much skepticism and has not been considered a major success in Japan. But I think Sony may really have something here.
+
+![Vita 1][vita1]
+
+I've played video games for as long as I can remember. Games were what initially attracted me to programming. I've had many of the major consoles over the years. These days, most of my gaming is on the [PlayStation 3][ps3]. For portables, I've had the [PSP 2000][psp2000] and the [PSP Go][pspgo]. I enjoyed both PSP models but admit that I didn't play them for long periods of time. The lack of the second analog stick made many games not play well.
+
+Before the iPhone, the PSP was my portable movie device. I never used the other media capabilities that much (the iPod was already around when the PSP first came out). It was the first device I owned that started to transform how I would watch video. In many ways, it paved the way for what we take for granted now in smartphones and tablets.
+
+With gaming becoming so big on the iPhone, I think many have written off the dedicated gaming device. As much as I love the iPhone, I guess I'm the anomaly. I hate gaming on my iPhone. Angry Birds was fun for a few minutes but both the lack of depth in games coupled with difficult touch controls never matched how I wanted to play games.
+
+When the platform was announced last summer, I was intrigued. It looked like some very impressive hardware and the screen shots of [Uncharted: Golden Abyss][uncharted] were gorgeous. I read about the [disappointing launch in Japan][gdc_sales]. However, I also started to read more and more first looks that talked about how impressive it was once it was in your hands.
+
+So I traded in my PSP Go and decided to take a chance on it.
+
+# Hardware
+
+I think it is no exaggeration to say this is the most impressive gaming hardware ever made. What Sony has put in this package is incredible. Nothing like this has ever existed in portable form. The form factor is very comfortable to hold and play. The screen is beautiful. There is more than enough power to play graphically intense games.
+
+The Vita has touchscreens on both the front and back. Both are very good. The front touchscreen is on par with mobile phones. I think the iPhone's is superior but Vita's is perfectly usable. The front touchscreen is used for interacting with the system software. Most games seem to use it wisely.
+
+The rear touchscreen is innovative. [FIFA] for example uses it as a way to place your shot. In FIFA, you control the player with the analog stick and hit the circle button to shoot. Once the shot is made, you can direct it with the same analog stick as you use to control movement. Good players can handle this. Bad players like myself shoot right over the crossbar. The rear touchscreen allows you to take the shot by putting your fingers behind the screen in the location you want to shoot. That's a very clever use of the control. I haven't mastered it but I think it could work very well. I'm intrigued with the idea of a future DualShock with a rear touchscreen as well.
+
+The Vita uses a lot of proprietary hardware. They have followed the unfortunate trend started in the PSP Go and have their own dock connector. Blame Apple. So you get to carry around yet another non-standard USB cable. I hate that on the iPhone and hate it here on the PS Vita.
+
+The other more significant disappointment is the memory card situation. First of all, you must have a card. The device has no built-in memory (unlike the PSP Go which has 16 GB). Memory cards are of course proprietary. So forget using a standard MicroSD card. The cards come in 4, 8, 16, or 32 GB.
+
+I bought a 32 GB card because I plan to buy games digitally. It adds $100 to the price but 32 GB should hold 8-16 games.
+
+The battery life is good but not great. It's got more than enough to make it through a long plane flight but not much more. It should be able to be charged from your computer but I haven had little luck charging it from anything other than the AC adapter.
+
+# Operating System
+
+The PS Vita has abandoned the XMB interface and instead has a style clearly inspired by mobile phones. It's better than Android but not as intuitive as iOS. There are definitely times where it feels clunky.
+
+Apps are "bubbles" that can sit on vertical screens. Swiping right shows up to 6 active apps. Each app has a "live area" which has a few options and an option to launch the app. The PS button will bring up a blade style interface that seems totally out of place. The interface is entirely touch. I would prefer to use the D-Pad or the analog sticks.
+
+The included apps (Near, Chat) I could care less about. Sony couldn't help themselves and have included some stuff that you would use your mobile phone for not your game handheld. I guess that's not a surprise. But they are useless apps.
+
+I think the main operating system is the weakest element of the Vita. Fortunately, Sony has a history of refining the UI. The PS3 interface has evolved over time and I hope that Vita's OS will get better in subsequent releases.
+
+# Games
+
+By most accounts, Vita has a very strong lineup of launch titles. I've been spending most of my time on [Uncharted], [FIFA], [Unit 13][unit13], and [Lumines]. In fact, the demos are complete enough I still haven't bought a full title yet. I'm playing through demos to pick which ones I want to buy.
+
+Games can be bought on memory cards or digitally (usually for about $5 less than physical). Game prices are high - nearly the cost of full PS3 console games (up to $45). I think Sony should have gone all digital and driven the prices down to $30 for the top end. I plan to buy titles digitally since I have no desire to manage cards. You can easily re-download games you bought on the PSN so I think a large memory card will work just fine.
+
+All the games I've tried have been very well done. FIFA is my favorite since I'm a longtime player. It was my favorite game on the previous PSP's as well. The new control interfaces fit the game well. It is the perfect example of a game that in my opinion doesn't work on the iPhone. There is simply no substitute for the analog sticks in a game like this. The large format screen also is much better to see all the action.
+
+Uncharted looks fantastic. It retains much of the appeal of the full PS3 versions. Unit 13 looks like it will be the launch shooter title. It's ok but doesn't seem to bring much new. Lumines is addictive. Rayman looks fun too.
+
+Some PSP titles are supported. The only previous title I own that works is Tomb Raider: Legend. There are some graphical enhancements when running a PSP title that are on par with running PS2 games on a PS3. One very nice feature is that you can remap the right analog stick to the D-Pad or the left stick. This could potentially make some older PSP titles much more fun to play.
+
+My biggest concern is that after the launch titles, there aren't any clear blockbusters on the horizon. No Gran Turismo, Fallout, or Elder Scrolls. I honestly think this hardware is up to the task. Hopefully someone like BioWare, Bungie, or Blizzard decides to bring titles out on the PS Vita. Diablo on this thing would be incredible.
+
+# Apps
+
+The Vita supports general applications as well. I didn't spend too much time with them. The [Netflix] app is on par with their other mobile apps. The app is very slow but the streaming quality is very good. I'd love to look at building software for the Vita. I think the most appropriate apps for it will be media centric. The Vita is not a phone. Apps should have much more depth and take advantage of the large screen.
+
+# Conclusion
+
+I believe there is a place for dedicated gaming hardware in the iPhone era. Sony is targeting gamers very clearly with this device. I think comparing the Vita to the [Kindle] is a good exercise. The Kindle is a specific purpose device. It is all about reading. Similarly, the PS Vita is gaming. I think if expectations are adjusted to understand this, Sony can have a solid hit.
+
+![Vita 2][vita2]
+
+Sony didn't play it safe. It's great to see someone other than Apple listen to their users and deliver the product they want. If you are a PS3 gamer, the Vita is a lock. You will love it.
+
+## What's to Love
+
+* Phenomenal hardware
+* Great feel and controls
+* Launch titles that are worth playing
+
+## And the Bad
+
+* Mediocre battery life
+* Expensive proprietary memory cards
+* System software could use some improvements
+* Lots of missing support for legacy PSP titles
+
+
+[vita]: http://us.playstation.com/psvita/
+[vita1]: http://farm8.staticflickr.com/7194/6788117814_64c674e224_z.jpg
+[vita2]: http://farm8.staticflickr.com/7199/6788118038_71f90a6afb_z.jpg
+[ps3]: http://en.wikipedia.org/wiki/PlayStation_3
+[psp2000]: http://en.wikipedia.org/wiki/PlayStation_Portable#PSP-2000
+[pspgo]: http://en.wikipedia.org/wiki/PSP_Go
+[uncharted]: http://us.playstation.com/psvita/games-and-media/psv-uncharted-golden-abyss.html
+[lumines]: http://us.playstation.com/psvita/games-and-media/psv-lumines-electronic-symphony.html
+[fifa]: http://us.playstation.com/psvita/games-and-media/psv-ea-sports-fifa-soccer.html
+[unit13]: http://us.playstation.com/psvita/games-and-media/psv-unit-13.html
+[gdc_sales]: http://www.gamasutra.com/view/news/39281/Media_Create_Disappointed_With_Japanese_PS_Vita_Opening_Week_Sales.php
+[netflix]: http://netflix.com
+[kindle]: http://amazon.com/kindle
