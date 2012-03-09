@@ -4,8 +4,10 @@ layout: default
 
 <article id="{{ page.id }}">
     <header>
-        <h1>{{ page.title }}</h1>
+        <h1><span class="title">{{ page.title }}</span></h1>
         <p><span class="dateline">{{ page.date | date_to_long_string }}</span></p>
     </header>
+    <div class="articlebody">
     {{ content }}
+    </div>
 </article>
