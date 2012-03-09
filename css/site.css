@@ -3,7 +3,7 @@
  --------------------------------------------------------------*/
 /*
  * section #container
- *   header
+ *   section #masthead
  *     nav
  *   section #content
  *     article
@@ -16,8 +16,8 @@ body {
 	text-align: center;
 	margin: 0em;
 	background-color: #ffffff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+    font-family: Athelas, Palatino, Georgia, serif;
+	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
@@ -30,20 +30,14 @@ body {
 
 h1 {
 	font-size: 1.55em;
-    font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Calibri, serif;
-    font-weight: normal;
 }
 
 h2 {
 	font-size: 1.1em;
-    font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Calibri, serif;
-    font-weight: normal;
 }
 
 h3 {
 	font-size: 0.91em;
-    font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Calibri, serif;
-    font-weight: normal;
 }
 
 a {
@@ -110,7 +104,6 @@ pre {
  --------------------------------------------------------------*/
 
 #masthead {
-    font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Calibri, serif;
 	font-size: 1.0em;
 	margin-left: 0.2em;
 	color: #aaa;
@@ -192,7 +185,7 @@ footer #copyright a {
  --------------------------------------------------------------*/
 
 article {
-    padding: 2.0em 0.0em 1.0em 0.0em;
+    padding: 1.0em 0.0em 1.0em 0.0em;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -214,7 +207,6 @@ article blockquote {
 	white-space: pre-wrap;
 	word-wrap: break-word;
 }
-
 
 article code {
 	font-size: 0.91em;
@@ -264,11 +256,6 @@ article h5 {
 	padding-top: 0.5em;
 }
 
-article .dateline {
-	font-size: 1.0em;
-	color: #aaa;
-}
-
 article .video {
     text-align: center;
 
@@ -282,6 +269,21 @@ article .video-note {
 }
 
 /*--------------------------------------------------------------
+ Article
+ --------------------------------------------------------------*/
+
+header {
+    margin-top: 1em;
+    padding: 1em 0em 1em 0em;
+}
+
+header .dateline {
+	font-size: 1.0em;
+	color: #aaa;
+}
+
+
+/*--------------------------------------------------------------
  Archive
  --------------------------------------------------------------*/
 
@@ -290,11 +292,11 @@ article .video-note {
 }
 
 #archive article {
-    padding: 1.0em 1.0em 1.0em 1.0em;
+    padding: 1.0em 0.0em 1.0em 0.0em;
     border-bottom: none;
 }
 
-#archive article h1 {
+#archive header h1 {
     margin: 0;
     padding: 0.0em;
 }

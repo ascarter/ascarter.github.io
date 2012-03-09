@@ -2,12 +2,10 @@
 layout: default
 ---
 
+<header>
+    <h1 class="article_title">{{ page.title }}</h1>
+    <h2 class="dateline">{{ page.date | date_to_long_string }}</h2>
+</header>
 <article id="{{ page.id }}">
-    <header>
-        <h1><span class="article_title">{{ page.title }}</span></h1>
-        <p><span class="dateline">{{ page.date | date_to_long_string }}</span></p>
-    </header>
-    <div class="article_body">
     {{ content }}
-    </div>
 </article>
