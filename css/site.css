@@ -17,7 +17,7 @@ body {
 	margin: 0em;
 	background-color: #ffffff;
     font-family: Athelas, Palatino, Georgia, serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
@@ -148,7 +148,7 @@ nav .menu {
  --------------------------------------------------------------*/
 
 section {
-	padding: 1em 0em 1em 0em;
+	padding: 0em 0em 0em 0em;
 }
 
 /*--------------------------------------------------------------
@@ -269,17 +269,26 @@ article .video-note {
 }
 
 /*--------------------------------------------------------------
- Article
+ Header
  --------------------------------------------------------------*/
 
 header {
-    margin-top: 1em;
     padding: 1em 0em 1em 0em;
+/*
+    padding: 1em 0em 1em 0em;
+ */
 }
 
 header .dateline {
 	font-size: 1.0em;
 	color: #aaa;
+	padding: 0em;
+	margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1em 0 0.5em 0;
 }
 
 /*--------------------------------------------------------------
@@ -288,16 +297,17 @@ header .dateline {
 
 #archive {
     border-bottom: 1px solid #ddd;
+    padding-top: 1.0em;
 }
 
 #archive article {
-    padding: 1.0em 0.0em 1.0em 0.0em;
+    padding: 0 0 1em 0;
+    margin: 0;
     border-bottom: none;
 }
 
-#archive header h1 {
-    margin: 0;
-    padding: 0.0em;
+#archive header {
+    padding: 0;
 }
 
 #archive article p {

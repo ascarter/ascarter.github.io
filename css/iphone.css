@@ -37,6 +37,7 @@ article .highlight pre {
 	font-family: monospace;
 }
 
+/*
 header {
     margin-top: 0.5em;
     padding: 1em 0em 1em 0em;
@@ -46,6 +47,7 @@ header h1,
 header h2 {
     margin: 0;
 }
+ */
 
 #masthead {
 	font-size: 1.4em;
@@ -56,10 +58,11 @@ footer {
     line-height: 1.5;
 }
 
+#archive {
+    padding: 0;
+}
+
 #archive article {
-    line-height: 1.2;
-    padding: 1.0em 0.0em 1.0em 0.0em;
-    margin: 0.2em;
-    font-size: 0.8em;
+    padding: 0;
 }
 
