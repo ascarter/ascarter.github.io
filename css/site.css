@@ -14,10 +14,10 @@
 
 body {
 	text-align: center;
-	margin: 0;
+	margin: 0em;
 	background-color: #ffffff;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-size: small;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
@@ -29,22 +29,21 @@ body {
  --------------------------------------------------------------*/
 
 h1 {
-	font-size: 1.4em;
-    font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
+	font-size: 1.55em;
+    font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Calibri, serif;
+    font-weight: normal;
 }
 
 h2 {
-	font-size: 1.0em;
-    font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
+	font-size: 1.1em;
+    font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Calibri, serif;
+    font-weight: normal;
 }
 
 h3 {
-	font-size: 0.8em;
-    font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
-}
-
-p {
-	margin: 1em 0;
+	font-size: 0.91em;
+    font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Calibri, serif;
+    font-weight: normal;
 }
 
 a {
@@ -97,7 +96,7 @@ pre {
  --------------------------------------------------------------*/
 
 #container {
-	font-size: 1.1em;
+	font-size: 1.0em;
 	text-align: left;
 	padding: 1em 2.5em;
 	margin: 2em auto 2em auto;
@@ -111,7 +110,7 @@ pre {
  --------------------------------------------------------------*/
 
 #masthead {
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Calibri, serif;
 	font-size: 1.0em;
 	margin-left: 0.2em;
 	color: #aaa;
@@ -124,15 +123,12 @@ pre {
 
 #masthead h1 {
 	color: #a00;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-weight: bold;
-	font-size: 1.8em;
+	font-size: 2.0em;
 }
 
 #masthead h1 a:link,
 #masthead h1 a:visited {
 	color: #a00;
-	font-weight: bold;
 }
 
 /*--------------------------------------------------------------
@@ -142,7 +138,7 @@ nav {
     padding: 0.5em;
 	border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;
-	font-size: 1.2em;
+	font-size: 1.55em;
 }
 
 nav a:hover {
@@ -151,7 +147,7 @@ nav a:hover {
 
 nav .menu {
     margin-right: 0.5em;
-    padding: 0.2em;
+    padding: 0.5em;
 }
 
 /*--------------------------------------------------------------
@@ -159,7 +155,7 @@ nav .menu {
  --------------------------------------------------------------*/
 
 section {
-	padding: 1em 1em;
+	padding: 1em 0em 1em 0em;
 }
 
 /*--------------------------------------------------------------
@@ -167,14 +163,12 @@ section {
  --------------------------------------------------------------*/
 
 footer {
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-size: 0.9em;
+	font-size: 0.91em;
 	color: darkgrey;
 	overflow: hidden;
 	clear: both;
 	text-align: left;
-	padding: 0.5em 0.5em;
-	margin: 0em;
+	padding: 1em 0em 1em 0em;
 	line-height: 0.5em;
 }
 
@@ -185,7 +179,6 @@ footer a:visited {
 }
 
 footer #copyright {
-	font-size: 1.0em;
 	color: #aaa;
 	text-align: left;
 }
@@ -199,7 +192,7 @@ footer #copyright a {
  --------------------------------------------------------------*/
 
 article {
-	margin-bottom: 1.0em;
+    padding: 2.0em 0.0em 1.0em 0.0em;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -215,7 +208,7 @@ article ol {
 }
 
 article blockquote {
-	font-size: 0.9em;
+	font-size: 0.91em;
     font-style: italic;
 	padding: 0.5em 1.5em;
 	white-space: pre-wrap;
@@ -224,9 +217,8 @@ article blockquote {
 
 
 article code {
-	font-size: 0.9em;
+	font-size: 0.91em;
 	font-family: Menlo, Monaco, Consolas, monospace;
-	font-weight: bold;
 	padding: 0 0;
 	white-space: pre-wrap;
 	word-wrap: break-word;
@@ -252,13 +244,8 @@ article pre.terminal code {
 	background-color: #333;
 }
 
-article .timestamp {
-	font-size: 1.0em;
-	color: #aaa;
-}
-
 article h1 {
-	padding-top: 1.0em;
+    padding-top: 1.0em;
 }
 
 article h2 {
@@ -277,6 +264,11 @@ article h5 {
 	padding-top: 0.5em;
 }
 
+article .dateline {
+	font-size: 1.0em;
+	color: #aaa;
+}
+
 article .video {
     text-align: center;
 
@@ -293,13 +285,21 @@ article .video-note {
  Archive
  --------------------------------------------------------------*/
 
-#archive article {
-    border-bottom: none;
-    line-height: 0.5em;
-    padding: 0.5em;
-    margin: 0;
-}
-
 #archive {
     border-bottom: 1px solid #ddd;
+}
+
+#archive article {
+    padding: 1.0em 1.0em 1.0em 1.0em;
+    border-bottom: none;
+}
+
+#archive article h1 {
+    margin: 0;
+    padding: 0.0em;
+}
+
+#archive article p {
+    padding: 0em;
+    margin: 0em;
 }
