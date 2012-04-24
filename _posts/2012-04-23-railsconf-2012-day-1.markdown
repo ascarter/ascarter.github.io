@@ -31,6 +31,6 @@ Overall, it was a good day. None of the talks were really eye opening but all we
 [8]: http://markbates.com
 [9]: http://coffeescript.org
 [10]: https://twitter.com/andymaleh
-[11]: http://johnbender.me
+[11]: http://johnbender.us
 [12]: http://jquerymobile.com
 [13]: http://twitter.com/richhickey
