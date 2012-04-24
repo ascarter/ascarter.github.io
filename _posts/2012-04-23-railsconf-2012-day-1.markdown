@@ -1,0 +1,36 @@
+---
+layout: post
+title: RailsConf 2012 Day 1
+date: '2012-04-23 23:20:25'
+---
+
+I'm in Austin, TX for [RailsConf 2012][1]. This is always one of my favorite conferences. This year has a different tone. [O'Reilly][2] is gone. [RubyCentral][3] is running the show on their own. The tracks seem to be consistent with past conferences but it certainly lacks the polish of the O'Reilly events. My company [Hulu][4] has a much larger presence than in the past. We are a sponsor and have a lot more people here at the conference. So I'm splitting some time working at our booth and attending sessions.
+
+The morning opened with [David Heinemeier Hansson's][3] keynote. He talked about progress both for us as programmers and the Rails community. I liked much of what he had to say. He stated that it's ok to disrupt and to not get too comfortable. He also emphasized that new programmers to the platform really need to learn even if it is hard or you make mistakes. I'd agree strongly with that. I'm not a fan of creating artificially easy on-ramps. I want to see Rails include anyone that wants to join but at the same time I expect that developers learn the right set of skills. Some of the talk was a bit preachy. But the sentiment of not settling and accepting change are good advice.
+
+The next talk I went to was [Sarah Mei's][5] presentation on [Backbone.js][6]. It was a very well done talk. Sarah is an excellent presenter striking a good balance between content and moving the audience through the topic. Sara gave a quick tour of what Backbone.js is about. She did a nice job of relating it to the Rails structure. She did such a good job I was starting to think maybe I should look at this framework much closer as a solution for my own projects. But then at the very end, she sort of torpedoed the entire talk saying that she probably wouldn't use it anymore. I appreciate the honesty but it was kind of a surprise given the strong case she made the previous 45 minutes.
+
+I then went to [Mark Bates's][7] talk on [Coffee Script][8]. I'm already a believer so this was not really new. It certainly reinforced how great Coffee Script is and I think Mark convinced at least one of my teammates to consider it seriously.
+
+I hit the first major speed bump at [Andy Maleh's][9] talk on Rails engines. He
+did little to convince me to look at Rails engines. His solutions using engines sounded more like hacks to me. I didn't see a clear path to code reuse. It felt like trading one complexity for another.
+
+I went to [John Bender's][11] talk on Progressive Enhancement for Mobile Web. John is active with [JQuery Mobile][12]. He talked a lot about the state of targeting mobile browsers and had some very particular scorn for Android (as he said the "new IE"). One thing I wish he would have talked about more is progressive design. He talked almost exclusively about segregating mobile from desktop browsers. I think it is time to be thinking mobile first with progressive scaling up. It's disappointing to see separating a mobile site from the main site.
+
+Finally, the closing keynote for the day was by [Rich Hickey][13]. Rich talked about simplifying but not from the programmer's perspective. He had a lot of great points - we often design software to make our lives as programmers easy but not necessarily the user. The tone of his talk though came off a little sanctimonious. I would have liked a little more acknowledgement of the pragmatism that often leads to the decisions we make.
+
+Overall, it was a good day. None of the talks were really eye opening but all were insightful and useful. I'm looking forward to more great presentations tomorrow. I'm also going to present myself for the first time at RailsConf. I'll be presenting on our work with XMPP, Ruby, and JavaScript.
+
+[1]: http://railsconf2012.com
+[2]: http://oreilly.com
+[3]: http://rubycentral.com
+[4]: http://hulu.com
+[5]: http://twitter.com/dhh
+[6]: http://www.sarahmei.com
+[7]: http://backbonejs.org
+[8]: http://markbates.com
+[9]: http://coffeescript.org
+[10]: https://twitter.com/andymaleh
+[11]: http://johnbender.me
+[12]: http://jquerymobile.com
+[13]: http://twitter.com/richhickey
