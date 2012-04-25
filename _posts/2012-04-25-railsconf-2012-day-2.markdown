@@ -1,0 +1,25 @@
+---
+layout: post
+title: RailsConf 2012 Day 2
+date: '2012-04-25 01:05:47'
+---
+
+The second day of RailsConf 2012 was another packed day. A couple of the sessions were great and what I wanted to hear about. I also survived my first presentation at RailsConf.
+
+[Aaron Patterson][1] presented the keynote in the morning. He didn't try to compete with his [over-the-top presentation][2] from last year. Aaron was downright subdued compared to his previous talks. He seemed to be encouraging a bit of a back to basics appeal. He talked about normalizing things like the queue interface in Rails among other topics.
+
+The first talk I went to was by [Mike Moore][3] on presenters and decorators. Mike gave a very good talk. It was in the spirit of how he does it. The lessons were great. He did an excellent job breaking down the decorator, presenter, and mediator patterns. It was great timing for me as I've been looking at these very things for a project I'm doing now.
+
+Next was [Ilya Grigorik][4] on making the web faster. This was a good overall talk on leveraging a number of tools and techniques. Since Ilya is a Google engineer, he was heavily biased to the Google tool kit. However, his advice was valid despite what toolkit you might use. A key take-away was focusing on perceived load time for the user over most other performance metrics. It's a really good point - the user's experience trumps most anything else.
+
+After lunch, I attended [Will Leinweber's][5] talk on schemaless SQL in Postgres. There are some pretty amazing things coming to PostgreSQL. The new key value hstore is very intriguing. They are also integrating V8 into the programming space of Postgres. This opens up some new scenarios that compete directly with solutions like MongoDB. It's early for much of this but it's a very forward looking approach for Postgres to be taking.
+
+My colleague Steve Jang and I presented a short tour of our automation project for Hulu devices called Bender. We use XMPP, Ruby, and JavaScript to create a communication framework for controlling devices and running scripts. I think the talk went well. We weren't sure if the material would be useful to people or not. We got some great questions and I'm glad we did the talk.
+
+Tomorrow the conference wraps up. It's been great talking Rails with so many people. It's definitely a different conference than in the past but it is encouraging to see some different people leading the way.
+
+[1]: http://tenderlovemaking.com/
+[2]: http://en.oreilly.com/rails2011/public/schedule/detail/19058
+[3]: http://blowmage.com/
+[4]: http://www.igvita.com/
+[5]: http://twitter.com/leinweber
