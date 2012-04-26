@@ -17,6 +17,6 @@ Overall, it was another great RailsConf. As a developer that switches among mult
 [3]: http://twitter.com/qrush
 [4]: http://speakerdeck.com/u/qrush/p/basecamp-next-code-spelunking
 [5]: http://github.com/37signals/bcx-api
-[6]: http://github.com/rails/strong-parameters
+[6]: http://github.com/rails/strong_parameters
 [7]: http://bit.ly/railsconf-2012-redningja
 [8]: http://github.com/seattlerb/minitest
