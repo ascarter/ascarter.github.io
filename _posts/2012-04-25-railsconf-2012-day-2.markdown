@@ -18,8 +18,13 @@ My colleague Steve Jang and I presented a short tour of our automation project f
 
 Tomorrow the conference wraps up. It's been great talking Rails with so many people. It's definitely a different conference than in the past but it is encouraging to see some different people leading the way.
 
+----
+
+- ***Updated 04.26.2012*** -- My slides from our talk: [Building Asynchronous Communication Layer][6]
+
 [1]: http://tenderlovemaking.com/
 [2]: http://en.oreilly.com/rails2011/public/schedule/detail/19058
 [3]: http://blowmage.com/
 [4]: http://www.igvita.com/
 [5]: http://twitter.com/leinweber
+[6]: http://speakerdeck.com/u/ascarter/p/building-asynchronous-communication-layer

@@ -1,0 +1,22 @@
+---
+layout: post
+title: RailsConf 2012 Day 3
+date: '2012-04-26 00:24:19'
+---
+
+Today was the final day of RailsConf. The last day offered a couple great talks. [Yehuda Katz][1] talked about [The Next Five Years][2] for Rails. Honestly, Yehuda's talk should have been the day 3 keynote. It was probably the most honest and informative talk of the entire conference. Yehuda did a great job calling out what it is about Rails that attracted all of us to the platform in the first place. I agree with him that the next big thing should be making Rails just as good for JSON API services as it is for HTML. It's a mixed world more than ever. Building web services whose clients are primarily mobile devices only is increasing.
+
+[Nick Quaranto][3] had a great tour of [Basecamp Next: Code Spelunking][4]. It was actually nice to see that 37signals has some of the same kinds of tradeoffs in their software as everyone else. One of the big takeaways is to always be pragmatic about things like changing data stores. There were numerous things I want to investigate including all the cool JavaScript console tricks, using GitHub for API documentation (see [37signals BCX API][5]), and the [strong parameters][6] gem.
+
+[Jared Ning][7] had a nice overview of [minitest][8]. If you hadn't seen it before, it was a good tour of what minitest is about and how it draws from both Test::Unit and RSpec. I'm already in the minitest camp so there wasn't a lot new for me. I liked the explanation Jared used to talk about mocking and stubbing. I agree with his advice - use mocks and stubs sparingly and only after you test against the real thing.
+
+Overall, it was another great RailsConf. As a developer that switches among multiple platforms and languages, it's always great to dive into nothing but my favorite language Ruby for a few days. Rails feels to me like it is continuing to mature. It's moving a little slower now but that's ok. There is still lots opinions among the faithful and that's healthy. As always, I look forward to apply what I've learned to our own projects.
+
+[1]: http://yehudakatz.com/
+[2]: http://dl.dropbox.com/u/2285145/The%20Next%20Five%20Years.pdf
+[3]: http://twitter.com/qrush
+[4]: http://speakerdeck.com/u/qrush/p/basecamp-next-code-spelunking
+[5]: http://github.com/37signals/bcx-api
+[6]: http://github.com/rails/strong-parameters
+[7]: http://bit.ly/railsconf-2012-redningja
+[8]: http://github.com/seattlerb/minitest
