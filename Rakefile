@@ -39,7 +39,7 @@ end
 
 def edit_post(post)
   editor = ENV['VISUAL'] || ENV['EDITOR']
-  system "#{editor} #{post}"  
+  system "#{editor} #{post}"
 end
 
 desc "Clear generated site."
@@ -51,13 +51,13 @@ end
 
 desc "Generate site."
 task :build do
-  sh "jekyll --time \"#{Time.now}\""
+  sh "jekyll build"
 end
 
 desc "Run local jekyll server"
 task :server, [:port] do |t, args|
   Rake::Task['clean'].invoke
-  sh "jekyll --server #{args.port || 4000} --auto --time \"#{Time.now}\""
+  sh "jekyll serve --watch --port #{args.port || 4000}"
 end
 
 desc "Publish site."
@@ -74,12 +74,12 @@ task :draft, [:title] do |t, args|
   if drafts.length() > 0
     draft_id = File.basename(drafts.sort()[-1]).gsub(/draft-/, '').gsub('.markdown', '').to_i() + 1
   end
-  
+
   # Create a new file with a basic template
-  postname = "draft-#{draft_id}"  
+  postname = "draft-#{draft_id}"
   FileUtils.mkdir_p DRAFTS_DIR unless File.exist?(DRAFTS_DIR)
   post = File.join(DRAFTS_DIR, "#{postname}.markdown")
-  
+
   # Set the post title if not provided
   if args.title.nil?
     default_title = "Draft Post #{draft_id}"
@@ -100,7 +100,7 @@ New draft post
 
 END
 
-  File.open(post, 'w') {|f| f << header }  
+  File.open(post, 'w') {|f| f << header }
   edit_post(post)
 
   puts "Created draft post #{postname}"
@@ -116,7 +116,7 @@ task :post, [:name] do |t, args|
   else
     # Get list of drafts and prompt user to pick
     drafts = Dir.glob(File.join(DRAFTS_DIR, '*'))
-    
+
     if drafts.count > 1
       menu = []
       puts "Select draft to post:"
@@ -126,7 +126,7 @@ task :post, [:name] do |t, args|
         menu << "#{count}. #{header['title']} [#{File.basename(draft)}]"
         count += 1
       end
-      
+
       begin
         menu.each { |m| puts m }
         print "Which post? (1-#{drafts.length()} or q) "
@@ -146,12 +146,12 @@ task :post, [:name] do |t, args|
       exit(-1)
     end
   end
-  
+
   unless File.exist?(draft_path)
     puts "Draft file #{draft_path} is missing"
     exit(-1)
   end
-  
+
   # Generate timestamp
   published_timestamp = Time.now
   date_prefix = published_timestamp.strftime("%Y-%m-%d")
@@ -162,10 +162,10 @@ task :post, [:name] do |t, args|
   header["date"] = published_timestamp.strftime("%Y-%m-%d %H:%M:%S") unless header.include?("date")
   post_path = File.join(POSTS_DIR, "#{date_prefix}-#{name}.markdown")
   write_post(header, body, post_path)
-  
+
   # Clear draft
   File.delete(draft_path)
- 
+
   puts "Posted: #{File.basename(post_path)}"
 end
 
