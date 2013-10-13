@@ -5,6 +5,6 @@ title: bio
 
 <span id="about-portrait"><img src="images/about-portrait.jpg" alt="Portrait of Andrew Carter" /></span>
 
-Andrew Carter is a software engineer with 18 years of professional experience. He spent ten years at Microsoft on SQL Server, bCentral, and Xbox Live teams. Andrew has worked for several Seattle area software companies including Source Labs, Pure Networks, Jobster, and Getty Images. Currently, he is a Principal Software Developer at [Hulu][1] in the Seattle office.
+Andrew Carter is a software engineer with more than 20 years of professional experience. He spent ten years at Microsoft on SQL Server, bCentral, and Xbox Live teams. Andrew has worked for several software companies including Hulu, Getty Images, Jobster, Pure Networks , and Source Labs. Currently, he is a senior engineer at [Amazon Web Services][aws] in Seattle.
 
-[1]: http://hulu.com
+[aws]: http://aws.amazon.com
