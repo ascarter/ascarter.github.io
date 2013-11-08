@@ -10,17 +10,6 @@ SITE_DIR = File.join(ROOT_DIR, '_site')
 DRAFTS_DIR = File.join(ROOT_DIR, '_drafts')
 POSTS_DIR = File.join(ROOT_DIR, '_posts')
 
-PUBLISH_HOST = "berlin.joyent.us"
-PUBLISH_PATH = "/users/home/andrewc/web/public"
-
-def categories(tags)
-  categories = "categories:\n"
-  if tags
-    tags.split(%r{[\/\s]}).each { |t| categories << "- #{t.strip}\n" }
-  end
-  categories
-end
-
 def parse_post(post)
   raise Exception.new("Invalid post file format") unless post[0] = "---"
   eoh = post[1, post.length].index("---\n") + 1
@@ -57,13 +46,7 @@ end
 desc "Run local jekyll server"
 task :server, [:port] do |t, args|
   Rake::Task['clean'].invoke
-  sh "jekyll serve --watch --port #{args.port || 4000}"
-end
-
-desc "Publish site."
-task :publish => [ :build ] do |t|
-  sh "rsync -avz --delete #{SITE_DIR}/ #{PUBLISH_HOST}:#{PUBLISH_PATH}"
-  puts "Commit your posts and changes.\nThen run:\n  git push origin master"
+  sh "jekyll serve --watch --drafts --port #{args.port || 4000}"
 end
 
 desc "Create a new draft post"
