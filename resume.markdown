@@ -7,15 +7,28 @@ Andrew Carter
 ===============================
 *Seattle, WA USA*
 
-Senior software engineer and architect. Experience in developing web services, mobile applications, and relational databases.
+Experienced software developer in web services, mobile applications, and relational databases.
 
 ---
 
 Experience
 ==========
 
-Principal Developer, Hulu, Seattle, WA (2010-Present)
--------------------------------------------------------------
+Senior Software Engineer, Amazon, Seattle, WA (2013 - Present)
+--------------------------------------------------------------
+
+Software development and technical direction for unannounced Amazon Web Service.
+
+* Core infrastructure software development
+* Detailed technical design
+* Extensive integration with Linux kernel subsystems
+* Mentoring developers
+* Cross-team dependencies
+* Linux, Mac OS X, C, Ruby, Python, Node.js, Java, AWS services
+
+
+Principal Developer, Hulu, Seattle, WA (2010 - 2013)
+----------------------------------------------------
 
 Lead engineer and architect for Hulu Seattle R&D office.
 
@@ -28,7 +41,7 @@ Lead engineer and architect for Hulu Seattle R&D office.
 * Linux, Mac OS X, Ruby on Rails, Python, Javascript, Objective-C, Java
 
 Founder/Owner, Sparse Labs, LLC, Sammamish, WA (2010)
--------------------------------------------------------------
+-----------------------------------------------------
 
 Web development firm specializing in Ruby on Rails and mobile development. Projects using *Mac OS X*, *Linux*, *Ruby on Rails*, *Objective-C*, *iOS*, and *Android*.
                               
@@ -44,8 +57,8 @@ Web development firm specializing in Ruby on Rails and mobile development. Proje
 *  Advisor for sports management iPhone application
 
 
-Senior Software Engineer, Getty Images, Seattle, WA (2007-2010)
----------------------------------------------------------------
+Senior Software Engineer, Getty Images, Seattle, WA (2007 - 2010)
+-----------------------------------------------------------------
 
 Lead Developer and architect for photo and video web services.
 
@@ -66,8 +79,8 @@ Server and web technology director
 *  Mac OS X, Cocoa, Carbon, C, C++, Objective-C, Ruby on Rails, Javascript
 
 
-Software Developer/Architect, Jobster, Seattle, WA (2006-2007)
---------------------------------------------------------------
+Software Developer/Architect, Jobster, Seattle, WA (2006 - 2007)
+----------------------------------------------------------------
 
 *  Performance and scale lead
 *  Architect for Jobster Web Services using REST and XML/JSON formats
@@ -76,8 +89,8 @@ Software Developer/Architect, Jobster, Seattle, WA (2006-2007)
 *  Linux, Java, Ruby on Rails, Oracle, MySQL
 
 
-Web Services Development Manager, Pure Networks, Seattle, WA (2005-2006)
-------------------------------------------------------------------------
+Web Services Development Manager, Pure Networks, Seattle, WA (2005 - 2006)
+--------------------------------------------------------------------------
 
 Development manager for Pure Networks online services
 
@@ -98,8 +111,8 @@ Senior Software Engineer, SourceLabs, Seattle, WA (2005)
 *  Java, C, Python, PHP
 
 
-Software Design Engineer, Microsoft, Redmond, WA (1995-2005)
-------------------------------------------------------------
+Software Design Engineer, Microsoft, Redmond, WA (1995 - 2005)
+--------------------------------------------------------------
 
 Over ten years of service on several different products as software engineer.
 
@@ -111,15 +124,15 @@ Over ten years of service on several different products as software engineer.
 *  Windows, C, C++, C#, .NET, SQL
 
 
-Staff Consultant, Andersen Consulting, Seattle, WA (1994-1995)
---------------------------------------------------------------
+Staff Consultant, Andersen Consulting, Seattle, WA (1994 - 1995)
+----------------------------------------------------------------
 
 *  Real-time billing application for McCaw Celluar/AT&T Wireless
 *  C, C++, SQL, NeXTSTEP, HP-UX
 
 
-Intern, Microsoft, Redmond, WA (1992-1994)
-------------------------------------------
+Intern, Microsoft, Redmond, WA (1992 - 1994)
+--------------------------------------------
 
 *  Macintosh Excel product support and test engineer
 
@@ -178,8 +191,3 @@ Seattle Xcoders (2004-present)
 *  Curator for Eastside chapter meetings, scheduling, and administration
 
 ---
-
-[PDF][pdf_resume]
-
-[pdf_resume]: /andrew_carter_resume.pdf
-
