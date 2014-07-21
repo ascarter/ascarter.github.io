@@ -44,7 +44,7 @@ Founder/Owner, Sparse Labs, LLC, Sammamish, WA (2010)
 -----------------------------------------------------
 
 Web development firm specializing in Ruby on Rails and mobile development. Projects using *Mac OS X*, *Linux*, *Ruby on Rails*, *Objective-C*, *iOS*, and *Android*.
-                              
+
 *iPhone*
 
 *  Yubit coupon application (*Miajo, LLC*)
