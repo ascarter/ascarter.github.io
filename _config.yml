@@ -1,5 +1,5 @@
 name: Coding in the Rain
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 permalink: date
 google_analytics_code: UA-92810-1
