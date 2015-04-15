@@ -1,10 +1,11 @@
 ---
 layout: singlepage
-title: resume
+title: Andrew Carter
 ---
 
 # Andrew Carter
-*Seattle, WA USA*
+
+*[ascarter.net](http://ascarter.net){:target="_blank"}* &middot; *Seattle, WA USA*
 
 Experienced software developer in web services, mobile applications, and relational databases.
 
