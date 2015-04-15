@@ -14,10 +14,23 @@ Experienced software developer in web services, mobile applications, and relatio
 Experience
 ==========
 
-Senior Software Engineer, Amazon, Seattle, WA (2013 - Present)
---------------------------------------------------------------
+Senior Software Engineer, Flipboard, Seattle, WA (2014 - Present)
+-----------------------------------------------------------------
 
-Software development and technical direction for unannounced Amazon Web Service.
+Tactical software development working remotely in Seattle.
+
+* Developer and architect for original content services
+* User analytics and statistics
+* Security, spam, and abuse mitigation services
+* Flipboard web clients
+* Mobile clients including iOS, Android, and Windows Phone
+* Linux, Mac OS X, Java, Go, Javascript, Node.js, CoffeeScript, HBase, Redis
+
+
+Senior Software Engineer, Amazon, Seattle, WA (2013 - 2014)
+-----------------------------------------------------------
+
+Principal software developer and architect for AWS Lambda service.
 
 * Core infrastructure software development
 * Detailed technical design
