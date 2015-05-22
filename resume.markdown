@@ -119,7 +119,7 @@ Development manager for Pure Networks online services
 Over ten years of service on several different products as software engineer.
 
 * Xbox Live (2004- 2005) - Real time statistics including True Skill rating system
-* SQL Server (2001-2004) - Senior developer on replication team including Oralce integration
+* SQL Server (2001-2004) - Senior developer on replication team including Oracle integration
 * bCentral (2000-2001)   - Small business web portal, real time messaging
 * SQL Server (1998-2000) - Interfaces team for ODBC, OLEDB, BCP
 * SQL Server (1995-1998) - Lead SDE/T for query processor testing team with 4 direct reports
