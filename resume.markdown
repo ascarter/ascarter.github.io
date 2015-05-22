@@ -128,7 +128,7 @@ Over ten years of service on several different products as software engineer.
 
 ## Staff Consultant, Andersen Consulting, Seattle, WA (1994 - 1995)
 
-* Real-time billing application for McCaw Celluar/AT&T Wireless
+* Real-time billing application for McCaw Cellular/AT&T Wireless
 * C, C++, SQL, NeXTSTEP, HP-UX
 
 
