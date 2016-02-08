@@ -7,7 +7,7 @@ title: Andrew Carter
 
 *[ascarter.net](http://ascarter.net){:target="_blank"}* &middot; *Seattle, WA USA*
 
-Experienced software developer in web services, mobile applications, and relational databases.
+Experienced software developer of services, web, and mobile applications
 
 ---
 
@@ -15,21 +15,24 @@ Experienced software developer in web services, mobile applications, and relatio
 
 ## Senior Software Engineer, [Flipboard](https://about.flipboard.com){:target="_blank"}, Seattle, WA (2014 - Present)
 
-Tactical software development working remotely in Seattle.
+Publisher and platform services development lead
 
-* Developer and architect for [original content services](https://editor.flipboard.com){:target="_blank"}
+* [Publisher services](https://editor.flipboard.com){:target="_blank"}
 * [User analytics](https://flipboard.com/analytics){:target="_blank"} and statistics (millions of records per day)
 * Security, spam, and abuse mitigation services
 * [Flipboard](http://flipboard.com){:target="_blank"} on the web
 * Mobile clients including iOS, Android, and Windows Phone
-* Linux, Mac OS X, Java, Go, Javascript, Node.js, CoffeeScript, HBase, Redis
+* Linux, Mac OS X, Go, Java, Javascript, Node.js, CoffeeScript, HBase, Redis
 
 
 ## Senior Software Engineer, [Amazon Web Services](http://aws.amazon.com){:target="_blank"}, Seattle, WA (2013 - 2014)
 
-Principal software developer and architect for [AWS Lambda service](http://aws.amazon.com/lambda/){:target="_blank"}.
+Early stage software developer and architect for [AWS Lambda service](http://aws.amazon.com/lambda/){:target="_blank"}.
 
+* Product definition
+* Security analysis and design
 * Core infrastructure software development
+* Built Node.JS and Java runtime
 * Detailed technical design
 * Extensive integration with Linux kernel subsystems
 * Mentoring developers
@@ -46,24 +49,9 @@ Lead engineer and architect for Hulu Seattle R&D office.
 * Recruiting and hiring for software engineers, program managers, designers, and office staff
 * Architect and lead developer for Automation platform
 * Architect and developer for Hulu Plus on television devices
+* Primary developer for Hulu AppleTV application
 * Developer on mobile platforms including iOS and Android
 * Linux, Mac OS X, Ruby on Rails, Python, Javascript, Objective-C, Java
-
-## Founder/Owner, Sparse Labs, LLC, Sammamish, WA (2010)
-
-Web development firm specializing in Ruby on Rails and mobile development. Projects using *Mac OS X*, *Linux*, *Ruby on Rails*, *Objective-C*, *iOS*, and *Android*.
-
-*iPhone*
-
-* Yubit coupon application (*Miajo, LLC*)
-* Moprise Sharepoint application (*Moprise*)
-
-*Ruby on Rails*
-
-* Artwork site prototype
-* Social networking site
-* Advisor for sports management iPhone application
-
 
 ## Senior Software Engineer, [Getty Images](http://company.gettyimages.com){:target="_blank"}, Seattle, WA (2007 - 2010)
 
