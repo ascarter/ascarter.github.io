@@ -219,10 +219,6 @@ article code {
 article pre.code {
 	border: 1px solid #ddd;
 	background-color: #eef;
-}
-
-article pre code {
-	border: none;
 	font-weight: normal;
 }
 
