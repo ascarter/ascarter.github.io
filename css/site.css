@@ -216,6 +216,12 @@ article code {
 	word-wrap: break-word;
 }
 
+article pre.highlight {
+	border: 1px solid #ddd;
+	background-color: #eef;
+	font-weight: normal;
+}
+
 article pre.code {
 	border: 1px solid #ddd;
 	background-color: #eef;
