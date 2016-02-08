@@ -1,6 +1,6 @@
 name: Coding in the Rain
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: date
 google_analytics_code: UA-92810-1
 url: http://ascarter.net
