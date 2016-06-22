@@ -7,7 +7,7 @@
 	<link type="text/html" href="{{ site.url }}/" rel="alternate" />
 	<id>tag:ascarter.net,2009-12-31:/atom.xml</id>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	{% for post in site.posts limit:10 %}
+	{% for post in site.posts %}
 	<entry>
 		<title>{{ post.title }}</title>
 		<author>
