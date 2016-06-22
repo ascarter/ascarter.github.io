@@ -8,7 +8,7 @@ layout: nil
 	<link >{{ site.url }}/</link>
 	<description>Andrew Carter's weblog.</description>
 	<language>en-us</language>
-	<copyright>Copyright &copy; 2005-{{ site.time | date: "%Y" }}</copyright>
+	<copyright>Copyright 2005-{{ site.time | date: "%Y" }}</copyright>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     {% for post in site.posts limit:10 %}
     <item>
