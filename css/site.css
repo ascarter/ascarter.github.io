@@ -16,7 +16,7 @@ body {
 	text-align: center;
 	margin: 0em;
 	background-color: #ffffff;
-    font-family: 'Avenir Next', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
@@ -93,7 +93,7 @@ pre {
 	font-size: 1.0em;
 	text-align: left;
 	padding: 1em 2.5em;
-	margin: 2em auto 2em auto;
+	margin: 1em auto 1em auto;
 	line-height: 1.5em;
 	width: 720px;
     background-color: white;
@@ -107,6 +107,7 @@ pre {
 	font-size: 1.0em;
 	margin-left: 0.2em;
 	color: #aaa;
+	line-height: 1em;
 }
 
 #masthead a:link,
@@ -131,7 +132,7 @@ nav {
     padding: 0.5em;
 	border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;
-	font-size: 1.55em;
+	font-size: 1.0em;
 }
 
 nav a:hover {
@@ -171,6 +172,10 @@ footer a:visited {
 	color: #aaa;
 }
 
+footer a:hover {
+	color: #00a;
+}
+
 footer #copyright {
 	color: #aaa;
 	text-align: left;
@@ -178,6 +183,10 @@ footer #copyright {
 
 footer #copyright a {
 	color: #aaa;
+}
+
+footer #feed {
+	float: right;
 }
 
 /*--------------------------------------------------------------
@@ -271,7 +280,7 @@ article .video-note {
 }
 
 article .body {
-    font-family: Georgia, serif;
+    font-family: Georgia, Times New Roman, Times, serif;
 }
 
 /*--------------------------------------------------------------
