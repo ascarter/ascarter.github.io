@@ -6,7 +6,7 @@ layout: nil
   <channel>
     <title>Coding in the Rain</title>
 	<link >{{ site.url }}/</link>
-	<atom:link href="{{ site.url }}rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
 	<description>Andrew Carter's weblog.</description>
 	<language>en-us</language>
 	<copyright>Copyright 2005-{{ site.time | date: "%Y" }}</copyright>
