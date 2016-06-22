@@ -16,7 +16,7 @@ body {
 	text-align: center;
 	margin: 0em;
 	background-color: #ffffff;
-    font-family: sans-serif;
+    font-family: 'Avenir Next', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
@@ -271,7 +271,7 @@ article .video-note {
 }
 
 article .body {
-    font-family: sans-serif;
+    font-family: Georgia, serif;
 }
 
 /*--------------------------------------------------------------
