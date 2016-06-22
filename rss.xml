@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding in the Rain</title>
+    <link type="application/rss+xml" href="{{ site.url }}/rss.xml" rel="self" />    
+	<link type="text/html" href="{{ site.url }}/" rel="alternate" />
+    <language>en-us</language>
+    <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+    {% for post in site.posts limit:10 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%Y-%m-%dT%H:%M:%S-07:00" }}</pubDate>
+      <author>Andrew Carter</author>
+      <guid>ascarter.net{{ post.id }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {% endfor %}
+  </channel> 
+</rss>
