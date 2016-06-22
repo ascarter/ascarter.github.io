@@ -246,7 +246,7 @@ This should get you up and running. The combination of rbenv and ruby-build give
 
 
 [37signals_setup]: http://37signals.com/svn/posts/2998-setting-up-a-new-machine-for-ruby-development
-[ascarter_homebrew]: /2010/02/22/homebrew-for-os-x.html
+[ascarter_homebrew]: {{ site.url }}/2010/02/22/homebrew-for-os-x.html
 [bash]: http://www.gnu.org/s/bash/
 [bbedit]: http://barebones.com/products/bbedit/
 [bundler]: http://gembundler.com
