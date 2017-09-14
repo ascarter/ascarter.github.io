@@ -5,7 +5,7 @@ title: about
 
 <span id="about-portrait"><img src="images/about-portrait.jpg" alt="Portrait of Andrew Carter" /></span>
 
-My name is Andrew Carter. I live near Seattle, WA. I am currently a software engineer at [Flipboard](http:/www.flipboard.com).
+My name is Andrew Carter. I live near Seattle, WA. I am currently the Web Engineering Manager at [Flipboard](http:/www.flipboard.com).
 
 I studied Electrical Engineering at the University of Washington and graduated in 1994. I've been in software engineering professionally since 1992. My past roles include [Amazon Web Services](http://aws.amazon.com), [Hulu](http://www.hulu.com), [Getty Images](http://www.gettyimages.com), and [Microsoft](http://www.microsoft.com). I've also spent some time at early stage startups.
 
@@ -17,5 +17,6 @@ Outside of work, I'm an avid cyclist and skier.
 
 * **Email:** andrew (at this domain)
 * **GitHub:** [github.com/ascarter](http://github.com/ascarter)
+* **LinkedIn:** [linkedin.com/in/ascarter70](https://www.linkedin.com/in/ascarter70)
 * **Flipboard:** [@ascarter](https://flipboard.com/@ascarter)
 * **Twitter:** [@ascarter](http://twitter.com/ascarter)
