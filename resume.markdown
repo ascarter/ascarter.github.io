@@ -7,22 +7,20 @@ title: Andrew Carter
 
 *[ascarter.net](http://ascarter.net){:target="_blank"}* &middot; *Seattle, WA USA*
 
-Experienced software developer of services, web, and mobile applications
-
 ---
 
 # Experience
 
-## Senior Software Engineer, [Flipboard](https://about.flipboard.com){:target="_blank"}, Seattle, WA (2014 - Present)
+## Web Engineering Manager, [Flipboard](https://about.flipboard.com){:target="_blank"}, Seattle, WA (2014 - Present)
 
-Publisher and platform services development lead
+Engineering manager for flipboard.com and content management services
 
-* [Publisher services](https://editor.flipboard.com){:target="_blank"}
-* [User analytics](https://flipboard.com/analytics){:target="_blank"} and statistics (millions of records per day)
+* [Flipboard.com](http://flipboard.com){:target="_blank"}
+* Publisher services
+* User analytics and statistics (millions of records per day)
 * Security, spam, and abuse mitigation services
-* [Flipboard](http://flipboard.com){:target="_blank"} on the web
 * Mobile clients including iOS, Android, and Windows Phone
-* Linux, Mac OS X, Go, Java, Javascript, Node.js, CoffeeScript, HBase, Redis
+* Linux, Mac OS X, Go, Java, Javascript, Node.js, CoffeeScript, React, Angular, Ruby on Rails
 
 
 ## Senior Software Engineer, [Amazon Web Services](http://aws.amazon.com){:target="_blank"}, Seattle, WA (2013 - 2014)
