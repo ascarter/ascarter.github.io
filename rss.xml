@@ -1,5 +1,4 @@
 ---
-layout: nil
 ---
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -20,5 +19,5 @@ layout: nil
       <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}
-  </channel> 
+  </channel>
 </rss>

@@ -1,13 +1,15 @@
-name: Coding in the Rain
+title: Coding in the Rain
 markdown: kramdown
 highlighter: rouge
 permalink: date
 google_analytics_code: UA-92810-1
-url: http://ascarter.net
+url: http://ascarter.io
 exclude:
 - config.ru
+- Dockerfile
 - Gemfile
 - Gemfile.lock
+- Makefile
 - Rakefile
 - README.markdown
 - bin
