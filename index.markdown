@@ -3,7 +3,7 @@ layout: default
 title: index
 ---
 
-<span id="about-portrait"><img src="images/about-portrait.jpg" alt="Portrait of Andrew Carter" /></span>
+<img class="portrait" src="images/about-portrait.jpg" alt="Portrait of Andrew Carter" />
 
 My name is Andrew Carter. I'm a software engineer with more than 25 years of professional experience. I live in Seattle, WA.
 
