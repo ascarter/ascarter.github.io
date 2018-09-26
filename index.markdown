@@ -7,7 +7,7 @@ title: index
 
 My name is Andrew Carter. I'm a software engineer with more than 25 years of professional experience. I live in Seattle, WA.
 
-I'm currently the Web Development Manager at [Flipboard](flipboard). I lead a small team in Seattle and Vancouver. In addition to the primary web site, I also work on content production and other backend services.
+I'm currently the Web Development Manager at [Flipboard](https://flipboard.com). I lead a small team in Seattle and Vancouver. In addition to the primary web site, I also work on content production and other backend services.
 
 On the side, I'm working on iOS and Web projects.
 
@@ -17,10 +17,10 @@ Outside of work, I am an avid cyclist and skier.
 
 # Previous Companies
 
-* [Amazon Web Services](aws) (Lambda)
-* [Hulu](hulu)
-* [Getty Images](getty)
-* [Microsoft](microsoft)
+* [Amazon Web Services](http://aws.amazon.com) (Lambda)
+* [Hulu](https://hulu.com)
+* [Getty Images](https://gettimages.com)
+* [Microsoft](https://microsoft.com)
 
 # Contact
 
@@ -28,11 +28,5 @@ Outside of work, I am an avid cyclist and skier.
 * **GitHub:** [github.com/ascarter](http://github.com/ascarter)
 * **LinkedIn:** [linkedin.com/in/ascarter70](https://www.linkedin.com/in/ascarter70)
 * **Flipboard:** [@ascarter](https://flipboard.com/@ascarter)
-
-[aws]: http://aws.amazon.com
-[flipboard]: https://flipboard.com
-[getty]: https://gettimages.com
-[hulu]: https://hulu.com
-[microsoft]: https://microsoft.com
 
 
