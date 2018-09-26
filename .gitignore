@@ -1,5 +1,4 @@
-_site/
-.bundle
-bin
+_site
 tags
-vendor/bundle/ruby
+.sass-cache
+.jekyll-metadata
