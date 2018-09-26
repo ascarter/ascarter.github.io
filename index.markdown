@@ -17,9 +17,9 @@ Outside of work, I am an avid cyclist and skier.
 
 # Previous Companies
 
-* [Amazon Web Services](http://aws.amazon.com) (Lambda)
+* [Amazon Web Services](https://aws.amazon.com) (Lambda)
 * [Hulu](https://hulu.com)
-* [Getty Images](https://gettimages.com)
+* [Getty Images](https://gettyimages.com)
 * [Microsoft](https://microsoft.com)
 
 # Contact
