@@ -16,14 +16,15 @@ plugins:
 permalink: date
 google_analytics_code: UA-92810-1
 exclude:
-- config.ru
-- Dockerfile
-- Gemfile
-- Gemfile.lock
-- Makefile
-- Rakefile
-- README.markdown
-- bin
-- public
-- vendor
-- new_site
+  - config.ru
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - Rakefile
+  - README.markdown
+  - bin
+  - public
+  - vendor
+  - new_site
+  - serve.sh
