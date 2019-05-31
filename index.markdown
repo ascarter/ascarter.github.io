@@ -29,4 +29,6 @@ Outside of work, I am an avid cyclist and skier.
 * **LinkedIn:** [linkedin.com/in/ascarter70](https://www.linkedin.com/in/ascarter70)
 * **Flipboard:** [@ascarter](https://flipboard.com/@ascarter)
 
+GPG key: [97C4C99E](/97C4C99E.txt)
+
 
