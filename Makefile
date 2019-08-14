@@ -33,7 +33,7 @@ build: $(GEMFILE_LOCK_OBJ)
 bash:
 	docker run $(DOCKER_RUN_FLAGS) $(DOCKER_RUN_TTY_FLAGS) --name $(NAME)-bash $(NAME):latest bash
 
-.PHONY: start
+.PHONY: serve
 serve:
 	docker run $(DOCKER_RUN_FLAGS) -p $(JEKYLL_PORT):4000 --name $(NAME)-server $(NAME):latest
 
