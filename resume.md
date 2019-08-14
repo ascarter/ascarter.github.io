@@ -7,30 +7,32 @@ title: Andrew Carter
 
 *Snoqualmie, WA USA*
 
-[ascarter.io](http://ascarter.io){:target="_blank"}
-[github.com/ascarter](https://github.com/ascarter){:target="_blank"}
+[ascarter.io][1]
+[github.com/ascarter][2]
 
 > Experienced Engineering Manager with a history of working in the online media industry. Skilled in mobile applications, application servers, web applications, and cloud development.
 
 ## Experience
 
-### Web Engineering Manager, [Flipboard](https://about.flipboard.com){:target="_blank"}, Seattle, WA (2014 - Present)
+### Web Engineering Manager, [Flipboard][3], Seattle, WA (2014 - Present)
 
 Engineering manager for flipboard.com and content management services
 
 * Platform services developer and architect
 * AWS deployment and organizational strategies
-* [Flipboard.com](http://flipboard.com){:target="_blank"}
+* [Flipboard.com][4]
 * Publisher services
+* Creator product design
 * User analytics and statistics (millions of records per day)
 * Security, spam, and abuse mitigation services
 * Mobile clients including iOS, Android, and Windows Phone
+* Built web team based in Seattle
 * Linux, Mac OS X, Go, Java, Javascript, Node.js, CoffeeScript, React, Angular, Ruby on Rails, Windows
 
 
-### Senior Software Engineer, [Amazon Web Services](http://aws.amazon.com){:target="_blank"}, Seattle, WA (2013 - 2014)
+### Senior Software Engineer, [Amazon Web Services][5], Seattle, WA (2013 - 2014)
 
-Early stage software developer and architect for [AWS Lambda service](http://aws.amazon.com/lambda/){:target="_blank"}.
+Early stage software developer and architect for [AWS Lambda service][6].
 
 * Product definition
 * Security analysis and design
@@ -43,7 +45,7 @@ Early stage software developer and architect for [AWS Lambda service](http://aws
 * Linux, Mac OS X, C, Ruby, Python, Node.js, Java, AWS services
 
 
-### Principal Developer, [Hulu](http://www.hulu.com/about){:target="_blank"}, Seattle, WA (2010 - 2013)
+### Principal Developer, [Hulu][7], Seattle, WA (2010 - 2013)
 
 Lead engineer and architect for Hulu Seattle R&D office.
 
@@ -56,12 +58,11 @@ Lead engineer and architect for Hulu Seattle R&D office.
 * Developer on mobile platforms including iOS and Android
 * Linux, Mac OS X, Ruby on Rails, Python, Javascript, Objective-C, Java
 
-### Senior Software Engineer, [Getty Images](http://company.gettyimages.com){:target="_blank"}, Seattle, WA (2007 - 2010)
+### Senior Software Engineer, [Getty Images][8], Seattle, WA (2007 - 2010)
 
 Lead Developer and architect for photo and video web services.
 
-* Architect and principal engineer for [content submission portal](https://contribute.gettyimages.com/producer/login){:target="_blank"}
-* Architect and principal developer for [Flickr](https://www.flickr.com){:target="_blank"} integration
+* Architect/principal developer for [content submission portal][9] and [Flickr][10] integration
 * Portals reduced time to market from 90 days to hours
 * Designed and implemented VMWare based production environment
 * Introduced Ruby on Rails which is currently a large part of Getty Images web development
@@ -106,7 +107,7 @@ Development manager for Pure Networks online services
 * Java, C, Python, PHP
 
 
-### Software Design Engineer, [Microsoft](http://www.microsoft.com/en-us/about){:target="_blank"}, Redmond, WA (1995 - 2005)
+### Software Design Engineer, [Microsoft][11], Redmond, WA (1995 - 2005)
 
 Over ten years of service on several different products as software engineer.
 
@@ -131,18 +132,35 @@ Over ten years of service on several different products as software engineer.
 
 ## Education
 
-* University of Washington, Seattle, WA (1994), Bachelor of Science Electrical Engineering
-* University of Washington Extension, Bellevue, WA (2004), Game Development Certification
+* Bachelor of Science Electrical Engineering, *University of Washington, Seattle, WA (1994)*
+* Game Development Certification, *University of Washington Extension, Bellevue, WA (2004)*
 
 ## Awards
 
-* Microsoft Ten Year Service Award (2004), Microsoft, Redmond, WA
-* Dean's List for High Scholarship (1990, 1994), University of Washington, Seattle, WA
-* Undergraduate Merit Scholar (1989), University of Washington, Seattle, WA
+* Microsoft Ten Year Service Award (2004), *Microsoft, Redmond, WA*
+* Dean's List for High Scholarship (1990, 1994), *University of Washington, Seattle, WA*
+* Undergraduate Merit Scholar (1989), *University of Washington, Seattle, WA*
 
 ## Organizations
 
 ### Seattle Xcoders (2004-present)
 
-* Co-organizer for [Seattle Xcoders](http://www.meetup.com/xcoders/){:target="_blank"}
-* Designed and manage web site <http://seattlexcoders.org>
+* Co-organizer for [Seattle Xcoders][12]
+* Designed and manage web site [http://seattlexcoders.org][13]
+
+[PDF][14]
+
+[1]:	http://ascarter.io
+[2]:	https://github.com/ascarter
+[3]:	https://about.flipboard.com
+[4]:	http://flipboard.com
+[5]:	http://aws.amazon.com
+[6]:	http://aws.amazon.com/lambda/
+[7]:	http://www.hulu.com/about
+[8]:	http://company.gettyimages.com
+[9]:	https://contribute.gettyimages.com/producer/login
+[10]:	https://www.flickr.com
+[11]:	http://www.microsoft.com/en-us/about
+[12]:	http://www.meetup.com/xcoders/
+[13]:	http://seattlexcoders.org
+[14]:	/AndrewCarterResume.pdf
