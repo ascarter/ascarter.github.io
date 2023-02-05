@@ -6,6 +6,9 @@ baseurl: ""
 url: http://ascarter.io
 github_username: ascarter
 
+# Serve extra directories
+include: [".well-known"]
+
 # Build settings
 markdown: kramdown
 theme: minima
