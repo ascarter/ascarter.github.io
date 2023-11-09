@@ -7,7 +7,7 @@ title: Andrew Carter
 
 *Snoqualmie, WA USA*
 
-[ascarter.io][1]
+[ascarter.dev][1]
 [github.com/ascarter][2]
 
 > Experienced Engineering Manager with a history of working in the online media industry. Skilled in mobile applications, application servers, web applications, and cloud development.
@@ -150,7 +150,7 @@ Over ten years of service on several different products as software engineer.
 
 [PDF][14]
 
-[1]:	http://ascarter.io
+[1]:	http://ascarter.dev
 [2]:	https://github.com/ascarter
 [3]:	https://about.flipboard.com
 [4]:	http://flipboard.com
