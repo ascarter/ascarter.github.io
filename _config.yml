@@ -1,7 +1,7 @@
 # Site settings
 title: Coding in the Rain
 description: >
-  Andrew Carter's personal blog Coding in the Rain.
+  Coding in the Rain by Andrew Carter
 baseurl: ""
 url: http://ascarter.dev
 github_username: ascarter
@@ -17,7 +17,6 @@ plugins:
 
 #highlighter: rouge
 permalink: date
-google_analytics_code: UA-92810-1
 exclude:
   - config.ru
   - Dockerfile
