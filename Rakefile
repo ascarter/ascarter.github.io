@@ -35,18 +35,21 @@ desc "Clear generated site."
 task :clean do
   puts "Clearing generated site"
   rm_rf Dir.glob(File.join(SITE_DIR, '*'))
+  rm_rf Dir.glob(File.join(SITE_DIR, '.*'))
   rmdir SITE_DIR
 end
 
 desc "Generate site."
 task :build do
-  sh "jekyll build"
+  sh "bundle exec jekyll build"
 end
 
 desc "Run local jekyll server"
 task :server, [:port] do |t, args|
-  Rake::Task['clean'].invoke
-  sh "jekyll serve --watch --drafts --port #{args.port || 4000}"
+  # Rake::Task['clean'].invoke
+  trap('SIGINT') { puts "\nShutting down Jekyll server"; exit }
+  puts "Starting Jekyll server..."
+  sh %{bundle exec jekyll serve --livereload --drafts --port #{args.port || 4000}}
 end
 
 desc "Create a new draft post"
