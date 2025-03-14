@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.ruby-lsp
+.bundle
+vendor
+
+# devcontainer
+.devcontainer/devcontainer.env
