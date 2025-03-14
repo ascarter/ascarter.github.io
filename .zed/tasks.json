@@ -1,7 +1,7 @@
 [
   {
     "label": "Init",
-    "command": "rbenv install && bundle config set --local default_install_uses_path true && bundle config set --local disable_shared_gems true && bundle install"
+    "command": "rbenv install -s && bundle config set --local default_install_uses_path true && bundle config set --local disable_shared_gems true && bundle install"
   },
   {
     "label": "Build",
