@@ -1,22 +1,22 @@
 [
   {
     "label": "Init",
-    "command": "rbenv install -s && bundle config set --local default_install_uses_path true && bundle config set --local disable_shared_gems true && bundle install"
+    "command": "rake init"
   },
   {
     "label": "Build",
-    "command": "bundle exec jekyll build"
+    "command": "rake build"
   },
   {
     "label": "Run",
-    "command": "bundle exec jekyll serve"
+    "command": "rake serve"
   },
   {
     "label": "Clean",
-    "command": "jekyll clean"
+    "command": "rake clean"
   },
   {
     "label": "Check",
-    "command": "bundle exec jekyll doctor"
+    "command": "rake check"
   }
 ]
