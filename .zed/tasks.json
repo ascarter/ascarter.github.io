@@ -18,5 +18,21 @@
   {
     "label": "Check",
     "command": "rake check"
+  },
+  {
+    "label": "Create Draft",
+    "command": "rake create_draft"
+  },
+  {
+    "label": "Create Page",
+    "command": "rake create_page"
+  },
+  {
+    "label": "Create Post",
+    "command": "rake create_post"
+  },
+  {
+    "label": "Publish",
+    "command": "rake publish"
   }
 ]
