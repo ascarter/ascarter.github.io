@@ -2,6 +2,7 @@
 
 require "bundler/setup"
 require "standard/rake"
+require "tty-prompt"
 require "jekyll"
 
 Jekyll::PluginManager.require_from_bundler
@@ -30,29 +31,40 @@ end
 
 desc "Create a new post"
 task :post, :name do |t, args|
-  args.with_defaults(name: "untitled-post")
-  Jekyll::Commands::Post.process([args.name], {})
+  prompt = TTY::Prompt.new
+  title = args[:name] || prompt.ask("Enter post title:", default: "Untitled")
+  Jekyll::Commands::Post.process([title], {})
 end
 
 desc "Create a new draft"
 task :draft, :name do |t, args|
-  args.with_defaults(name: "untitled-draft")
-  Jekyll::Commands::Draft.process([args.name], {})
+  prompt = TTY::Prompt.new
+  title = args[:name] || prompt.ask("Enter draft title:", default: "Untitled")
+  Jekyll::Commands::Draft.process([title], {})
 end
 
 desc "Create a new page"
 task :page, :name do |t, args|
-  args.with_defaults(name: "untitled-page")
-  puts "Creating page #{args.name}"
-  Jekyll::Commands::Page.process([args.name], {})
+  prompt = TTY::Prompt.new
+  title = args[:name] || prompt.ask("Enter page title:", default: "Untitled")
+  Jekyll::Commands::Page.process([title], {})
 end
 
 desc "Publish a draft"
 task :publish, :draft do |t, args|
-  abort "Please provide a draft name" if args[:draft].nil? || args[:draft].empty?
+  prompt = TTY::Prompt.new
+  drafts = Dir["_drafts/*.md"].map { |f| File.basename(f, ".md") }
+  draft = args[:draft]
+
+  # Prompt to pick from list of drafts if no draft provided
+  if draft.nil?
+    abort("No drafts found") if drafts.empty?
+    prompt.say("Drafts:")
+    draft = prompt.select("Select a draft to publish:", drafts)
+  end
 
   # Check if draft exists (with or without md extension)
-  draft_path = File.join("_drafts", args[:draft])
+  draft_path = File.join("_drafts", draft)
   draft_path = (File.extname(draft_path) == ".md") ? draft_path : "#{draft_path}.md"
 
   abort "Draft not found" unless File.exist?(draft_path)
