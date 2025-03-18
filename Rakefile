@@ -53,20 +53,20 @@ end
 desc "Publish a draft"
 task :publish, :draft do |t, args|
   prompt = TTY::Prompt.new
-  drafts = Dir["_drafts/*.md"].map { |f| File.basename(f, ".md") }
   draft = args[:draft]
 
   # Prompt to pick from list of drafts if no draft provided
   if draft.nil?
+    drafts = FileList["_drafts/*.md"].map { |f| File.basename(f, ".md") }
     abort("No drafts found") if drafts.empty?
-    prompt.say("Drafts:")
-    draft = prompt.select("Select a draft to publish:", drafts)
+    draft = (drafts.count == 1) ? drafts.first : prompt.select("Select draft to publish:", drafts)
   end
 
   # Check if draft exists (with or without md extension)
   draft_path = File.join("_drafts", draft)
   draft_path = (File.extname(draft_path) == ".md") ? draft_path : "#{draft_path}.md"
 
+  puts "Publishing draft: #{draft_path}"
   abort "Draft not found" unless File.exist?(draft_path)
   Jekyll::Commands::Publish.process([draft_path], {})
 end
