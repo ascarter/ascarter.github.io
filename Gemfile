@@ -29,6 +29,7 @@ end
 group :development do
   gem "rake"
   gem "standardrb"
+  gem "tty-prompt", "~> 0.23.1"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
