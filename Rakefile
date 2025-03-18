@@ -16,7 +16,15 @@ end
 
 desc "Run the Jekyll server locally"
 task :serve do
-  Jekyll::Commands::Serve.process({livereload: true, profile: true})
+  opts = {
+    "incremental" => true,
+    "profile" => true,
+    "watch" => true,
+    "livereload" => true,
+    "serving" => true
+  }
+  Jekyll::Commands::Build.process(opts)
+  Jekyll::Commands::Serve.process(opts)
 end
 
 desc "Clean the Jekyll site"

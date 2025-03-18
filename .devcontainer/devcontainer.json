@@ -1,0 +1,14 @@
+{
+  "name": "Coding in the Rain",
+  "image": "ghcr.io/rails/devcontainer/images/ruby:3.4.2",
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "protocol": "https",
+      "visibility": "public",
+      "label": "Jekyll Server"
+    }
+  },
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "postCreateCommand": "bundle install"
+}
