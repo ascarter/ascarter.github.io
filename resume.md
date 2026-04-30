@@ -1,166 +1,128 @@
----
-layout: singlepage
-title: Andrew Carter
----
-
 # Andrew Carter
 
-*Snoqualmie, WA USA*
+[ascarter.dev](https://ascarter.dev) · [linkedin.com/in/ascarter70](https://linkedin.com/in/ascarter70) · [github.com/ascarter](https://github.com/ascarter)  
+Snoqualmie, Washington
 
-[ascarter.dev][1]
-[github.com/ascarter][2]
+---
 
-> Experienced Engineering Manager with a history of working in the online media industry. Skilled in mobile applications, application servers, web applications, and cloud development.
+## Summary
+
+Principal Software Engineering Manager with over 30 years of engineering experience across database systems, distributed infrastructure, serverless computing, and streaming platforms. Currently leading the SQL Server on Linux product at Microsoft — traditional deployments, containerized workloads, Kubernetes orchestration, and Azure Arc-enabled hybrid data services.
+
+Founding engineer on AWS Lambda. Founded Hulu's Seattle engineering office and built its connected TV platform. Introduced Ruby on Rails to Getty Images. The pattern across roles has been showing up early to platform shifts, building the systems, and building the teams.
+
+---
 
 ## Experience
 
-### Web Engineering Manager, [Flipboard][3], Seattle, WA (2014 - Present)
+### Microsoft — Principal Software Engineering Manager
+**April 2021 – Present · Redmond, WA**
 
-Engineering manager for flipboard.com and content management services
+Engineering Manager for SQL Server on Linux, leading the engineering teams responsible for both traditional package-based installations and containerized deployments. The role spans hybrid data services including Kubernetes orchestration and Azure Arc integrations, enabling enterprise customers to run SQL Server consistently across on-premises, edge, and cloud environments. Work encompasses the full operational surface: networking, security, container lifecycle management, and the infrastructure complexity inherent to hybrid cloud at enterprise scale.
 
-* Platform services developer and architect
-* AWS deployment and organizational strategies
-* [Flipboard.com][4]
-* Publisher services
-* Creator product design
-* User analytics and statistics (millions of records per day)
-* Security, spam, and abuse mitigation services
-* Mobile clients including iOS, Android, and Windows Phone
-* Built web team based in Seattle
-* Linux, Mac OS X, Go, Java, Javascript, Node.js, CoffeeScript, React, Angular, Ruby on Rails, Windows
+---
 
+### Microsoft — Principal Software Engineer
+**2019 – April 2021 · Redmond, WA**
 
-### Senior Software Engineer, [Amazon Web Services][5], Seattle, WA (2013 - 2014)
+Contributed to SQL Server's expansion into Linux and Kubernetes environments during a critical period of architectural transition. Worked late-stage on Big Data Clusters, then shifted focus to extracting and evolving those concepts into Azure Arc-enabled SQL Server and SQL Managed Instance on Kubernetes (MIAA). Part of the founding technical effort that shaped Arc's integration with SQL Server — first through the managed Kubernetes offering, then the broader Arc control plane and billing model applied to SQL Server hybrid deployments. Served as one of the architects for Kubernetes integration, with direct involvement in design decisions around agent-based management and the Arc integration model. Transitioned into formal engineering management as team and product scope grew.
 
-Early stage software developer and architect for [AWS Lambda service][6].
+---
 
-* Product definition
-* Security analysis and design
-* Core infrastructure software development
-* Built Node.JS and Java runtime
-* Detailed technical design
-* Extensive integration with Linux kernel subsystems
-* Mentoring developers
-* Cross-team dependencies
-* Linux, Mac OS X, C, Ruby, Python, Node.js, Java, AWS services
+### Flipboard — Engineering Manager, Feed Infrastructure
+**2018 – 2019 · Seattle, WA**
 
+Managed the team responsible for Flipboard's feed crawling infrastructure — a Go-based system processing a massive and continuously evolving corpus of RSS feeds at scale. The core challenge was differentiation: high-priority sources such as major news publishers required low-latency, highly reliable crawling, while the long tail of feeds needed to be managed efficiently without degrading overall system performance. Led ongoing development of the Go infrastructure to keep pace with feed format changes, source growth, and evolving prioritization requirements.
 
-### Principal Developer, [Hulu][7], Seattle, WA (2010 - 2013)
+---
 
-Lead engineer and architect for Hulu Seattle R&D office.
+### Flipboard — Engineering Manager, Web Platform
+**2016 – 2018 · Seattle, WA**
 
-* Established Seattle development office
-* Acting director for Seattle development office (10 engineers)
-* Recruiting and hiring for software engineers, program managers, designers, and office staff
-* Architect and lead developer for Automation platform
-* Architect and developer for Hulu Plus on television devices
-* Primary developer for Hulu AppleTV application
-* Developer on mobile platforms including iOS and Android
-* Linux, Mac OS X, Ruby on Rails, Python, Javascript, Objective-C, Java
+Led the team that transformed Flipboard's web presence from a highly bespoke, JavaScript-heavy experience into a modern, fully indexable content site. The original site was built around emulating Flipboard's signature page-flip experience, powered by a complex proprietary layout engine — practically invisible to search engines and at fundamental friction with how the web had evolved. Rebuilt Flipboard.com on an isomorphic React architecture, eliminating the SEO deficit and consolidating multiple web properties into a coherent platform. The result was a significant expansion of Flipboard's web traffic and referral footprint. Managed a distributed team across Seattle, Vancouver, and Palo Alto.
 
-### Senior Software Engineer, [Getty Images][8], Seattle, WA (2007 - 2010)
+---
 
-Lead Developer and architect for photo and video web services.
+### Flipboard — Senior Software Engineer
+**2014 – 2016 · Seattle, WA**
 
-* Architect/principal developer for [content submission portal][9] and [Flickr][10] integration
-* Portals reduced time to market from 90 days to hours
-* Designed and implemented VMWare based production environment
-* Introduced Ruby on Rails which is currently a large part of Getty Images web development
-* Member of Getty Images architecture working group
-* Linux, Mac OSX, Ruby on Rails, Javascript, Apache, Passenger, Mongrel, MySQL, VMWare
+Worked on publisher tools, analytics, and content quality systems spanning internal operations and external-facing publisher relationships. Built a unified internal tool platform that consolidated dozens of fragmented, ad-hoc backend utilities into a coherent system with shared code, consistent conventions, and centralized search. Also contributed to content quality systems responsible for filtering spam, unsafe content, and policy-violating material from the feed corpus.
 
+---
 
-### Director, RogueSheep, Seattle, WA (2007)
+### Amazon Web Services — Senior Software Engineer
+**2013 – 2014 · Seattle, WA**
 
-Server and web technology director
+Joined the Lambda team prior to public launch as a founding engineer on what would become AWS's serverless compute platform. Designed and implemented the Node.js runtime from scratch — the first language runtime the team shipped. Contributed to the core execution engine across its full scope: sandboxing model, invocation architecture, and container management layer.
 
-* Content workflow management system utilizing Adobe InDesign Server
-* Mac OS X, Cocoa, Carbon, C, C++, Objective-C, Ruby on Rails, Javascript
+---
 
+### Hulu — Principal Engineer
+**2012 – 2013 · Seattle, WA**
 
-### Software Developer/Architect, Jobster, Seattle, WA (2006 - 2007)
+Transitioned to an individual contributor role to continue development of the connected TV platform. Extended the device portfolio into new platforms including Nintendo and Xbox, building on the service layer and client architecture established during the prior period.
 
-* Performance and scale lead
-* Architect for Jobster Web Services using REST and XML/JSON formats
-* Backend services for recruiting, bulk mail, and social network
-* Database tuning and scaling modifications
-* Linux, Java, Ruby on Rails, Oracle, MySQL
+---
 
+### Hulu — Engineering Manager
+**2010 – 2012 · Seattle, WA**
 
-### Web Services Development Manager, Pure Networks, Seattle, WA (2005 - 2006)
+Founded Hulu's Seattle engineering office, recruited the initial team, and established the development operation that grew to roughly 10 engineers coordinating with the Los Angeles headquarters. Led the team responsible for Hulu's connected TV and streaming device platform — building the service layer and device clients that brought Hulu to non-web platforms during the first generation of the streaming device ecosystem. Worked directly with Apple to develop the Hulu AppleTV application, one of the earliest third-party integrations on the platform before Apple had published a public SDK. That collaboration was by invitation and the technical requirements the team surfaced directly influenced capabilities Apple subsequently built into the platform.
 
-Development manager for Pure Networks online services
+---
 
-* Managed team of five software developers
-* Managed cross-team dependencies with operations and client applications teams
-* Data center and service topologies
-* Released Network Magic 2.0 and 3.0
-* Windows, Mac OS X, Linux, Java, PHP, Tomcat, Hibernate, MySQL, Objective-C, C
+### Getty Images — Senior Software Engineer
+**2007 – 2010 · Seattle, WA**
 
+Introduced Ruby on Rails to Getty Images, leading a team of five to build the company's first Rails application — a web-based contributor upload portal that replaced a physical media submission workflow (photographers previously shipped images on physical CDs). The platform served Getty's global professional contributor base and fed directly into the broader content pipeline. Also partnered with the operations team to pioneer a Linux and VMware-based production infrastructure for Rails, and contributed to a Flickr partnership that enabled Flickr photographers to license images through Getty as stock photography began disrupting traditional agency models.
 
-### Senior Software Engineer, SourceLabs, Seattle, WA (2005)
+---
 
-* Wrote SourceLabs CERT7 methodology statement
-* Designed and implemented certification protocols
-* Implemented certification frameworks including automation, database services, and web interfaces
-* Analysis of open source projects and stacks
-* Java, C, Python, PHP
+### Jobster — Software Developer
+**2006 – 2007 · Seattle, WA**
 
+Worked on one of the early entrants in social recruiting alongside Monster and LinkedIn. Applied a database engineering background to Rails application development at a time when database conventions for the framework were still being established. Built REST web services for internal recruiting workflows and contributed to early Facebook integrations as social graph concepts were being applied to professional networking.
 
-### Software Design Engineer, [Microsoft][11], Redmond, WA (1995 - 2005)
+---
 
-Over ten years of service on several different products as software engineer.
+### Pure Networks — Web Services Development Manager
+**2005 – 2006 · Seattle, WA**
 
-* Xbox Live (2004- 2005) - Real time statistics including True Skill rating system
-* SQL Server (2001-2004) - Senior developer on replication team including Oracle integration
-* bCentral (2000-2001)   - Small business web portal, real time messaging
-* SQL Server (1998-2000) - Interfaces team for ODBC, OLEDB, BCP
-* SQL Server (1995-1998) - Lead SDE/T for query processor testing team with 4 direct reports
-* Windows, C, C++, C#, .NET, SQL
+Managed a team of five building the online services layer for Network Magic, a consumer home networking product with visual network mapping, device discovery, NAT traversal, and resource sharing — capabilities that would later become standard in consumer mesh networking and enterprise network management. Cisco subsequently acquired the company. Shipped Network Magic 2.0 and 3.0.
 
+---
 
-### Staff Consultant, Andersen Consulting, Seattle, WA (1994 - 1995)
+### Microsoft — Software Design Engineer (Multiple Roles)
+**1992 – 2005 · Redmond, WA**
 
-* Real-time billing application for McCaw Cellular/AT&T Wireless
-* C, C++, SQL, NeXTSTEP, HP-UX
+Over a decade at Microsoft across SQL Server, Xbox Live, and bCentral:
 
+- **Xbox Live (2004–2005):** Implemented the service layer that productized the TrueSkill rating algorithm from Microsoft Research Cambridge into a real-time skill ranking system at Xbox Live scale.
+- **SQL Server Replication (2001–2004):** Built heterogeneous database replication as a key shipping feature, including a full Oracle-targeted version of BCP — one of the first times SQL Server shipped a full foreign database interface. Foreshadowed what became PolyBase.
+- **bCentral (2000–2001):** Part of the team assimilating Microsoft's acquisition of bCentral from Oracle. Wrote Oracle migration scripts that directly informed the subsequent replication work.
+- **SQL Server Drivers (1998–2000):** Worked on ODBC and OLEDB drivers and took primary ownership of the BCP bulk copy utility — improving performance, reliability, and correctness.
+- **SQL Server QA (1995–1998):** Led a team of five building test automation for the SQL Server query processor, replacing manual processes at a time when automated testing was not yet standard practice.
+- **Excel (1992–1994):** Started in product support for Mac Excel, moved into testing on Mac and Windows with a focus on OLE embedding and cross-application integration.
 
-### Intern, Microsoft, Redmond, WA (1992 - 1994)
+---
 
-* Macintosh Excel product support and test engineer
+### Accenture — Staff Consultant
+**1994 – 1995 · Seattle, WA**
 
+Built real-time billing systems for McCaw Cellular (later AT&T Wireless), handling high-volume transaction processing for one of the largest cellular networks in the country.
+
+---
 
 ## Education
 
-* Bachelor of Science Electrical Engineering, *University of Washington, Seattle, WA (1994)*
-* Game Development Certification, *University of Washington Extension, Bellevue, WA (2004)*
+**University of Washington** — B.S., Electrical Engineering (1989–1994)  
+**University of Washington** — Certificate, Game Programming (2004)
 
-## Awards
+---
 
-* Microsoft Ten Year Service Award (2004), *Microsoft, Redmond, WA*
-* Dean's List for High Scholarship (1990, 1994), *University of Washington, Seattle, WA*
-* Undergraduate Merit Scholar (1989), *University of Washington, Seattle, WA*
+## Technologies
 
-## Organizations
-
-### Seattle Xcoders (2004-present)
-
-* Co-organizer for [Seattle Xcoders][12]
-* Designed and manage web site [http://seattlexcoders.org][13]
-
-[PDF][14]
-
-[1]:	http://ascarter.dev
-[2]:	https://github.com/ascarter
-[3]:	https://about.flipboard.com
-[4]:	http://flipboard.com
-[5]:	http://aws.amazon.com
-[6]:	http://aws.amazon.com/lambda/
-[7]:	http://www.hulu.com/about
-[8]:	http://company.gettyimages.com
-[9]:	https://contribute.gettyimages.com/producer/login
-[10]:	https://www.flickr.com
-[11]:	http://www.microsoft.com/en-us/about
-[12]:	http://www.meetup.com/xcoders/
-[13]:	http://seattlexcoders.org
-[14]:	/AndrewCarterResume.pdf
+**Languages:** Go, Rust, Ruby, Python, C/C++, SQL, JavaScript  
+**Infrastructure:** Kubernetes, Docker, Azure Arc, Azure, AWS  
+**Databases:** SQL Server, PostgreSQL, replication, hybrid cloud data services  
+**Platforms:** Linux, macOS, Windows, iOS
