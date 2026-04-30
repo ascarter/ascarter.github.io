@@ -1,6 +1,6 @@
 ---
 layout: singlepage
-title: resume
+title: Andrew Carter resume
 ---
 
 # Andrew Carter
